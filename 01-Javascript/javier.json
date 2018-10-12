@@ -1,15 +1,11 @@
 // definimos primero un objeto
 {
-  "nombre":"Adrian",
+  "nombre":"Javier",
   "edad":12,
   "sueldo":203.4,
   "casado":false,
-
   "hijos":null,
   "mascotas":{
-
     "nombre":"max"
   }
-
-
 }
