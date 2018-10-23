@@ -1,9 +1,9 @@
-//funciones
+//OPERADORES
 function ejemplo() { }
 var ejemplodos=function () {};//anonimous funtion
 var javier ={
 };
-var arregloDeNombres=['A','B','C','D'];
+var arregloDeNombres=['A','b','C','D'];
 arregloDeNombres[1]='D';
 arregloDeNombres.push('g');
 const Javier ={
