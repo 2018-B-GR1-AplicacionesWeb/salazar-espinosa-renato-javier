@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b183739-1ab3-498f-8787-50a94a233e25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-Javascript/07-promesas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-callbacks/01-modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-callbacks/01-modules/calculadora.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-callbacks/01-modules/version-node/version-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-callbacks/01-modules/version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-callbacks/02-fs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-callbacks/02-fs/apps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-callbacks/05-callbackPropio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-Javascript/07-promesas.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-Javascript/07-promesas.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,7 +67,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="22" />
-          <entry key="js" value="8840" />
+          <entry key="js" value="8905" />
           <entry key="json" value="10" />
           <entry key="md" value="19" />
           <entry key="txt" value="1" />
@@ -85,7 +76,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="8840" />
+          <entry key="JavaScript" value="8905" />
           <entry key="PLAIN_TEXT" value="42" />
         </counts>
       </usages-collector>
@@ -162,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01-Javascript/07-promesas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="576">
+              <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -222,8 +213,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="646" />
-    <option name="width" value="1283" />
+    <option name="x" value="525" />
+    <option name="width" value="1388" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -347,23 +338,23 @@
       <workItem from="1540262068806" duration="3099000" />
       <workItem from="1540390604038" duration="5720000" />
       <workItem from="1540562320872" duration="6263000" />
-      <workItem from="1540822401978" duration="5857000" />
+      <workItem from="1540822401978" duration="6499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49850000" />
+    <option name="totallyTimeSpent" value="50492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="517" y="0" width="1026" height="830" extended-state="0" />
+    <frame x="766" y="54" width="924" height="590" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.18484849" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.20608108" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20533334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3019608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -580,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-Javascript/07-promesas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="576">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
         </state>
       </provider>
     </entry>
