@@ -1,18 +1,17 @@
-//07-promesas.js
+// 07-promesas.js
 
 const fs = require('fs');
 
-const nuevaPromesaLectura=new Promise(
-    (resolve)=> {
-        fs.readFile('06-texto23.txt','utf-8',
-            (err,contenidoArchivo)=>{
-                if(err){
-                    resolve(err);
-                }else {
-                    resolve(contenidoArchivo)
+const nuevaPromesaLectura = new Promise(
+    (resolve) => {
+        fs.readFile('06-texto23.txt', 'utf-8',
+            (err, contenidoArchivo) => {
+                if (err) {
+                    resolve('');
+                } else {
+                    resolve(contenidoArchivo);
                 }
             });
-
     }
 );
 
@@ -34,23 +33,7 @@ const nuevaPromesaEscritura = (contenidoLeido) => {
     );
 };
 
-nuevaPromesaLectura
-    .then(
-        (contenidoArchivo) => {
-            console.log('Todo bien', contenidoArchivo);
-            return nuevaPromesaEscritura(contenidoArchivo)
-        }
-    )
-    .then(
-        (contenidoCompleto) => {
-            console.log('Contenido completo', contenidoCompleto);
-        }
-    )
-    .catch(
-        (resultadoError) => {
-            console.log('Algo malo paso', resultadoError);
-        }
-    );
+
 
 const nuevaPromesaAppendFile = (nombreArchivo,contenidoArchivo) => {
     return new Promise(
@@ -89,23 +72,15 @@ const nuevaPromesaAppendFile = (nombreArchivo,contenidoArchivo) => {
     );
 };
 
-nuevaPromesaAppendFile('06-texto3.text','\n Adios Mundo')
-    .then(
-        (resultadoOk) => {
-            console.log('Todo bien', resultadoOk);
-            return nuevaPromesaAppendFile(contenidoArchivo,contenidoArchivo)
 
+nuevaPromesaAppendFile('07-texto.txt',
+    '\n Promesa',
+    (contenidoArchivo, reject) => {
+        if (reject) {
+            console.log('Error', reject);
+        } else {
+            // contenidoArchivo
         }
-    )
-    .catch(
-        (resultadoError) => {
-            console.log('Algo malo paso', resultadoError);
-        }
-    );
+    }
+);
 
-nuevaPromesaApentFile
-    .then(
-
-
-
-    );
