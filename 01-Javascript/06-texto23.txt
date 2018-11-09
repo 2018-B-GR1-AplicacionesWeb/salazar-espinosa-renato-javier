@@ -1,1 +1,0 @@
-Error: ENOENT: no such file or directory, open 'C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\01-Javascript\06-texto23.txt'Otro ola

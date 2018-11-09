@@ -1,10 +1,70 @@
+//Funciones
 
 holaMundo();
+
 function holaMundo() {
     console.log('hola mundo');
 }
-console.log(holaMundo());//si no tiene retorno debuelve undefined
 
+console.log(holaMundo());//si no tiene retorno devuelve undefined
+function sumarDosNumeros(...numeros) {
+    var tieneUnParametroDiferenteDeNumber = false;
+    var resultado = 0;
+
+
+    //pongo otra funcion
+
+  /*  for (var i = 0; i < numeros.length; i++) {
+        var esNumeroNumber = typeof numeros[i] == 'number';
+        if (!esNumeroNumber) {
+            tieneUnParametroDiferenteDeNumber = true;
+        } else {
+            resultado = resultado + numeros[i];
+        }
+    }*/
+
+    if (tieneUnParametroDiferenteDeNumber) {
+        console.error("No envia numeros");
+        return 0;
+    } else {
+        return resultado;
+    }
+
+    function sumarNumerosDesdeUnArrglo(numeros){
+        var tieneUnParametroDiferenteDeNumber;
+        var resultado;
+
+        for (var i = 0; i < numeros.length; i++) {
+            var esNumeroNumber = typeof numeros[i] == 'number';
+            if (!esNumeroNumber) {
+                tieneUnParametroDiferenteDeNumber = true;
+            } else {
+                resultado = resultado + numeros[i];
+            }
+        }
+    return {
+            noEsNumber:tieneUnParametroDiferenteDeNumber,
+        resultado:resultado
+    }
+
+    }
+
+    console.log(numeros);
+    var esNumeroUno = typeof numUno == 'number';
+    var esNumeroDos = typeof  numDos == 'number';
+    if (esNumeroUno && esNumeroDos) {
+        return numDos + numUno;
+    } else {
+        console.error("No enviar numeros");
+        return 0;
+    }
+}
+
+//console.log(sumarDosNumeros(1, 2));
+console.log(sumarDosNumeros(1, 2, 3, 4, 5));
+
+
+/*
 
 function sumardosnumeros(numUno,numDos) {
     var esNumeroUnos=typeof  numUno=='number';
@@ -83,4 +143,4 @@ function priemeraLetraMayuscula(texto) {
     var restoPalabra=texto.slice(1,texto.length);
     return  priemeraLetraMayuscula+restoPalabra;
 }
-console.log(saludarEnUpperCase("javier",priemeraLetraMayuscula));
+console.log(saludarEnUpperCase("javier",priemeraLetraMayuscula));*/
