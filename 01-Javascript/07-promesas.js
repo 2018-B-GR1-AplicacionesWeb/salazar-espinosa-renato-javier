@@ -5,17 +5,19 @@
 //la promesa es como que algo va a paser en el futuro
 const fs = require('fs'); //vamos a convertir una fucion en una proemsa
 const nuevaPromesaLectura = new Promise(
-    (resolve,reject) => { //aqui se puede escribir cualquier tipo de codigo
+    (resolve, reject) => { //aqui se puede escribir cualquier tipo de codigo
         fs.readFile('07-texto.txt', 'utf-8',
             (error, contenidoDelArchivo) => {
-            if (error) {
-                reject(error);
-            } else {
-                resolve(contenidoDelArchivo);
-            }
-        });
+                if (error) {
+                    reject(error);
+                } else {
+                    resolve(contenidoDelArchivo);
+                }
+            });
     }
 );
+
+
 
 const nuevaPromesaEscritura = (contenidoLeido) => {//parametro que NECESITO recibir =(contenidoLeido)
     return new Promise(
@@ -76,14 +78,15 @@ nuevaPromesaAppendFile('07-texto.txt',
 );
 
 */
-const  appernFile=new Promise((resolve,reject)=>{
-  appendFile( '07-texto.txt','utf-8',(err, contenido)=>{
-      if(err){
-          reject(err);
-      }else{}
+const appernFile = new Promise((resolve, reject) => {
+    appendFile('07-texto.txt', 'utf-8', (err, contenido) => {
+        if (err) {
+            reject(err);
+        } else {
+        }
 
 
-  });
+    });
 
 
 });

@@ -35,24 +35,34 @@ interface usuarioInterface {
     apellidos: string;
     edad?: number | string;//el signo ? es opcional
 }
+
 class Usuario { //la clase se usa si es algo importante
-    public nombres:string;
-    public  apellidos:string;
-    public edad?:number|string;
-    
+    public nombres: string;
+    public apellidos: string;
+    public edad?: number | string;
 }
 
-const  javier=new Usuario();
-const usuario2: Usuario=
+const javier = new Usuario();
+const usuario2: Usuario =
     {
         nombres: 'JAVIER',
         apellidos: 'SALAZAR',
     };
-usuario2.edad='4';
-function sumardosnumeros (numUno:number,numDos:number) {
-return numUno+numDos;
+usuario2.edad = '4';
+
+
+function sumardosnumeros(numUno: number, numDos: number) {
+    return numUno + numDos;
 }
-sumardosnumeros(2,6);
+
+sumardosnumeros(2, 6);
+const saludar = (nombre: string, apellido?: string, ...infinito: number[]): any => {
+    return 4;
+};
+let respuesta = <string>saludar('renato', 'salazar', 1, 2, 3, 4); //le transforme a string con <> //casteo
+respuesta = respuesta.toUpperCase();
+let nombreDos = 'niko'; //duck typing
+
 
 /*
 

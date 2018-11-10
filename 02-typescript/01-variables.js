@@ -33,6 +33,16 @@ function sumardosnumeros(numUno, numDos) {
     return numUno + numDos;
 }
 sumardosnumeros(2, 6);
+var saludar = function (nombre, apellido) {
+    var infinito = [];
+    for (var _i = 2; _i < arguments.length; _i++) {
+        infinito[_i - 2] = arguments[_i];
+    }
+    return 4;
+};
+var respuesta = saludar('renato', 'salazar', 1, 2, 3, 4); //le transforme a string con <> //casteo
+respuesta = respuesta.toUpperCase();
+var nombreDos = 'niko'; //duck typing
 /*
 
 function sumarDosNumeros(numero1, numero2)
