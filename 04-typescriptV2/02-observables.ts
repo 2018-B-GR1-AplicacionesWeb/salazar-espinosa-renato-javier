@@ -2,6 +2,7 @@
 
 declare var require: NodeRequire;
 const rxjs = require('rxjs');
+//inquirer.js
 const map = require('rxjs/operators').map;
 const distinct = require('rxjs/operators').distinct;
 const obsevableUno$ = rxjs.of(1, [1, 2, 3], 'hola', {nombre: 'javier'}, new Date(), 1, 5, 1);
@@ -28,12 +29,16 @@ obsevableUno$
 
 
 const promesita = () => {
+
+
     // @ts-ignore
     return new Promise((resolve, reject) => {
             resolve('feliz :)');
         }
     )
 };
+
+
 
 /*
 const observableDePromesa$ = rxjs.from(promesita());//con el observable hecho , siguiente paso es SUSBCRIVIRCE
@@ -55,15 +60,17 @@ observableDePromesa$
     });
 */
 
+// @ts-ignore
 async function ejecutarCodigoAsincrono() {
     console.log('inicio');
     try {
         const reultadosPromesa = await promesita();
         console.log(reultadosPromesa);
     } catch (e) {
-        console.log('error en promesita',e);
+        console.log('error en promesita', e);
     }
     console.log('fin');
 
 }
+
 ejecutarCodigoAsincrono();

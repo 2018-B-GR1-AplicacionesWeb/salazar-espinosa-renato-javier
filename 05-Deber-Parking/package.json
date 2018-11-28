@@ -1,0 +1,8 @@
+{
+  "name": "05-Deber-Parking",
+  "version": "1.0.0",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "rxjs": "^6.3.3"
+  }
+}

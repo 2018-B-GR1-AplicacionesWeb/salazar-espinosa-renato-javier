@@ -8,6 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 const rxjs = require('rxjs');
+//inquirer.js
 const map = require('rxjs/operators').map;
 const distinct = require('rxjs/operators').distinct;
 const obsevableUno$ = rxjs.of(1, [1, 2, 3], 'hola', { nombre: 'javier' }, new Date(), 1, 5, 1);
@@ -50,6 +51,7 @@ observableDePromesa$
         console.log(error);
     });
 */
+// @ts-ignore
 function ejecutarCodigoAsincrono() {
     return __awaiter(this, void 0, void 0, function* () {
         console.log('inicio');
@@ -64,11 +66,3 @@ function ejecutarCodigoAsincrono() {
     });
 }
 ejecutarCodigoAsincrono();
-/*
-
-obsevableUno$.subscribe((ok) => {
-    console.log("en ok",ok);
-}, (error) => {
-    console.log(error);
-});
-*/
