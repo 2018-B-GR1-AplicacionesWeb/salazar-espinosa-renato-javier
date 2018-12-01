@@ -16,18 +16,18 @@
 //import {Observable} from "rxjs/Observable";
 import 'rxjs/add/observable/of';
 
-const rxjs = require('rxjs');
-const observableUno$ = rxjs.of(1);//para definir un Observable usamos la Funcion llamda of
+
+
+//const observableUno$ = rxjs.of(1);//para definir un Observable usamos la Funcion llamda of
 //al final del Observable se pne SIEMPRE EL SIGNO DE $ DOLAR
-console.log(observableUno$);
+//console.log(observableUno$);
 
-
-/*
 
 const rxjs = require('rxjs');
 const map = require('rxjs/operators').map;
 const disctinct = require('rxjs/operators').distinct;
-const observableUno$ = rxjs.of([1, 2, 3], 3, 'Hola', 3, true, 3, { nombre: 'Adrian' }, new Date(), 3);
+
+const observableUno$ = rxjs.of([1, 2, 3], 3, 'Hola', 3, true, 3, {nombre: 'Adrian'}, 3);
 console.log(observableUno$);
 observableUno$
     .pipe(disctinct(), map((valor) => {
@@ -51,18 +51,22 @@ const promesita = () => {
         reject(':(');
     });
 };
-const observableDePromesa$ = rxjs.from(promesita());
+
+/*const observableDePromesa$ = rxjs.from(promesita());
 observableDePromesa$
     .pipe(map((valor) => {
         return {
             data: valor
         };
-    }))
+    }
+        )
+    )
     .subscribe((objetoFeliz) => {
         console.log(objetoFeliz);
     }, (error) => {
         console.log(error);
-    });
+    });*/
+
 async function ejeutarCodigoSyncrono() {
     console.log('inicio');
     try {
@@ -75,4 +79,4 @@ async function ejeutarCodigoSyncrono() {
     console.log('fin');
 
 };
-*/
+
