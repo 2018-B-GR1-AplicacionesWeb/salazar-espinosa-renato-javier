@@ -1,5 +1,15 @@
-const  fs = require ('fs');
+//05-Callbacks
 
+const fs = require('fs');
+fs.readFile('04-operadores.js', 'utf-8',  (error, contenidoDelArchivo) => {//calback
+        if (error) {
+            console.log(error);
+            throw new Error(error);
+        } else {
+            console.log(contenidoDelArchivo);
+        }
+    });
+/*
 
 const contenidoAAgregar ='JAVIER\n';
 const nombreAgregar ='05-texto.txt';
@@ -20,3 +30,4 @@ fs.readFile ('04-operadores.js',
     console.log('si sirvio',contenidoArchivo);
 }});
 console.log('fin');
+*/

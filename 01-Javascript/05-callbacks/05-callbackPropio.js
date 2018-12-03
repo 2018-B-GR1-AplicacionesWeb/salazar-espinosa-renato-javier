@@ -9,8 +9,7 @@ function appendFile(nombreArchivo, contenidoArchivo, callback) {
     fs.readFile(nombreArchivo, 'utf-8',
         (error, contenidoArchivoLeido) => {
             if (error) {
-                fs.writeFile(nombreArchivo, contenidoArchivo,
-                    (err) => {
+                fs.writeFile(nombreArchivo, contenidoArchivo, (err) => {
                         if (err) {
                             console.error('Error escribiendo');
                             callback(err);
@@ -39,7 +38,7 @@ function appendFile(nombreArchivo, contenidoArchivo, callback) {
     );
 }
 
-appendFile('06-texto.txt',
+/*appendFile('06-texto.txt',
     '\n Adios mundo',
     (contenidoArchivo, error) => {
         if (error) {
@@ -49,7 +48,15 @@ appendFile('06-texto.txt',
         }
 
     }
-);
+);*/
+
+appendFile('07-texto.txt','utf-8',(contenidoDocu, err) => {
+    if (err) {
+        console.log("Error", err)
+    } else {
+        console.log('ok')
+    }
+});
 
 
 // ['A','B','C']
@@ -57,35 +64,35 @@ appendFile('06-texto.txt',
 // 0-A.txt 'A'
 // 1-B.txt 'B'
 // 2-C.txt 'C'
-
+const respuesta = {
+    nombreArchivo: '',
+    contenidoArchivo: '',
+    error: '',
+};
 
 // [respuesta,respuesta,respuesta,respuesta,respuesta]
 
 function ejercicioDeArchivos(arregloStrings, callback) {
-
     const arregloRespuestas = [];
-
-    arregloStrings
-        .forEach(
-            (string, indice) => {
-                const archivo = `${indice}-${string}.txt`;
-                const contenido = string;
-                fs.writeFile(archivo,
-                    contenido,
-                    (err) => {
-                        const respuesta = {
-                            nombreArchivo: archivo,
-                            contenidoArchivo: contenido,
-                            error: err
-                        };
-                        arregloRespuestas.push(respuesta);
-                        const tamanoRespuestas = arregloRespuestas.length;
-                        if (tamanoRespuestas === arregloStrings.length) {
-                            callback(arregloRespuestas)
-                        }
-                    });
-            }
-        );
+    arregloStrings.forEach(
+        (string, indice) => {
+            const archivo = `${indice}-${string}.txt`;
+            const contenido = string;
+            fs.writeFile(archivo, contenido,
+                (err) => {
+                    const respuesta = {
+                        nombreArchivo: archivo,
+                        contenidoArchivo: contenido,
+                        error: err
+                    };
+                    arregloRespuestas.push(respuesta);
+                    const tamanoRespuestas = arregloRespuestas.length;
+                    if (tamanoRespuestas === arregloStrings.length) {
+                        callback(arregloRespuestas)
+                    }
+                });
+        }
+    );
     /*
         for (let i = 0; i < arregloStrings.length; i++) {
             ;
