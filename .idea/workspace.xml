@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b183739-1ab3-498f-8787-50a94a233e25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03-http/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-http/videos/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/src/noticia.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
@@ -81,7 +81,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ejs" value="398" />
-          <entry key="gitignore" value="93" />
+          <entry key="gitignore" value="105" />
           <entry key="js" value="17892" />
           <entry key="json" value="43" />
           <entry key="md" value="19" />
@@ -94,7 +94,7 @@
           <entry key="EJS" value="398" />
           <entry key="JSON" value="43" />
           <entry key="JavaScript" value="17892" />
-          <entry key="PLAIN_TEXT" value="520" />
+          <entry key="PLAIN_TEXT" value="532" />
           <entry key="TypeScript" value="10232" />
         </counts>
       </usages-collector>
@@ -197,22 +197,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="156">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#136#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-http/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -260,12 +255,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/03-http/videos" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-Deber-Parking/control.ts" />
         <option value="$PROJECT_DIR$/05-Deber-Parking/01-inquirer.ts" />
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs/tiempo/input.js" />
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs/tiempo/DataBase/medicina.txt" />
@@ -316,6 +310,7 @@
         <option value="$PROJECT_DIR$/03-http/videos/src/app.service.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/main.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia.service.ts" />
+        <option value="$PROJECT_DIR$/03-http/.gitignore" />
       </list>
     </option>
   </component>
@@ -338,7 +333,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="470" />
+    <option name="x" value="616" />
+    <option name="y" value="52" />
     <option name="width" value="1414" />
     <option name="height" value="1040" />
   </component>
@@ -413,19 +409,19 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\02-typescript" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\Marcas" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto\Data" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\01-Javascript\5-nodejs\Data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\02-typescript" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\Marcas" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -529,16 +525,15 @@
       <workItem from="1544030650804" duration="67000" />
       <workItem from="1544099484831" duration="582000" />
       <workItem from="1544590064390" duration="1052000" />
-      <workItem from="1544625177755" duration="6661000" />
+      <workItem from="1544625177755" duration="6908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270964000" />
+    <option name="totallyTimeSpent" value="271211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="376" y="0" width="1131" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.20437956" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
@@ -775,19 +770,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="156">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#136#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
