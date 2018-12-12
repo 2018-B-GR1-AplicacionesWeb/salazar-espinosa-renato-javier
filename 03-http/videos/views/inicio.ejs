@@ -1,6 +1,6 @@
 <style>
     table, th, td {
-        border: 1px solid cadetblue;
+        border: 1px solid black;
         border-collapse: collapse;
     }
 </style>
@@ -20,36 +20,18 @@
 <!-- ul -> unordered list  -->
 <!-- ol -> ordered list  -->
 
-<ul>
+<!-- a -> anchor -->
 
-    <% arreglo.forEach( (noticia)=> { %>
-    <!-- li -> list item  -->
-    <li>
-        <%= noticia.titulo %>
-        -
-        <%= noticia.descripcion %>
-        <form action="/adiosMundo" method="POST">
-            <button type="button"> clickea sin problemas</button>
-            <button>Yo tambien envio informacion</button>
-            <button type="submit"> Enviar</button>
-        </form>
-    </li>
-    <% }) %>
-
-</ul>
-
-<!-- a -> anchor (ancla)  -->
 <a href="/crear-noticia">
     <button>Crear noticia</button>
 </a>
-
 
 <table>
     <!-- tr -> table row -->
     <tr>
         <!-- th -> table header -->
         <th>Identicador</th>
-        <th>Descripcion</th>
+        <th>Nombre</th>
         <th>Acciones</th>
     </tr>
     <!-- tr -> table row -->

@@ -6,6 +6,14 @@
       <change afterPath="$PROJECT_DIR$/03-http/videos/src/noticia.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-http/videos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-http/videos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-http/videos/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-http/videos/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-http/videos/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,22 +88,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ejs" value="398" />
+          <entry key="ejs" value="400" />
           <entry key="gitignore" value="105" />
           <entry key="js" value="17892" />
           <entry key="json" value="43" />
           <entry key="md" value="19" />
-          <entry key="ts" value="10232" />
+          <entry key="ts" value="10236" />
           <entry key="txt" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="EJS" value="398" />
+          <entry key="EJS" value="400" />
           <entry key="JSON" value="43" />
           <entry key="JavaScript" value="17892" />
           <entry key="PLAIN_TEXT" value="532" />
-          <entry key="TypeScript" value="10232" />
+          <entry key="TypeScript" value="10236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,13 +112,13 @@
           <entry key="NODEJS" value="1" />
           <entry key="css" value="2" />
           <entry key="ejs" value="2" />
-          <entry key="gitignore" value="12" />
+          <entry key="gitignore" value="13" />
           <entry key="html" value="1" />
           <entry key="js" value="103" />
-          <entry key="json" value="41" />
+          <entry key="json" value="42" />
           <entry key="md" value="2" />
           <entry key="medicinas" value="1" />
-          <entry key="ts" value="70" />
+          <entry key="ts" value="71" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
@@ -119,10 +127,10 @@
           <entry key="CSS" value="2" />
           <entry key="EJS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="36" />
+          <entry key="JSON" value="37" />
           <entry key="JavaScript" value="103" />
-          <entry key="PLAIN_TEXT" value="37" />
-          <entry key="TypeScript" value="70" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="TypeScript" value="71" />
           <entry key="tsconfig" value="5" />
         </counts>
       </usages-collector>
@@ -135,97 +143,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/views/inicio.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-              <folding>
-                <element signature="e#1#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="208" column="24" selection-start-line="208" selection-start-column="24" selection-end-line="208" selection-end-column="24" />
-              <folding>
-                <element signature="e#1#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="338">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#136#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -302,15 +227,15 @@
         <option value="$PROJECT_DIR$/01-examen-Priemerparcial/01-examen.ts" />
         <option value="$PROJECT_DIR$/2018-b-prueba-master/01-Examen.ts" />
         <option value="$PROJECT_DIR$/2018-b-prueba-master/correccionExamen/01-examen.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs" />
-        <option value="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/app.controller.spec.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/app.module.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/app.service.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/main.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia.service.ts" />
         <option value="$PROJECT_DIR$/03-http/.gitignore" />
+        <option value="$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs" />
+        <option value="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/main.ts" />
       </list>
     </option>
   </component>
@@ -333,8 +258,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="616" />
-    <option name="y" value="52" />
+    <option name="x" value="795" />
+    <option name="y" value="56" />
     <option name="width" value="1414" />
     <option name="height" value="1040" />
   </component>
@@ -525,17 +450,17 @@
       <workItem from="1544030650804" duration="67000" />
       <workItem from="1544099484831" duration="582000" />
       <workItem from="1544590064390" duration="1052000" />
-      <workItem from="1544625177755" duration="6908000" />
+      <workItem from="1544625177755" duration="7725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271211000" />
+    <option name="totallyTimeSpent" value="272028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="376" y="0" width="1131" height="832" extended-state="0" />
+    <frame x="636" y="45" width="1131" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.20437956" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.20437956" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -547,7 +472,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298292" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32270917" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32270917" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.33069828" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -694,62 +619,6 @@
     <entry file="file://$PROJECT_DIR$/03-http/videos/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/test/app.e2e-spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/test/jest-e2e.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/views/inicio.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="208" column="24" selection-start-line="208" selection-start-column="24" selection-end-line="208" selection-end-column="24" />
-          <folding>
-            <element signature="e#1#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -771,16 +640,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/views/crear-noticias.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/test/app.e2e-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/test/jest-e2e.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/views/inicio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="338">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#136#182#0" expanded="true" />
