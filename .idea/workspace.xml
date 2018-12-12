@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b183739-1ab3-498f-8787-50a94a233e25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -69,11 +68,11 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="43" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -102,7 +101,7 @@
           <entry key="gitignore" value="11" />
           <entry key="html" value="1" />
           <entry key="js" value="103" />
-          <entry key="json" value="39" />
+          <entry key="json" value="40" />
           <entry key="md" value="2" />
           <entry key="medicinas" value="1" />
           <entry key="ts" value="63" />
@@ -113,7 +112,7 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="34" />
+          <entry key="JSON" value="35" />
           <entry key="JavaScript" value="103" />
           <entry key="PLAIN_TEXT" value="36" />
           <entry key="TypeScript" value="63" />
@@ -130,10 +129,8 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/node_modules/@nestjs/common/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-546" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/03-http/videos/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -225,8 +222,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/03-http/videos/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/03-http/videos/package.json" />
       <path value="$PROJECT_DIR$/04-typescriptV2/package.json" />
       <path value="$PROJECT_DIR$/Proyecto-Obsevable-Zapatillas/calzadoSport/package.json" />
       <path value="$PROJECT_DIR$/Proyecto/medi/DataBase/package.json" />
@@ -245,28 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -296,6 +275,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,19 +300,19 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\02-typescript" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\Marcas" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto\Data" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\01-Javascript\5-nodejs\Data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\02-typescript" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\Marcas" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,16 +415,17 @@
       <workItem from="1544027695074" duration="598000" />
       <workItem from="1544030650804" duration="67000" />
       <workItem from="1544099484831" duration="582000" />
+      <workItem from="1544590064390" duration="588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263251000" />
+    <option name="totallyTimeSpent" value="263839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="797" y="12" width="777" height="831" extended-state="0" />
+    <frame x="796" y="12" width="778" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.37466308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.37415883" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -446,7 +437,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298292" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40159574" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40106243" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.33069828" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -469,7 +460,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-Javascript/5-nodejs/datos.json" />
     <entry file="file://$PROJECT_DIR$/01-Javascript/5-nodejs/datos2.json" />
     <entry file="file://$PROJECT_DIR$/01-Javascript/5-nodejs/Data/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/01-Javascript/5-nodejs/6-Data/people.json">
@@ -593,10 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!block;n#inicialiarBDD#0" />
-            <element signature="n#!!block;n#guardarBaseDeDatos#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,9 +590,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/node_modules/@nestjs/common/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
