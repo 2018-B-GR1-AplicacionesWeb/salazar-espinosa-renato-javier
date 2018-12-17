@@ -221,16 +221,13 @@ export class AppController {
     ) {
         // El "+" le transforma en numero a un string
         // numerico
-        noticias.id=+idNoticia;const mensajeActualizar=this._noticiaService.actualizar(+idNoticia,noticias)
-        const consultas= `?acccion=actualizar&titulo=${mensajeActualizar.titulo}`
-        const noticiaEncontrada = this._noticiaService
-            .buscarPorId(+idNoticia);
+
 
         response
             .render(
                 'crear-noticia',
                 {
-                    noticia: noticiaEncontrada
+                   // noticia: noticiaEncontrada
                 }
             )
 
@@ -245,6 +242,10 @@ export class AppController {
     ) {
         noticia.id = +idNoticia;
         this._noticiaService.actualizar(+idNoticia, noticia);
+        noticia.id=+idNoticia;const mensajeActualizar=this._noticiaService.actualizar(+idNoticia,noticia)
+        const consultas= `?acccion=actualizar&titulo=${mensajeActualizar.titulo}`
+        const noticiaEncontrada = this._noticiaService
+            .buscarPorId(+idNoticia);
 
         response.redirect('/inicio');
 
