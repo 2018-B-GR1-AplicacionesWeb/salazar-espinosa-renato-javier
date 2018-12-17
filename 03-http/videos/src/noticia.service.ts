@@ -2,7 +2,7 @@ import {Injectable} from "@nestjs/common";
 import {Noticia} from "./app.controller";
 
 @Injectable()
-export class NoticiaService{
+export class NoticiaService {
     arreglo: Noticia[] = [
         {
             id: 1,
@@ -27,33 +27,48 @@ export class NoticiaService{
     ];
     numeroRegistro = 5;
 
-    crear(noticia: Noticia){
+    crear(noticia: Noticia): Noticia {
         noticia.id = this.numeroRegistro;
         this.numeroRegistro++;
         this.arreglo.push(noticia);
-        return this.arreglo;
+        return noticia;
     }
 
-    eliminar(idNoticia: number){
+    eliminar(idNoticia: number): Noticia {
         const indiceNoticia = this.arreglo
             .findIndex(
-                (noticia)=>{
-                    return noticia.id === Number(idNoticia)
+                (noticia) => {
+                    return noticia.id === idNoticia
                 }
-            )
-        const registroEliminado = JSON.parse(JSON.stringify(this.arreglo[indiceNoticia]))
-        this.arreglo.splice(indiceNoticia, 1)
+            );
+        const registroEliminado = JSON.parse(JSON.stringify(this.arreglo[indiceNoticia]));
+        this.arreglo.splice(indiceNoticia, 1);
+
         return registroEliminado;
     }
 
-    actualizar(idNoticia: number, nuevaNoticia:Noticia){
+    actualizar(idNoticia: number, nuevaNoticia: Noticia): Noticia {
         const indiceNoticia = this.arreglo
             .findIndex(
-                (noticia)=>{
-                    return noticia.id === Number(idNoticia)
+                (noticia) => {
+                    return noticia.id === idNoticia
                 }
-            )
+            );
         this.arreglo[indiceNoticia] = nuevaNoticia;
+
         return this.arreglo[indiceNoticia]
     }
+
+
+    buscarPorId(idNoticia: number): Noticia {
+        const indiceNoticia = this.arreglo
+            .findIndex(
+                (noticia) => {
+                    return noticia.id === idNoticia
+                }
+            );
+        return this.arreglo[indiceNoticia];
+    }
+
+
 }

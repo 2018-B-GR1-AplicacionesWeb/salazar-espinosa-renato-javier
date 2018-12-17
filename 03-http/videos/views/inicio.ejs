@@ -26,6 +26,11 @@
     <button>Crear noticia</button>
 </a>
 
+<form action="/inicio" method="get">
+
+    <label for="busqueda">Buscar</label>
+    <input  id="busqueda" type="text">
+</form>
 <table>
     <!-- tr -> table row -->
     <tr>
@@ -47,7 +52,19 @@
                 -->
                 <button type="submit"> Eliminar</button>
             </form>
+            <a href="/actualizar-noticia/<%= noticia.id %>">
+
+                <button>actulizara</button>
+            </a>
         </td>
     </tr>
     <% }) %>
 </table>
+
+
+<script>
+    function imprimirEnConsola(evento) {
+        
+    }
+    
+</script>
