@@ -227,7 +227,7 @@ export class AppController {
             .render(
                 'crear-noticia',
                 {
-                   // noticia: noticiaEncontrada
+                    // noticia: noticiaEncontrada
                 }
             )
 
