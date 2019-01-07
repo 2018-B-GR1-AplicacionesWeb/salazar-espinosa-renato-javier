@@ -1,9 +1,12 @@
 import {NestFactory} from '@nestjs/core';
 import {AppModule} from './app.module';
 
-// const http_server = require('http-server'); // JS
+
+
+// const http_server = require('http-server'); //  forma de importr en JS
 import * as cookieParser from 'cookie-parser';
 import * as ejs from 'ejs';
+import {npm} from 'http-server';
 
 async function bootstrap() {
     const app = await NestFactory.create(AppModule);

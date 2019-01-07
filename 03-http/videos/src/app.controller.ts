@@ -13,11 +13,13 @@ import {
 import {AppService} from './app.service';
 import {Observable, of} from "rxjs";
 import {Request, Response} from "express";
-import {NoticiaService} from "./noticia.service";
+import {NoticiaService} from "./noticia/noticia.service";
+import {stringify} from "querystring";
 
-@Controller()  //decoradores
+@Controller()  //decoradores ..esta es una funsión
 // Controller('usuario')
 // http://localhost:3000/usuario
+
 export class AppController {
 
 
@@ -33,7 +35,7 @@ export class AppController {
     // http://localhost:3000/usuario/crear?nombre=Adrian
     @HttpCode(204) // status
     raiz(
-        @Query() todosQueryParams: any,  //{nombre:"Adrian"}
+        @Query() todosQueryParams: any,  //{nombre:"Javier"}
         @Query('nombre') nombre: string, // adrian
     ): string {
         console.log(todosQueryParams);

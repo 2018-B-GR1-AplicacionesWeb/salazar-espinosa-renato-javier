@@ -1,10 +1,11 @@
 {
-  "name": "textiles",
+  "name": "web-textiles",
   "version": "0.0.0",
   "description": "description",
   "author": "Javier Salazar",
   "license": "MIT",
   "scripts": {
+    "listar":"ls",
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
@@ -22,6 +23,7 @@
   "dependencies": {
     "@nestjs/common": "^5.4.0",
     "@nestjs/core": "^5.4.0",
+    "http-server": "^0.11.1",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "^6.2.2",
