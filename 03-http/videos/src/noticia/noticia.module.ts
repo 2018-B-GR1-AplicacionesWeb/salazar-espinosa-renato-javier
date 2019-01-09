@@ -1,36 +1,40 @@
-import Module = NodeJS.Module;
-import {MonoTypeOperatorFunction} from "rxjs";
-import {Noticia} from "../app.controller";
+import {Module} from "@nestjs/common";
+import {NoticiaController} from "./noticia.controller";
+import {NoticiaService} from "./noticia.service";
 import {TypeOrmModule} from '@nestjs/typeorm';
+import {NoticiaEntity} from "./noticia-entity";
 
 @Module(
-
     {
-        imports:[
-
-            TypeOrmModule.forFeature(
-
-                :[ NoticiaEntity]
-            )
+        imports: [
+            TypeOrmModule
+                .forFeature(
+                    [
+                        NoticiaEntity
+                    ])
         ],
-
-        controllers:[
-
-                NoticiaControler
+        controllers: [
+            NoticiaController
         ],
-        providers:[
+        providers: [
             NoticiaService
-
-        ],//Servicios
-        exports:[
-
+        ],
+        exports: [
+            // Servicios o Modulos a Compartirse
             NoticiaService
         ]
-
     }
 )
-export class NoticiaModule{
+export class NoticiaModule {
 
 }
-//noticia
-//noticiaService
+
+
+////////
+// Noticia
+// NoticiaService
+
+// Principal
+// AppService
+
+

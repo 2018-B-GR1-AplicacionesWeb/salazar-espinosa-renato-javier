@@ -3,17 +3,21 @@
 import {Body, Controller, Get, Param, Post, Query, Res} from "@nestjs/common";
 import {Noticia} from "../app.controller";
 import {NoticiaService} from "./noticia.service";
+import {NoticiaEntity} from "./noticia-entity";
+import {FindManyOptions, Like} from "typeorm";
+import Lifecycle = jest.Lifecycle;
 
 @Controller('noticia')
 export class NoticiaController {
 
-constructor (private readonly_noticiaService:NoticiaService){
-    
-}
+    constructor(private readonly _noticiaService: NoticiaService) {
+
+    }
+
     @Get('inicio')
-    inicio(
+    async inicio(
         @Res() response,
-        @Query() consulta,
+        @Query('busqueda') busqueda:string,
         @Query('accion') accion: string,
         @Query('titulo') titulo: string
     ) {
@@ -26,12 +30,42 @@ constructor (private readonly_noticiaService:NoticiaService){
                     mensaje = `Registro ${titulo} eliminado`;
             }
         }
+    //   const noticias = await this._noticiaService.buscar();
+
+        //revisar este codigo 9 /enero
+        let noticias:NoticiaEntity[];
+
+        if(busqueda){
+
+            const consulta:FindManyOptions<NoticiaEntity> ={
+
+                where:[{
+                    titulo:Like(`%{busqueda}%`)
+
+                },{
+
+                  descripcion:busqueda
+
+
+            }
+
+           ]
+
+            }
+
+        }else {
+
+            noticias=await this._noticiaService.buscar();
+
+        }
+
+
 
         response.render(
             'inicio',
             {
                 usuario: 'Adrian',
-                arreglo: this._noticiaService.arreglo, // AQUI!
+                arreglo: noticias, // AQUI!
                 booleano: false,
                 mensaje: mensaje
             }
@@ -39,16 +73,17 @@ constructor (private readonly_noticiaService:NoticiaService){
     }
 
     @Post('eliminar/:idNoticia')
-    eliminar(
+    async eliminar(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
     ) {
 
-        const noticiaBorrada = this._noticiaService
-            .eliminar(Number(idNoticia));
+        const noticia = await this._noticiaService.buscarPorId(+idNoticia);
+
+        await this._noticiaService.eliminar(Number(idNoticia));
 
         const parametrosConsulta = `?accion=borrar&titulo=${
-            noticiaBorrada.titulo
+            noticia.titulo
             }`;
 
         response.redirect('/noticia/inicio' + parametrosConsulta)
@@ -64,25 +99,26 @@ constructor (private readonly_noticiaService:NoticiaService){
     }
 
     @Post('crear-noticia')
-    crearNoticiaFuncion(
+    async crearNoticiaFuncion(
         @Res() response,
         @Body() noticia: Noticia
     ) {
-        this._noticiaService.crear(noticia);
+        const respuesta = await this._noticiaService.crear(noticia);
+        console.log(respuesta);
 
         response.redirect(
-            '/inicio'
+            '/noticia/inicio'
         )
     }
 
     @Get('actualizar-noticia/:idNoticia')
-    actualizarNoticiaVista(
+    async actualizarNoticiaVista(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
     ) {
         // El "+" le transforma en numero a un string
         // numerico
-        const noticiaEncontrada = this._noticiaService
+        const noticiaEncontrada = await this._noticiaService
             .buscarPorId(+idNoticia);
 
         response
@@ -97,15 +133,15 @@ constructor (private readonly_noticiaService:NoticiaService){
     }
 
     @Post('actualizar-noticia/:idNoticia')
-    actualizarNoticiaMetedo(
+    async actualizarNoticiaMetedo(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
         @Body() noticia: Noticia
     ) {
         noticia.id = +idNoticia;
-        this._noticiaService.actualizar(+idNoticia, noticia);
+        await this._noticiaService.actualizar(noticia);
 
-        response.redirect('/inicio');
+        response.redirect('/noticia/inicio');
 
     }
 }

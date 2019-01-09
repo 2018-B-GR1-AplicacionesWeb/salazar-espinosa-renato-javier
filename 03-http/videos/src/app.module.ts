@@ -5,28 +5,34 @@ import {NoticiaService} from "./noticia/noticia.service";
 
 import {TypeOrmModule} from '@nestjs/typeorm';
 import {NoticiaEntity} from "./noticia/noticia-entity";
+import {PaginaEntity} from "./pagina/pagina.entity";
+import {ArticuloEntity} from "./articulo/articulo.entity";
+import {NoticiaModule} from "./noticia/noticia.module";
 
 @Module({
     imports: [
         TypeOrmModule.forRoot(
             {
                 type: 'mysql',
-                host: '172.29.64.209',
-                port: 32773,
-                database: 'web',
-                username: 'adrian',
-                password: '12345678',
+                host:'localhost',
+                port: 32769,
+                database: 'videos',
+                username: 'javier',
+                password: 'root',
                 synchronize: true,
+                dropSchema:false,
                 entities: [
-                    NoticiaEntity
+                    NoticiaEntity,
+                    PaginaEntity,
+                    ArticuloEntity
                 ]
             }
-        )
+        ),
+        NoticiaModule  //falta de importar este modulo
     ],  // MODULOS
     controllers: [AppController],  // Controllers
     providers: [
-        AppService,
-        NoticiaService
+        AppService
     ], // Servicios
 })
 export class AppModule {

@@ -14,12 +14,10 @@ import {AppService} from './app.service';
 import {Observable, of} from "rxjs";
 import {Request, Response} from "express";
 import {NoticiaService} from "./noticia/noticia.service";
-import {stringify} from "querystring";
 
-@Controller()  //decoradores ..esta es una funsión
+@Controller()  //decoradores
 // Controller('usuario')
 // http://localhost:3000/usuario
-
 export class AppController {
 
 
@@ -35,7 +33,7 @@ export class AppController {
     // http://localhost:3000/usuario/crear?nombre=Adrian
     @HttpCode(204) // status
     raiz(
-        @Query() todosQueryParams: any,  //{nombre:"Javier"}
+        @Query() todosQueryParams: any,  //{nombre:"Adrian"}
         @Query('nombre') nombre: string, // adrian
     ): string {
         console.log(todosQueryParams);
@@ -148,110 +146,7 @@ export class AppController {
     }
 
 
-    @Get('inicio')
-    inicio(
-        @Res() response,
-        @Query('accion') accion: string,
-        @Query('titulo') titulo: string
-    ) {
-        let mensaje = undefined;
-        if (accion && titulo) {
-            switch (accion) {
-                case 'borrar':
-                    mensaje = `Registro ${titulo} eliminado`;
-                case 'actualizar':
-                    mensaje = `Registro ${titulo} actualizado`;
-            }
-        }
 
-        response.render(
-            'inicio',
-            {
-                usuario: 'Adrian',
-                arreglo: this._noticiaService.arreglo, // AQUI!
-                booleano: false,
-                mensaje: mensaje
-            }
-        );
-    }
-
-    @Post('eliminar/:idNoticia')
-    eliminar(
-        @Res() response,
-        @Param('idNoticia') idNoticia: string,
-    ) {
-
-        const noticiaBorrada = this._noticiaService
-            .eliminar(Number(idNoticia));
-
-        const parametrosConsulta = `?accion=borrar&titulo=${
-            noticiaBorrada.titulo
-            }`;
-
-        response.redirect('/inicio' + parametrosConsulta)
-    }
-
-    @Get('crear-noticia')
-    crearNoticiaRuta(
-        @Res() response,
-        @Param('idNoticia') idNoticia:string,
-        @Body() noticias:Noticia
-    ) {
-
-
-        response.render(
-            'crear-noticia'
-        )
-    }
-
-    @Post('crear-noticia')
-    crearNoticiaFuncion(
-        @Res() response,
-        @Body() noticia: Noticia
-    ) {
-        this._noticiaService.crear(noticia);
-
-        response.redirect(
-            '/inicio'
-        )
-    }
-
-    @Get('actualizar-noticia/:idNoticia')
-    actualizarNoticiaVista(
-        @Res() response,
-        @Param('idNoticia') idNoticia: string,
-    ) {
-        // El "+" le transforma en numero a un string
-        // numerico
-
-
-        response
-            .render(
-                'crear-noticia',
-                {
-                    // noticia: noticiaEncontrada
-                }
-            )
-
-
-    }
-
-    @Post('actualizar-noticia/:idNoticia')
-    actualizarNoticiaMetedo(
-        @Res() response,
-        @Param('idNoticia') idNoticia: string,
-        @Body() noticia: Noticia
-    ) {
-        noticia.id = +idNoticia;
-        this._noticiaService.actualizar(+idNoticia, noticia);
-        noticia.id=+idNoticia;const mensajeActualizar=this._noticiaService.actualizar(+idNoticia,noticia)
-        const consultas= `?acccion=actualizar&titulo=${mensajeActualizar.titulo}`
-        const noticiaEncontrada = this._noticiaService
-            .buscarPorId(+idNoticia);
-
-        response.redirect('/inicio');
-
-    }
 
 }
 
