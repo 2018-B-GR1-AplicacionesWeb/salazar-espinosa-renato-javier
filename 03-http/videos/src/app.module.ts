@@ -5,9 +5,14 @@ import {NoticiaService} from "./noticia/noticia.service";
 
 import {TypeOrmModule} from '@nestjs/typeorm';
 import {NoticiaEntity} from "./noticia/noticia-entity";
+import {NoticiaModule} from "./noticia/noticia.module";
+
 import {PaginaEntity} from "./pagina/pagina.entity";
 import {ArticuloEntity} from "./articulo/articulo.entity";
-import {NoticiaModule} from "./noticia/noticia.module";
+import {Entity} from "typeorm";
+import {UsuarioModule} from "./usuario/usuario.module";
+import {UsuarioEntity} from "./usuario/usuario.entity";
+
 
 @Module({
     imports: [
@@ -24,13 +29,16 @@ import {NoticiaModule} from "./noticia/noticia.module";
                 entities: [
                     NoticiaEntity,
                     PaginaEntity,
-                    ArticuloEntity
+                    ArticuloEntity,
+                   UsuarioEntity,
                 ]
             }
         ),
-        NoticiaModule  //falta de importar este modulo
+        NoticiaModule,  //falta de importar este modulo
+        UsuarioModule,
     ],  // MODULOS
-    controllers: [AppController],  // Controllers
+    controllers: [
+        AppController],  // Controllers
     providers: [
         AppService
     ], // Servicios

@@ -15,9 +15,14 @@
       <change afterPath="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.entity.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.module.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/crear-noticia.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-http/videos/views/login.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10-http/textiles/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto2/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,12 +77,12 @@
     <session id="-2026311851">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="2" />
@@ -86,33 +91,33 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="9" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="55" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ejs" value="1041" />
+          <entry key="ejs" value="1211" />
           <entry key="gitignore" value="151" />
           <entry key="js" value="17895" />
           <entry key="json" value="99" />
           <entry key="md" value="19" />
-          <entry key="ts" value="13273" />
+          <entry key="ts" value="15025" />
           <entry key="txt" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="EJS" value="1041" />
+          <entry key="EJS" value="1211" />
           <entry key="JSON" value="99" />
           <entry key="JavaScript" value="17895" />
           <entry key="PLAIN_TEXT" value="578" />
-          <entry key="TypeScript" value="13273" />
+          <entry key="TypeScript" value="15025" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -120,32 +125,32 @@
           <entry key="01-typescript" value="1" />
           <entry key="NODEJS" value="1" />
           <entry key="css" value="2" />
-          <entry key="ejs" value="11" />
+          <entry key="ejs" value="12" />
           <entry key="gitignore" value="17" />
           <entry key="html" value="1" />
           <entry key="js" value="106" />
           <entry key="json" value="50" />
           <entry key="md" value="4" />
           <entry key="medicinas" value="1" />
-          <entry key="ts" value="131" />
+          <entry key="ts" value="141" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="EJS" value="11" />
+          <entry key="EJS" value="12" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="44" />
           <entry key="JavaScript" value="106" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="TypeScript" value="131" />
+          <entry key="TypeScript" value="141" />
           <entry key="tsconfig" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="34" />
+          <entry key="TypeScriptServerServiceImpl" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -153,34 +158,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#159#205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="47">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -189,10 +170,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-http/videos/views/login.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#220#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="338">
+              <caret line="170" column="1" lean-forward="true" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
               <folding>
                 <element signature="e#0#203#0" expanded="true" />
               </folding>
@@ -201,27 +204,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.entity.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.module.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-http/videos/views/inicio.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="82" column="12" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+            <state relative-caret-position="168">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -229,8 +215,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-http/videos/views/crear-noticia.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -265,6 +251,9 @@
       <find>Entity</find>
       <find>res</find>
       <find>noicia</find>
+      <find>obser</find>
+      <find>@HttpCode</find>
+      <find>type</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -273,12 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/7 Proyecto-zapatilla/revisar.ts" />
-        <option value="$PROJECT_DIR$/7 Proyecto-zapatilla/DataBase/zapatillas.txt" />
-        <option value="$PROJECT_DIR$/01-Javascript/5-nodejs/5-nodejs-02/1-util.js" />
-        <option value="$PROJECT_DIR$/01-Javascript/5-nodejs/2-calculadora.js" />
-        <option value="$PROJECT_DIR$/01-Javascript/5-nodejs/package.json" />
-        <option value="$PROJECT_DIR$/01-Javascript/5-nodejs/1-app.js" />
         <option value="$PROJECT_DIR$/7 Proyecto-zapatilla/Marcas/revisar.ts" />
         <option value="$PROJECT_DIR$/Proyecto/Calzado/verificar.ts" />
         <option value="$PROJECT_DIR$/Proyecto/Calzado/verificar.js" />
@@ -307,9 +290,7 @@
         <option value="$PROJECT_DIR$/10-http/textiles/src/main.ts" />
         <option value="$PROJECT_DIR$/10-http/textiles/package.json" />
         <option value="$PROJECT_DIR$/03-http/videos/package.json" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/main.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.service.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/views/crear-noticia.ejs" />
         <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.controller.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.module.ts" />
@@ -320,10 +301,18 @@
         <option value="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.entity.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia-entity.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.module.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/app.module.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.controller.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.entity.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto2/main.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/views/login.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/views/login.ejs" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.entity.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.module.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.service.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/03-http/videos/src/main.ts" />
       </list>
     </option>
   </component>
@@ -336,6 +325,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/03-http/videos/node_modules" />
     <handled-path value="$PROJECT_DIR$/10-http/textiles/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Proyecto2/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -345,13 +335,13 @@
       <path value="$PROJECT_DIR$/Proyecto-Obsevable-Zapatillas/calzadoSport/package.json" />
       <path value="$PROJECT_DIR$/Proyecto/medi/DataBase/package.json" />
       <path value="$PROJECT_DIR$/Proyecto/medi/package.json" />
+      <path value="$PROJECT_DIR$/Proyecto2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="626" />
-    <option name="y" value="-18" />
-    <option name="width" value="1069" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="233" />
+    <option name="width" value="1687" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -359,77 +349,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="articulo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="noticia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pagina" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="10-http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="10-http" type="462c0819:PsiDirectoryNode" />
-              <item name="textiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -454,6 +373,28 @@
               <item name="03-http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="node_modules" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto2" type="462c0819:PsiDirectoryNode" />
+              <item name="main.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -599,18 +540,21 @@
       <workItem from="1546811982459" duration="7972000" />
       <workItem from="1546871218194" duration="5671000" />
       <workItem from="1546896475808" duration="837000" />
-      <workItem from="1546978548063" duration="14024000" />
+      <workItem from="1546978548063" duration="15396000" />
+      <workItem from="1547123779592" duration="9366000" />
+      <workItem from="1547160255264" duration="1703000" />
+      <workItem from="1547236411682" duration="5944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322025000" />
+    <option name="totallyTimeSpent" value="340410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="187" y="0" width="1349" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.17425743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.3196347" />
       <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -622,13 +566,33 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298292" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35657895" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3580902" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.33026317" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" weight="0.26294822" />
+      <window_info id="Structure" order="1" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3075899" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48868176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35904256" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.33026317" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -638,6 +602,7 @@
         <option value="$PROJECT_DIR$/02-typescript/02-observables.js" />
         <option value="$PROJECT_DIR$/../2018-b-prueba-master/01-arreglos/Examen.js" />
         <option value="$PROJECT_DIR$/04-typescriptV2/02-observables.js" />
+        <option value="$PROJECT_DIR$/Proyecto2/main.js" />
       </list>
     </option>
   </component>
@@ -645,24 +610,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-Deber-Parking/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/04-typescriptV2/01-tarea.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-typescriptV2/02-observables.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Obsevable-Zapatillas/calzadoSport/bdd.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Obsevable-Zapatillas/calzadoSport/baseDatos.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Deber-Parking/package.json" />
     <entry file="file://$PROJECT_DIR$/05-Deber-Parking/control.ts" />
     <entry file="file://$PROJECT_DIR$/05-Deber-Parking/03-tareas.ts" />
     <entry file="file://$PROJECT_DIR$/2018-b-prueba-master/01-Examen.ts" />
@@ -793,9 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="e#26#104#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,19 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia/noticia.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,9 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,16 +764,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#22#107#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/pagina/pagina.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/pagina/pagina.service.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.controller.ts">
@@ -855,62 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#159#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/views/crear-noticia.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,10 +787,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/pagina/pagina.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto2/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia/noticia.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/views/inicio.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="82" column="12" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+        <state relative-caret-position="168">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/views/crear-noticia.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/views/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/usuario/usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#23#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/usuario/usuario.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#33#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/usuario/usuario.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#220#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="170" column="1" lean-forward="true" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#203#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

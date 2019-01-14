@@ -8,12 +8,13 @@ import {
     Query,
     Param,
     Body,
-    Head, UnauthorizedException, Req, Res
+    Head, UnauthorizedException, Req, Res, Session
 } from '@nestjs/common';
 import {AppService} from './app.service';
 import {Observable, of} from "rxjs";
 import {Request, Response} from "express";
 import {NoticiaService} from "./noticia/noticia.service";
+import {observableToBeFn} from "rxjs/internal/testing/TestScheduler";
 
 @Controller()  //decoradores
 // Controller('usuario')
@@ -23,7 +24,9 @@ export class AppController {
 
     // public servicio:AppService;
     constructor(private readonly _appService: AppService,
-                private readonly _noticiaService: NoticiaService) {  // NO ES UN CONSTRUCTOR
+                private readonly _noticiaService: NoticiaService) {  //
+     //   private  readonly_serviceUsuario
+        // NO ES UN CONSTRUCTOR
         // this.servicio = servicio;
     }
 
@@ -68,20 +71,21 @@ export class AppController {
     }
 
     @Get('adiosMundoPromesa') // url
-    adiosMundoPromesa(): Promise<string> {
-        const promesaAdios = (): Promise<string> => {
-            return new Promise(
-                (resolve) => {
-                    resolve('Adios Mundo');
-                }
+   adiosMundoPromesa():Promise<string>{
+
+        const promesaAdios=():Promise<string>=>{
+
+            return new Promise((resolve)=>{resolve('Adios Mundo');
+            }
             )
         };
         return promesaAdios();
+
     }
 
 
     @Get('adiosMundoAsync') // url
-    @HttpCode(201)
+    @HttpCode(201) //enviar errores
     async adiosMundoAsync() {
         const promesaAdios = (): Promise<string> => {
             return new Promise(
@@ -146,7 +150,18 @@ export class AppController {
     }
 
 
+//app controle
 
+
+    @Post('login')
+    @HttpCode(200)
+    ejecutarLogin(
+
+        @Body('Username') username:string,
+        @Body('password') password:string,
+        @Res() res,
+        @Session() sesion,
+    )
 
 }
 

@@ -11,6 +11,8 @@
 <p>Mensaje: <%=mensaje%></p>
 <% }%>
 
+
+
 <!-- h1 -> header 1  -->
 <h1> <%= usuario %> </h1>
 <% var javier = 'Javier'; %>
@@ -27,33 +29,18 @@
 <!--<ul>-->
 <!-- a->ancla -->
 
-<form method="get" action="/noticia/inicio" method="get">
+<form method="get" action="/noticia/inicio">
     <label for="busqueda">Busqueda</label>
     <input id="busqueda" type="text" name="busqueda">
     <button>Buscar</button>
 </form>
 
+
+
+
 <a href="/noticia/crear-noticia">
-    <button>Crear Noticia</button>
+    <button>Crear noticia</button>
 </a>
-
-
-
-<!--<% arreglo.forEach( (noticia)=> { %>-->
-<!--&lt;!&ndash; li -> list item  &ndash;&gt;-->
-<!--<li>-->
-<!--<%= noticia.titulo %>-->
-<!-- - -->
-<!--<%= noticia.descripcion %>-->
-<!--<form action="/adiosMundo" method="POST">-->
-<!--&lt;!&ndash;<button type="button"> clickea sin problemas</button>&ndash;&gt;-->
-<!--&lt;!&ndash;<button>Yo tambien envio informacion</button>&ndash;&gt;-->
-<!--<button type="submit"> Eliminar</button>-->
-<!--</form>-->
-<!--</li>-->
-<!--<% }) %>-->
-
-<!--</ul>-->
 
 <table>
     <!-- tr -> table row -->
@@ -70,15 +57,24 @@
         <td><%= noticia.titulo %></td>
         <td><%= noticia.descripcion %></td>
         <td>
-            <form action="/noticia/eliminar/<%= noticia.id%>" method="POST">
-                <!--<button type="button"> clickea sin problemas</button>-->
-                <!--<button>Yo tambien envio informacion</button>-->
+            <form action="/noticia/eliminar/<%= noticia.id %>" method="POST">
+                <!--<button type="button"> clickea sin problemas</button>
+                <button>Yo tambien envio informacion</button>
+                -->
                 <button type="submit"> Eliminar</button>
             </form>
             <a href="/noticia/actualizar-noticia/<%= noticia.id %>">
-                <button>Actualizar Noticia</button>
+                <button>Actualizar</button>
             </a>
         </td>
     </tr>
     <% }) %>
 </table>
+
+
+<script>
+    function imprimirEnConsola(evento){
+        evento.preventDefault();
+        console.log('ASDASDAS');
+    }
+</script>
