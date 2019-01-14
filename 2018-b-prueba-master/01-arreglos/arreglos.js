@@ -9,7 +9,7 @@
 //import 'rxjs/add/observable/of';
 const arreglo = require('../data/people.json');
 
-/*
+
 
 const rxjs = require('rxjs');
 const map = require('rxjs/operators').map;
@@ -88,8 +88,8 @@ observableUno$
         };
     }));
 
-/!*!//10
-## 10) Calcular en cuantos films han aparecido cada personaje:
+
+//10) Calcular en cuantos films han aparecido cada personaje:
 
     Ej:
 
@@ -102,7 +102,7 @@ const respuesta = [
     },
     ...
 ]
-```*!/
+
 const personaje: {//Los 2 puntos es el TIPO
     nombre: string;
     apellido: string;
