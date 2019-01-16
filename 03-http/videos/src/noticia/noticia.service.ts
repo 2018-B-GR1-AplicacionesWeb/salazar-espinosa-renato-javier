@@ -53,17 +53,14 @@ export class NoticiaService {
 
     }
 
-    eliminar(idNoticia: number): Noticia {
-        const indiceNoticia = this.arreglo
-            .findIndex(
-                (noticia) => {
-                    return noticia.id === idNoticia
-                }
-            );
-        const registroEliminado = JSON.parse(JSON.stringify(this.arreglo[indiceNoticia]));
-        this.arreglo.splice(indiceNoticia, 1);
+    eliminar(idNoticia: number): Promise<NoticiaEntity> {
 
-        return registroEliminado;
+        const noticiaAEliminar: NoticiaEntity = this._noticiaRepository
+            .create({
+                id: idNoticia
+            });
+
+        return this._noticiaRepository.remove(noticiaAEliminar);
     }
 
     actualizar(nuevaNoticia: Noticia): Promise<NoticiaEntity> {
