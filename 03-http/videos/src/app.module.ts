@@ -1,17 +1,14 @@
-import {Module} from '@nestjs/common';
-import {AppController} from './app.controller';
-import {AppService} from './app.service';
+import { Module } from '@nestjs/common';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
 import {NoticiaService} from "./noticia/noticia.service";
-
-import {TypeOrmModule} from '@nestjs/typeorm';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import {NoticiaEntity} from "./noticia/noticia-entity";
 import {NoticiaModule} from "./noticia/noticia.module";
-
 import {PaginaEntity} from "./pagina/pagina.entity";
 import {ArticuloEntity} from "./articulo/articulo.entity";
-import {Entity} from "typeorm";
-import {UsuarioModule} from "./usuario/usuario.module";
 import {UsuarioEntity} from "./usuario/usuario.entity";
+import {UsuarioModule} from "./usuario/usuario.module";
 
 
 @Module({
@@ -19,30 +16,29 @@ import {UsuarioEntity} from "./usuario/usuario.entity";
         TypeOrmModule.forRoot(
             {
                 type: 'mysql',
-                host:'localhost',
+                host: 'localhost',
                 port: 32769,
                 database: 'videos',
                 username: 'javier',
                 password: 'root',
                 synchronize: true,
-                dropSchema:false,
+                dropSchema: false,
                 entities: [
                     NoticiaEntity,
                     PaginaEntity,
                     ArticuloEntity,
-                   UsuarioEntity,
+                    UsuarioEntity,
+
                 ]
-            }
-        ),
-        NoticiaModule,  //falta de importar este modulo
+            }),
+        NoticiaModule,
         UsuarioModule,
-    ],  // MODULOS
+    ],  //Van los modulos
     controllers: [
-        AppController],  // Controllers
+        AppController
+    ],  //Van los COntrollers
     providers: [
         AppService
-    ], // Servicios
+    ],      // Van los Servicios
 })
-export class AppModule {
-}
-
+export class AppModule {}

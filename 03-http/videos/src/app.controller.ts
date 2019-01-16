@@ -1,3 +1,4 @@
+
 import {
     Headers,
     Get,
@@ -16,8 +17,6 @@ import {Request, Response} from "express";
 import {NoticiaService} from "./noticia/noticia.service";
 import {UsuarioService} from "./usuario/usuario.service";
 
-//import {UsuarioService} from "./usuario/usuario.service";
-
 @Controller()  //decoradores
 // Controller('usuario')
 // http://localhost:3000/usuario
@@ -27,9 +26,10 @@ export class AppController {
     // public servicio:AppService;
     constructor(private readonly _appService: AppService,
                 private readonly _noticiaService: NoticiaService,
-                private readonly _usuarioService: UsuarioService) {   // NO ES UN CONSTRUCTOR
+                private readonly _usuarioService: UsuarioService) {  // NO ES UN CONSTRUCTOR
         // this.servicio = servicio;
     }
+
 
     @Get() // http://ip:puerto
     // @Get('crear')
@@ -75,7 +75,7 @@ export class AppController {
         const promesaAdios = (): Promise<string> => {
             return new Promise(
                 (resolve) => {
-                    resolve('adios Mundo');
+                    resolve('Adios Mundo');
                 }
             )
         };
@@ -84,7 +84,7 @@ export class AppController {
 
 
     @Get('adiosMundoAsync') // url
-    @HttpCode(201) //enviar errores
+    @HttpCode(201)
     async adiosMundoAsync() {
         const promesaAdios = (): Promise<string> => {
             return new Promise(
@@ -148,10 +148,10 @@ export class AppController {
 
     }
 
-//app controle
+    //app.controller.ts
     @Get('login')
     mostrarLogin(
-        @Res()res
+        @Res() res
     ) {
         res.render('login')
     }
@@ -159,38 +159,30 @@ export class AppController {
     @Post('login')
     @HttpCode(200)
     async ejecutarLogin(
-        @Body('Username') username: string,
-        @Body('password') password: string,
+        @Body('username') username:string,
+        @Body('password') password:string,
         @Res() res,
-        @Session() sesion,
-    ) {
-        //const respuesta = await this._UsuarioService.autenticar(username, password);
-        const respuesta = await this._usuarioService
-            .autenticar(username, password);
-        console.log(sesion);
-
-        if (respuesta) {
+        @Session() sesion
+    ){
+        const respuesta = await this._usuarioService.autenticar(username,password);
+        console.log(sesion)
+        if (respuesta){
             sesion.usuario = username;
             res.send('ok');
         } else {
             res.redirect('login');
         }
-
     }
 
     @Get('logout')
     logout(
-        @Res()res,
-        @Session()sesion
+        @Res() res,
+        @Session() sesion
     ) {
-
-
         sesion.username = undefined;
         sesion.destroy();
         res.redirect('login');
-
     }
-
 
 }
 
