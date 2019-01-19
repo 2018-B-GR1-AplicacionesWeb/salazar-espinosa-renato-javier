@@ -1,17 +1,16 @@
-//import { Module } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-//import {NoticiaService} from "./noticia/noticia.service";
-//import { TypeOrmModule } from '@nestjs/typeorm';
-//import {NoticiaEntity} from "./noticia/noticia-entity";
+import {NoticiaService} from "./noticia/noticia.service";
+import { TypeOrmModule } from '@nestjs/typeorm';
+import {NoticiaEntity} from "./noticia/noticia-entity";
 import {NoticiaModule} from "./noticia/noticia.module";
 import {PaginaEntity} from "./pagina/pagina.entity";
 import {ArticuloEntity} from "./articulo/articulo.entity";
 import {UsuarioEntity} from "./usuario/usuario.entity";
 import {UsuarioModule} from "./usuario/usuario.module";
+import {} from '@nestjs/common';
 
-import {Module} from '@nestjs/common';
-import {TypeModule} from '@nestjs/typeorm';
 
 
 @Module({
@@ -44,7 +43,4 @@ import {TypeModule} from '@nestjs/typeorm';
         AppService
     ],      // Van los Servicios
 })
-
-
-
 export class AppModule {}
