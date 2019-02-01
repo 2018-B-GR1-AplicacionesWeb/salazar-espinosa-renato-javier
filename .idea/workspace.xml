@@ -30,18 +30,8 @@
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/login.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10-http/textiles/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/publico/bootstrap/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/header.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/librerias.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/templates/perfil-usuario.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Niko_Proyect/telas/packaje.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-http/videos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-http/videos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-http/videos/publico/sistema-grilla.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/publico/sistema-grilla.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-http/videos/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -130,7 +120,7 @@
           <entry key="gitignore" value="151" />
           <entry key="html" value="1099" />
           <entry key="js" value="18038" />
-          <entry key="json" value="99" />
+          <entry key="json" value="102" />
           <entry key="md" value="19" />
           <entry key="ts" value="16373" />
           <entry key="txt" value="408" />
@@ -141,7 +131,7 @@
           <entry key="CSS" value="137" />
           <entry key="EJS" value="3011" />
           <entry key="HTML" value="1099" />
-          <entry key="JSON" value="99" />
+          <entry key="JSON" value="102" />
           <entry key="JavaScript" value="18038" />
           <entry key="PLAIN_TEXT" value="578" />
           <entry key="TypeScript" value="16373" />
@@ -156,7 +146,7 @@
           <entry key="gitignore" value="17" />
           <entry key="html" value="5" />
           <entry key="js" value="109" />
-          <entry key="json" value="51" />
+          <entry key="json" value="52" />
           <entry key="md" value="4" />
           <entry key="medicinas" value="1" />
           <entry key="prettierrc" value="1" />
@@ -169,7 +159,7 @@
           <entry key="CSS" value="15" />
           <entry key="EJS" value="21" />
           <entry key="HTML" value="5" />
-          <entry key="JSON" value="46" />
+          <entry key="JSON" value="47" />
           <entry key="JavaScript" value="109" />
           <entry key="PLAIN_TEXT" value="44" />
           <entry key="TypeScript" value="203" />
@@ -304,7 +294,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.controller.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.module.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.service.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.controller.ts" />
@@ -355,6 +344,7 @@
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/inicio.ejs" />
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/templates/perfil-usuario.ejs" />
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/crear-noticia.ejs" />
+        <option value="$PROJECT_DIR$/12-Niko_Proyect/telas/packaje.json" />
       </list>
     </option>
   </component>
@@ -384,8 +374,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="266" />
-    <option name="y" value="96" />
+    <option name="x" value="337" />
+    <option name="y" value="51" />
     <option name="width" value="1569" />
     <option name="height" value="1040" />
   </component>
@@ -401,6 +391,22 @@
             <path>
               <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="12-Niko_Proyect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -451,19 +457,19 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\publico\bootstrap" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\src\noticia" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto\Data" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\publico\bootstrap" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\src\noticia" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -594,15 +600,15 @@
       <workItem from="1548345077817" duration="603000" />
       <workItem from="1548685990749" duration="3889000" />
       <workItem from="1548824833030" duration="2427000" />
-      <workItem from="1549055160658" duration="235000" />
+      <workItem from="1549055160658" duration="2153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409460000" />
+    <option name="totallyTimeSpent" value="411345000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="213" y="77" width="1255" height="832" extended-state="0" />
+    <frame x="270" y="41" width="1255" height="832" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -616,7 +622,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23342176" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41246685" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.33026317" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -639,13 +645,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/articulo/articulo.controller.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -908,6 +907,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/publico/bootstrap/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Niko_Proyect/telas/packaje.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/publico/bootstrap/css/bootstrap-grid.css">
