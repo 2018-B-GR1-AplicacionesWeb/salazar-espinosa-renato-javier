@@ -13,14 +13,14 @@ async function bootstrap() {
 
     app.use(
         session ({
-        secret:'No sera de tomar un traguito',
-        resave: false,
-        saveUninitialized: true,
-        cookie: {secure: false},
-        name:'server-session-id',
-        store: new FileStore()
-    })
-);
+            secret:'No sera de tomar un traguito',
+            resave: false,
+            saveUninitialized: true,
+            cookie: {secure: false},
+            name:'server-session-id',
+            store: new FileStore()
+        })
+    );
 
     app.use(cookieParser(
         'me gustan los tacos', // secreto

@@ -11,6 +11,7 @@ import {
     Body,
     Head, UnauthorizedException, Req, Res, Session
 } from '@nestjs/common';
+
 import {AppService} from './app.service';
 import {Observable, of} from "rxjs";
 import {Request, Response} from "express";
@@ -20,6 +21,7 @@ import {UsuarioService} from "./usuario/usuario.service";
 @Controller()  //decoradores
 // Controller('usuario')
 // http://localhost:3000/usuario
+
 export class AppController {
 
 
@@ -58,6 +60,7 @@ export class AppController {
 
     @Post('adiosMundo') // url
     adiosMundoPOST(
+
         @Res() response,
     ) {
         response.render(

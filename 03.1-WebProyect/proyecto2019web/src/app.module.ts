@@ -9,6 +9,8 @@ import {PaginaEntity} from "./pagina/pagina.entity";
 import {ArticuloEntity} from "./articulo/articulo.entity";
 import {UsuarioEntity} from "./usuario/usuario.entity";
 import {UsuarioModule} from "./usuario/usuario.module";
+import {} from '@nestjs/common';
+
 
 
 @Module({
