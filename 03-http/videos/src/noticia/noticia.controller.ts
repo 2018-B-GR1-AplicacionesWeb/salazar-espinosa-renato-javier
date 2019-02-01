@@ -28,6 +28,15 @@ export class NoticiaController {
             switch (accion) {
                 case 'borrar':
                     mensaje = `Registro ${titulo} eliminado`;
+                 //   clase='alert alert-danger';
+                    break;
+                case 'actualizar':
+                    mensaje = `Registro ${titulo} actualizado`;
+
+                 //   clase='alert alert-info';
+                    break;
+                case 'crear':
+                    mensaje = `Registro ${titulo} creado`;
             }
         }
     //   const noticias = await this._noticiaService.buscar();
@@ -67,7 +76,8 @@ export class NoticiaController {
                 usuario: 'Adrian',
                 arreglo: noticias, // AQUI!
                 booleano: false,
-                mensaje: mensaje
+                mensaje: mensaje,
+              //  class:clase
             }
         );
     }
@@ -76,15 +86,13 @@ export class NoticiaController {
     async eliminar(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
+        @Body() noticia:Noticia
     ) {
 
-        const noticia = await this._noticiaService.buscarPorId(+idNoticia);
-
+        noticia.id=+noticia;
         await this._noticiaService.eliminar(Number(idNoticia));
 
-        const parametrosConsulta = `?accion=borrar&titulo=${
-            noticia.titulo
-            }`;
+        const parametrosConsulta = `?accion=borrar&titulo=${noticia.titulo}`;
 
         response.redirect('/noticia/inicio' + parametrosConsulta)
     }
@@ -103,7 +111,11 @@ export class NoticiaController {
         @Res() response,
         @Body() noticia: Noticia
     ) {
-        const respuesta = await this._noticiaService.crear(noticia);
+
+
+       const respuesta = `?accion=crear&titulo=${noticia.titulo}`;
+
+       // const respuesta = await this._noticiaService.crear(noticia);
         console.log(respuesta);
 
         response.redirect(
