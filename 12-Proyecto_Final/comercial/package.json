@@ -1,8 +1,8 @@
 {
-  "name": "comercio",
+  "name": "comercial",
   "version": "0.0.0",
   "description": "description",
-  "author": "javier salazar",
+  "author": "Javier Salazar",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
