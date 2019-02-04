@@ -30,26 +30,13 @@
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/login.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10-http/textiles/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Proyecto_Final/comercial/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/nodemon-debug.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/nodemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/telas/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/comercial/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/12-Proyecto_Final/comercial/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/comercial/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/12-Proyecto_Final/comercial/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -135,12 +122,12 @@
         <counts>
           <entry key="css" value="137" />
           <entry key="ejs" value="3011" />
-          <entry key="gitignore" value="151" />
+          <entry key="gitignore" value="163" />
           <entry key="html" value="1099" />
           <entry key="js" value="18038" />
           <entry key="json" value="102" />
           <entry key="md" value="19" />
-          <entry key="ts" value="16373" />
+          <entry key="ts" value="19225" />
           <entry key="txt" value="408" />
         </counts>
       </usages-collector>
@@ -151,8 +138,8 @@
           <entry key="HTML" value="1099" />
           <entry key="JSON" value="102" />
           <entry key="JavaScript" value="18038" />
-          <entry key="PLAIN_TEXT" value="578" />
-          <entry key="TypeScript" value="16373" />
+          <entry key="PLAIN_TEXT" value="590" />
+          <entry key="TypeScript" value="19225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -161,14 +148,14 @@
           <entry key="NODEJS" value="1" />
           <entry key="css" value="15" />
           <entry key="ejs" value="22" />
-          <entry key="gitignore" value="18" />
+          <entry key="gitignore" value="20" />
           <entry key="html" value="5" />
           <entry key="js" value="109" />
-          <entry key="json" value="54" />
+          <entry key="json" value="61" />
           <entry key="md" value="4" />
           <entry key="medicinas" value="1" />
           <entry key="prettierrc" value="1" />
-          <entry key="ts" value="212" />
+          <entry key="ts" value="220" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
@@ -177,10 +164,10 @@
           <entry key="CSS" value="15" />
           <entry key="EJS" value="22" />
           <entry key="HTML" value="5" />
-          <entry key="JSON" value="49" />
+          <entry key="JSON" value="56" />
           <entry key="JavaScript" value="109" />
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="TypeScript" value="212" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="TypeScript" value="220" />
           <entry key="tsconfig" value="6" />
         </counts>
       </usages-collector>
@@ -192,7 +179,79 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="e#0#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="46" />
+              <folding>
+                <element signature="e#136#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -208,13 +267,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>promise</find>
-      <find>Promise</find>
-      <find>inicializarBDD</find>
-      <find>medicina</find>
-      <find>respuestaBDD</find>
-      <find>medic</find>
-      <find>Medicina</find>
       <find>inici</find>
       <find>Entity</find>
       <find>res</find>
@@ -238,19 +290,21 @@
       <find>table</find>
       <find>exist</find>
       <find>nav</find>
+      <find>this.se</find>
+      <find>cooki</find>
+      <find>coo</find>
+      <find>expre</find>
+      <find>Request</find>
+      <find>secret</find>
+      <find>secreto</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/03-http/videos" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/12-Proyecto_Final/comercial" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.service.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.controller.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.module.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.service.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.entity.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia-entity.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.module.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.entity.ts" />
@@ -297,6 +351,11 @@
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/views/crear-noticia.ejs" />
         <option value="$PROJECT_DIR$/12-Niko_Proyect/telas/packaje.json" />
         <option value="$PROJECT_DIR$/12-Proyecto_Final/telas/package.json" />
+        <option value="$PROJECT_DIR$/12-Proyecto_Final/comercial/.gitignore" />
+        <option value="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.service.ts" />
+        <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/main.ts" />
+        <option value="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.ts" />
       </list>
     </option>
   </component>
@@ -328,10 +387,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="492" />
-    <option name="y" value="12" />
-    <option name="width" value="1249" />
-    <option name="height" value="1040" />
+    <option name="x" value="557" />
+    <option name="y" value="42" />
+    <option name="width" value="1618" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -397,6 +456,32 @@
               <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
               <item name="03-http" type="462c0819:PsiDirectoryNode" />
               <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="12-Proyecto_Final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="12-Proyecto_Final" type="462c0819:PsiDirectoryNode" />
+              <item name="comercial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="12-Proyecto_Final" type="462c0819:PsiDirectoryNode" />
+              <item name="comercial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -562,31 +647,41 @@
       <workItem from="1548685990749" duration="3889000" />
       <workItem from="1548824833030" duration="2427000" />
       <workItem from="1549055160658" duration="5624000" />
-      <workItem from="1549140713362" duration="2946000" />
+      <workItem from="1549140713362" duration="34607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417762000" />
+    <option name="totallyTimeSpent" value="449423000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="10" width="999" height="832" extended-state="0" />
+    <frame x="770" y="15" width="1294" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.28838176" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.15806195" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30526316" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4868421" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4867021" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.124668434" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32845744" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2989276" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.33026317" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -606,66 +701,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/noticia/noticia.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/publico/sistema-grilla.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia/noticia.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/pagina/pagina.controller.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/pagina/pagina.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -682,9 +723,6 @@
           <caret line="137" column="32" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia/dto/create-noticia.dto.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -804,15 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/publico/bootstrap/css/animate.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -887,6 +916,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#136#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
