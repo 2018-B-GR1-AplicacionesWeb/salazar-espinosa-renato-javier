@@ -31,6 +31,7 @@
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/login.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10-http/textiles/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/12-Proyecto_Final/comercial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -117,7 +118,7 @@
         <counts>
           <entry key="css" value="137" />
           <entry key="ejs" value="3011" />
-          <entry key="gitignore" value="163" />
+          <entry key="gitignore" value="175" />
           <entry key="html" value="1099" />
           <entry key="js" value="18038" />
           <entry key="json" value="102" />
@@ -133,7 +134,7 @@
           <entry key="HTML" value="1099" />
           <entry key="JSON" value="102" />
           <entry key="JavaScript" value="18038" />
-          <entry key="PLAIN_TEXT" value="590" />
+          <entry key="PLAIN_TEXT" value="602" />
           <entry key="TypeScript" value="19526" />
         </counts>
       </usages-collector>
@@ -143,7 +144,7 @@
           <entry key="NODEJS" value="1" />
           <entry key="css" value="15" />
           <entry key="ejs" value="22" />
-          <entry key="gitignore" value="20" />
+          <entry key="gitignore" value="22" />
           <entry key="html" value="5" />
           <entry key="js" value="109" />
           <entry key="json" value="61" />
@@ -161,7 +162,7 @@
           <entry key="HTML" value="5" />
           <entry key="JSON" value="56" />
           <entry key="JavaScript" value="109" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="PLAIN_TEXT" value="49" />
           <entry key="TypeScript" value="222" />
           <entry key="tsconfig" value="6" />
         </counts>
@@ -187,13 +188,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="381">
               <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -308,7 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.module.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto2/main.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/views/login.ts" />
@@ -359,6 +373,7 @@
         <option value="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/usuario/usuario.entity.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/.gitignore" />
       </list>
     </option>
   </component>
@@ -391,7 +406,7 @@
       <path value="$PROJECT_DIR$/Proyecto/medi/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="165" />
     <option name="y" value="18" />
     <option name="width" value="1620" />
@@ -424,21 +439,6 @@
             <path>
               <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
               <item name="12-Proyecto_Final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -451,13 +451,6 @@
               <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
               <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
               <item name="examen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="examen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -508,19 +501,19 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\publico\bootstrap" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\src\noticia" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto\Data" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\publico\bootstrap" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\src\noticia" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -654,12 +647,12 @@
       <workItem from="1549055160658" duration="5624000" />
       <workItem from="1549140713362" duration="34747000" />
       <workItem from="1549291018238" duration="3816000" />
-      <workItem from="1549382865731" duration="1394000" />
+      <workItem from="1549382865731" duration="1706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454773000" />
+    <option name="totallyTimeSpent" value="455085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,7 +664,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="15" width="1296" height="824" extended-state="1" />
+    <frame x="132" y="15" width="1296" height="824" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -713,9 +706,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -892,9 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.spec.ts" />
     <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -972,6 +959,16 @@
           <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
