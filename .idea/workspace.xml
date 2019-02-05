@@ -31,11 +31,6 @@
       <change afterPath="$PROJECT_DIR$/03-http/videos/views/login.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10-http/textiles/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/12-Proyecto_Final/comercial/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-Proyecto/03-http/videos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-Proyecto/03-http/videos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/usuario/usuario.entity.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -396,7 +391,7 @@
       <path value="$PROJECT_DIR$/Proyecto/medi/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="165" />
     <option name="y" value="18" />
     <option name="width" value="1620" />
@@ -414,6 +409,55 @@
             <path>
               <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="12-Proyecto_Final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="examen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="examen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -610,12 +654,12 @@
       <workItem from="1549055160658" duration="5624000" />
       <workItem from="1549140713362" duration="34747000" />
       <workItem from="1549291018238" duration="3816000" />
-      <workItem from="1549382865731" duration="962000" />
+      <workItem from="1549382865731" duration="1394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454341000" />
+    <option name="totallyTimeSpent" value="454773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,11 +671,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="15" width="1296" height="824" extended-state="0" />
+    <frame x="132" y="15" width="1296" height="824" extended-state="1" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.2371134" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.2371134" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30526316" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4867021" />
@@ -641,7 +685,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32845744" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2989276" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2989276" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
