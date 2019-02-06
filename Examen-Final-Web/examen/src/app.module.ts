@@ -18,7 +18,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
           port: 3306,
           database: 'sistemaoperativo',
           username: 'root',
-          password: 'David2985.',
+          password: 'javier',
           synchronize: true,
           dropSchema: true,
           entities: [
