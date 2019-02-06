@@ -38,5 +38,32 @@ export class AppController {
   {
     res.render('addroles');
   }
-
+  @Get('tablausuariosconrol')
+  LlamarVistatablausuariosconrol( 
+    @Res() res
+    )
+  {
+    res.render('tablausuariosconrol');
+  }
+  @Get('tablaeventos')
+  LlamarVistatablaeventos( 
+    @Res() res
+    )
+  {
+    res.render('tablaeventos');
+  }
+  @Get('registroSO')
+  LlamarVistaRegistrarSO( 
+    @Res() res
+    )
+  {
+    res.render('registroSO');
+  }
+  @Get('registroAplicacion')
+  LlamarVistaRegistraAplicacion( 
+    @Res() res
+    )
+  {
+    res.render('registroAplicacion');
+  }
 }
