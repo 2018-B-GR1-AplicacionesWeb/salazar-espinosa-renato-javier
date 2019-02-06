@@ -130,6 +130,19 @@ export class AppController {
 
     }
 
+    @Get('inicio')
+    inicio(@Res()response,
+    ) {
+        response.render('inicio',//priemrrenderizado
+            {
+                usuario: 'Javier',//segundo renderizado
+                arreglo:[1,2,3,4],
+                booleano:true
+            }
+        );
+
+    }
+
 }
 
 export interface Usuario {
