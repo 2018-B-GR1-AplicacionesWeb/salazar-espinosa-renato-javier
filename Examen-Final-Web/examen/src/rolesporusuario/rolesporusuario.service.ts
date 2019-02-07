@@ -1,8 +1,8 @@
-import {Injectable} from "@nestjs/common";
+import { Injectable } from "@nestjs/common";
 
 
-import {FindManyOptions, Repository} from "typeorm";
-import {InjectRepository} from '@nestjs/typeorm';
+import { FindManyOptions, Repository, FindOneOptions } from "typeorm";
+import { InjectRepository } from '@nestjs/typeorm';
 import { RolesporusuarioEntity } from "./rolesporusuario.entity";
 
 @Injectable()
@@ -13,10 +13,19 @@ export class RolesporusuarioService {
     ) {
     }
 
-    buscar(parametrosBusqueda?: FindManyOptions<RolesporusuarioEntity>)
-        : Promise<RolesporusuarioEntity[]> {
-        return this._rolesporusuarioRepository.find(parametrosBusqueda);
-    }
+    // async buscarRolesporusuario(usuario_id: number): Promise<RolesporusuarioEntity> {
+    //     console.log('RESPPUESTA DE SERVICIO', usuario_id)
+    //     const consulta: FindOneOptions<RolesporusuarioEntity> = {
+    //         where: {
+    //             usuarioUsuarioId: usuario_id
+    //         }
+    //     };
+
+    //     const respuesta = await this._rolesporusuarioRepository.findOne(consulta);
+        
+    //     return respuesta;
+
+    // }
 
     crear(rolesporusuriocrear: RolesporusuarioEntity): Promise<RolesporusuarioEntity> {
 
@@ -48,7 +57,7 @@ export class RolesporusuarioService {
 
     }
     buscarPorId(rolesporusurioid: number): Promise<RolesporusuarioEntity> {
-        
+
         return this._rolesporusuarioRepository.findOne(rolesporusurioid);
     }
 

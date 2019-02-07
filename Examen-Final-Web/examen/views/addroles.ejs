@@ -6,8 +6,17 @@
         <a class="nav-item nav-link" href="http://localhost:3000/register">Registrar usuario</a>
         <a class="nav-item nav-link" href="http://localhost:3000/login">Iniciar Sesión</a>
         <a class="nav-item nav-link" href="http://localhost:3000/addroles">Agregar Roles</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Tabla de  Roles</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Tabla de  Roles</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Tabla de  Eventos</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
       </nav>
+
+      <STYLE type="text/css">
+        h3 { 
+            text-align: center}
+       </STYLE>
+<h3>BIENVENIDO ADMNISTRADOR</h3>
 <div class="container">
     <div class="row">
         <div class="col-sm">
@@ -22,16 +31,16 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">id: <%= mensajeok.usuario_id%> </th>
                     </tr>
                     <tr>
-                        <td>nombre</td>
+                        <td>Nombre : <%= mensajeok.nombre%></td>
                     </tr>
                     <tr>
-                        <td>correo</td>
+                        <td>correo : <%= mensajeok.correo%></td>
                     </tr>
                     <tr>
-                        <td>fecha nacimiento</td>
+                        <td>fecha nacimiento : <%= mensajeok.fecha_nacimiento%></td>
                     </tr>
                 </tbody>
             </table>
@@ -40,23 +49,20 @@
             <br>
             <br>
             <br>
+            <strong>Roles</strong>
             <table class="table">
                 <thead class="bg-primary">
                     <tr>
-                        <th scope="col">Roles</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">Rol</th>
+                        <th scope="col">Usuario</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-
-
-                    </tr>
-                    <tr>
                         <td>Administrador</td>
-                    </tr>
-                    <tr>
-                        <td>Usuario</td>
+                        <td><%= mensajeok.nombre%></td>
                     </tr>
                 </tbody>
             </table>

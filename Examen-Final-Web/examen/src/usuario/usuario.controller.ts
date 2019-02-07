@@ -4,16 +4,17 @@ import { UsuarioEntity } from "./usuario.entity";
 import { UsuarioService } from "./usuario.service";
 import { validate } from "class-validator";
 import { UsuarioDto } from "./usuario.dto";
+import { RolesporusuarioService } from "src/rolesporusuario/rolesporusuario.service";
 
 @Controller('usuario')
 export class UsuarioController {
 
     constructor(
-        private userservice: UsuarioService
+        private userservice: UsuarioService,
+       
     ) {
 
     }
-
     @Post('ingresarusuario')
     async registrarusuarioController(
         @Body() usuario: UsuarioEntity,
@@ -42,8 +43,7 @@ export class UsuarioController {
             throw new BadRequestException('Parametros incorrectos')
         }
         else {
-            this.userservice.crear(usuarionuevo);
-            console.log('variable fecha naciemineto', usuario.fecha_nacimiento)
+            this.userservice.crear(usuarionuevo);            
             response.render(
                 'register',
                 {
@@ -67,12 +67,15 @@ export class UsuarioController {
         if (usuarioEncontrado) {
             const esPasswordCorrecto = usuarioEncontrado.password == password
             if (esPasswordCorrecto) {
-                response.render(
-                    'login',
+                // const rolporusuario=this.rolesporusuarioservice.buscarRolesporusuario(usuarioEncontrado.usuario_id);
+                // console.log('valores de respuesta',rolporusuario)
+                 response.render(
+                    'addroles',
                     {
                         mensajeok: usuarioEncontrado
     
                     });
+
                 return usuarioEncontrado;
             }
             else {
