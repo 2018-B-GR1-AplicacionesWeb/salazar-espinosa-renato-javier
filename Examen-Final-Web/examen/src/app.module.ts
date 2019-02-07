@@ -24,7 +24,7 @@ import { AplicacionEntity } from './aplicacion/aplication.entity';
           username: 'root',
           password: 'David2985.',
           synchronize: true,
-          dropSchema: true,
+          dropSchema: false,
           entities: [
             RolEntity,
             RolesporusuarioEntity,

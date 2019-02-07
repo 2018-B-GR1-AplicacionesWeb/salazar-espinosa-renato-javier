@@ -13,19 +13,19 @@ export class RolesporusuarioService {
     ) {
     }
 
-    // async buscarRolesporusuario(usuario_id: number): Promise<RolesporusuarioEntity> {
-    //     console.log('RESPPUESTA DE SERVICIO', usuario_id)
-    //     const consulta: FindOneOptions<RolesporusuarioEntity> = {
-    //         where: {
-    //             usuarioUsuarioId: usuario_id
-    //         }
-    //     };
+    async buscarRolesporusuario(usuario_id: number): Promise<RolesporusuarioEntity> {
+        console.log('RESPPUESTA DE SERVICIO', usuario_id)
+        const consulta: FindOneOptions<RolesporusuarioEntity> = {
+            where: {
+                usuario: usuario_id
+            }
+        };
 
-    //     const respuesta = await this._rolesporusuarioRepository.findOne(consulta);
-        
-    //     return respuesta;
+        const respuesta = await this._rolesporusuarioRepository.findOne(consulta);
+        console.log('RESPPUESTA ', respuesta)
+        return respuesta;
 
-    // }
+    }
 
     crear(rolesporusuriocrear: RolesporusuarioEntity): Promise<RolesporusuarioEntity> {
 

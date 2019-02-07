@@ -26,6 +26,8 @@
     "class-validator": "^0.9.1",
     "ejs": "^2.6.1",
     "mysql": "^2.16.0",
+    "primeicons": "^1.0.0",
+    "primeng": "^7.0.5",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "^6.2.2",

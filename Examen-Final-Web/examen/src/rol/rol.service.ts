@@ -1,9 +1,10 @@
 import {Injectable} from "@nestjs/common";
 
 
-import {FindManyOptions, Repository} from "typeorm";
+import {FindManyOptions, Repository, FindOneOptions} from "typeorm";
 import {InjectRepository} from '@nestjs/typeorm';
 import { RolEntity } from "./rol.entity";
+import { RolesporusuarioEntity } from "src/rolesporusuario/rolesporusuario.entity";
 
 @Injectable()
 export class RolService {
@@ -11,14 +12,15 @@ export class RolService {
     constructor(
         @InjectRepository(RolEntity)
         private readonly _rolRepository: Repository<RolEntity>,
+    
     ) {
     }
 
-    buscar(parametrosBusqueda?: FindManyOptions<RolEntity>)
-        : Promise<RolEntity[]> {
-        return this._rolRepository.find(parametrosBusqueda);
+    async findAll(consulta: any): Promise<RolEntity[]> {
+        return await this._rolRepository.find(
+                consulta
+        )
     }
-
     crear(rol: RolEntity): Promise<RolEntity> {
 
         // Metodo Create es como un CONSTRUCTOR de la ENTIDAD

@@ -24,7 +24,7 @@ export class UsuarioEntity {
 
     @OneToMany(
         type => RolesporusuarioEntity,  
-        pagina => pagina.rol
+        pagina => pagina.rolforenkey
     )
     paginas: RolesporusuarioEntity[];
 

@@ -15,9 +15,13 @@ export class UsuarioService {
     ) {
     }
 
-    buscar(parametrosBusqueda?: FindManyOptions<UsuarioEntity>)
-        : Promise<UsuarioEntity[]> {
+    buscar(parametrosBusqueda?: FindManyOptions<UsuarioEntity>): Promise<UsuarioEntity[]> {
         return this._usuarioRepository.find(parametrosBusqueda);
+    }
+    async findAll(consulta: any): Promise<UsuarioEntity[]> {
+        return await this._usuarioRepository.find(
+                consulta
+        )
     }
 
     crear(usurio: UsuarioDto): Promise<UsuarioEntity> {
@@ -40,6 +44,7 @@ export class UsuarioService {
 
         return this._usuarioRepository.remove(usuarioEliminar);
     }
+   
 
     actualizar(usuarioNuevo: UsuarioEntity): Promise<UsuarioEntity> {
 

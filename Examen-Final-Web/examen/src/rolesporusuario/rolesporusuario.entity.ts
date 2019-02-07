@@ -14,13 +14,13 @@ export class RolesporusuarioEntity {
         type => RolEntity,
         pagina => pagina.rol_id
     )
-    rol: RolEntity;
+    rolforenkey: RolEntity;
 
     @ManyToOne(
         type => UsuarioEntity,
         pagina => pagina.usuario_id
     )
-    usuario: UsuarioEntity;
+    usuarioforenkey: UsuarioEntity;
 
 
 }

@@ -1,22 +1,47 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
 
-      <nav class="nav nav-pills nav-justified">
-        <a class="nav-item nav-link active" href="http://localhost:3000/inicio">Inicio</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/register">Registrar usuario</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/login">Iniciar Sesión</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/addroles">Agregar Roles</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Tabla de  Roles</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Tabla de  Eventos</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
-      </nav>
+<nav class="nav nav-pills nav-justified">
+    <a class="nav-item nav-link active" href="http://localhost:3000/inicio">Inicio</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/register">Registrar usuario</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/login">Iniciar Sesión</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/addroles">Agregar Roles</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Tabla de Roles</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Tabla de Eventos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
+</nav>
 
-      <STYLE type="text/css">
-        h3 { 
-            text-align: center}
-       </STYLE>
+<STYLE type="text/css">
+    h3 {
+        text-align: center
+    }
+</STYLE>
+
+<% const existeMensaje = typeof mensajeerror !== "undefined" %>
+<% if(existeMensaje){ %>
+<div class="alert alert-danger" role="alert">
+    <p>Credenciales incorrectas</p>
+
+    <span>
+        <%= mensajeerror %></span>
+    <br>
+
+
+</div>
+<% } %>
+<% const existeMensajeok = typeof mensajeok !== "undefined" %>
+<% if(existeMensajeok){ %>
+<div class="alert alert-success" role="alert">
+    <p>Rol agregado</p>
+    <span>
+        <%= Object.values(mensajeok)%> </span>
+
+</div>
+<% } %>
+
 <h3>BIENVENIDO ADMNISTRADOR</h3>
+
 <div class="container">
     <div class="row">
         <div class="col-sm">
@@ -30,18 +55,30 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <% const usuario = typeof usuarioemitter !== "undefined" %>
+                    <% if(usuario){ %>
                     <tr>
-                        <th scope="row">id: <%= mensajeok.usuario_id%> </th>
+                        <th scope="row">id:
+                            <%= usuarioemitter.usuario_id %>
+                        </th>
                     </tr>
                     <tr>
-                        <td>Nombre : <%= mensajeok.nombre%></td>
+                        <td>Nombre :
+                            <%= usuarioemitter.nombre %>
+                        </td>
                     </tr>
                     <tr>
-                        <td>correo : <%= mensajeok.correo%></td>
+                        <td>correo :
+                            <%= usuarioemitter.correo %>
+                        </td>
                     </tr>
                     <tr>
-                        <td>fecha nacimiento : <%= mensajeok.fecha_nacimiento%></td>
+                        <td>fecha nacimiento :
+                            <%= usuarioemitter.fecha_nacimiento %>
+                        </td>
+
                     </tr>
+                    <% } %>
                 </tbody>
             </table>
         </div>
@@ -60,9 +97,14 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
+                        <td>1</td>
                         <td>Administrador</td>
-                        <td><%= mensajeok.nombre%></td>
+                        <td>
+                           
+                                <% if(usuario){ %>
+                                <%= usuarioemitter.nombre%>
+                                <% } %>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -71,17 +113,16 @@
             <br>
             <br>
             <br>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Roles
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-                <button type="button" class="btn btn-success">Añadir rol</button>
-            </div>
+            <form action="/rolesporusuario/ingresaRolporusuario" method="POST">
+                <label for="usuarioforenkey">Ingrese ID de usuario</label>
+                <input type="text" name="usuarioforenkey" placeholder="INGRESE ID DE USUARIO">
+                <!--AQUI MODIFICA PARA QUE SE LLENE CON EL LISTADO QUE TRAE ROLES-->
+                <select name="rolforenkey">
+                    <option value="1">Admnistrador</option>
+                    <option value="2">Usuario</option>
+                </select>
+                <label></label>
+                <button class="btn btn-success">Añadir rol</button>
+            </form>
         </div>
     </div>
