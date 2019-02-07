@@ -25,8 +25,4 @@ export class SOService {
         return this._SORepository.save(socreate);
 
     }
-
-    
-
-
 }

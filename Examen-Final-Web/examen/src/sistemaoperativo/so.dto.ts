@@ -6,23 +6,24 @@ export class SODto {
     so_id: number;
 
 
-    // @IsNotEmpty()
-    // @IsString()
+    @IsNotEmpty()
+    @IsString()
     nombre: string;
 
-    // @IsNotEmpty()
+    @IsNotEmpty()
     // @IsNumber()
-    versionApi: number;
+    versionApi: string;
 
-    // @IsNotEmpty()
+    @IsNotEmpty()
     fechalanzamiento: Date;
 
     // @IsNumber()
-    pesoenGigas: number
+    @IsNotEmpty()
+    pesoenGigas: string
 
 
-    // @IsNotEmpty()
-    instalado: boolean;
+    @IsNotEmpty()
+    instalado: string;
 
 
 }

@@ -18,11 +18,11 @@ export class SOController {
     ) {
         console.log('valores que llego al sistema operativo',sistemaoperativo)
         const sistemaoperativonuevo : SODto= new SODto();
-        sistemaoperativonuevo.so_id = sistemaoperativo.so_id;
+        sistemaoperativonuevo.nombre=sistemaoperativo.nombre;
         sistemaoperativonuevo.versionApi = sistemaoperativo.versionApi;
         sistemaoperativonuevo.pesoenGigas = sistemaoperativo.pesoenGigas;
         sistemaoperativonuevo.instalado= sistemaoperativo.instalado;
-        sistemaoperativonuevo.fechalanzamiento= sistemaoperativo.fechalanzamiento;
+        sistemaoperativonuevo.fechalanzamiento= new Date(sistemaoperativo.fechalanzamiento);
         
         console.log('valores a ingresa',sistemaoperativonuevo)
         const arregloErrores = await validate(sistemaoperativonuevo)

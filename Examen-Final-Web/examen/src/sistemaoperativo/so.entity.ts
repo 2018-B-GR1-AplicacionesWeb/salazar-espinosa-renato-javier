@@ -1,10 +1,8 @@
 import {Column, Entity, ManyToOne, PrimaryGeneratedColumn, OneToMany} from "typeorm";
-import { RolEntity } from "src/rol/rol.entity";
-import { RolesporusuarioEntity } from "src/rolesporusuario/rolesporusuario.entity";
 import { AplicacionEntity } from "src/aplicacion/aplication.entity";
 
 
-@Entity('so')
+@Entity('sistemaoperativo')
 export class SOEntity {
 
     @PrimaryGeneratedColumn()
@@ -14,16 +12,16 @@ export class SOEntity {
     nombre: string;
 
     @Column()
-    versionApi: number;
+    versionApi: string;
 
     @Column()
     fechalanzamiento: Date;
 
     @Column()
-    pesoenGigas: number;
+    pesoenGigas: string;
 
     @Column()
-    instalado: boolean;
+    instalado: string;
 
     @OneToMany(
         type => AplicacionEntity,  

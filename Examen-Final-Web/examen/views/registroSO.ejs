@@ -27,7 +27,7 @@
 <% const existeMensajeok = typeof mensajeok !== "undefined" %>
 <% if(existeMensajeok){ %>
 <div class="alert alert-success" role="alert">
-    <p>Usuario registrado con Éxito</p>
+    <p>Sistema operativo registrado con Éxito</p>
     <span>
         <%= Object.values(mensajeok)%> </span>
 
@@ -43,27 +43,27 @@
                     <div class="clearfix">
                         <h3>Ingreso sistema operativo</h3>
                         <div class="form-group">
-                            <label for="Inputname">Nombre</label>
-                            <input type="nombre" name="nombre" class="form-control" id="Inputname" placeholder="Ingrese nombre">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Ingrese nombre">
                         </div>
                         <div class="form-group">
                                 <label for="versionapi">Version API</label>
-                                <input type="text" class="form-control" name="versionApi" id="versionApi" aria-describedby="emailHelp"
+                                <input type="number" class="form-control" name="versionApi" id="versionApi" 
                                     placeholder="Ingrese version de API">
         
                         </div>
                         <div class="form-group">
-                                <label for="fecha_lanzamiento">Fecha lanzamiento</label>
+                                <label for="fechalanzamiento">Fecha lanzamiento</label>
                                 <input type="date" class="form-control" name="fechalanzamiento" value="2019-02-01">        
         
                         </div>
                         <div class="form-group">
-                                <label for="Inputfechanacimiento">Peso en gigas</label>
-                                <input type="number" class="form-control" name="pesoenGigas" value="2019-02-01">        
+                                <label for="pesoenGigas">Peso en gigas</label>
+                                <input type="number" class="form-control" name="pesoenGigas">        
                         </div>
                         <div class="form-group">
                                 <label for="Inputfechanacimiento">Instalado</label>
-                                <input type="checkbox" name="instalado" binary="true"><br>
+                                <input type="checkbox" name="instalado" values="1"><br>
                         </div>
                         <div class="form-group">
                                 <button type="submit" class="btn btn-primary">GUARDAR</button>

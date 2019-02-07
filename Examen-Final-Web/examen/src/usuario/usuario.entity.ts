@@ -1,5 +1,4 @@
 import {Column, Entity, ManyToOne, PrimaryGeneratedColumn, OneToMany} from "typeorm";
-import { RolEntity } from "src/rol/rol.entity";
 import { RolesporusuarioEntity } from "src/rolesporusuario/rolesporusuario.entity";
 
 
