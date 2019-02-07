@@ -2,35 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b183739-1ab3-498f-8787-50a94a233e25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03-http/videos/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/estilos-generales.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/publico/bootstrap/js/aplicaciones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/publico/ejemplo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/publico/sistema-grilla.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/articulo/articulo.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/noticia/dto/create-noticia.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/noticia/noticia-entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/views/crear-noticia.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/views/inicio.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-http/videos/views/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-http/textiles/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-Proyecto_Final/comercial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.entity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,9 +66,9 @@
     <session id="-2026311851">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="50" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="3" />
@@ -110,7 +92,7 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="9" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="75" />
+          <entry key="project.opened" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -122,7 +104,7 @@
           <entry key="js" value="18038" />
           <entry key="json" value="102" />
           <entry key="md" value="19" />
-          <entry key="ts" value="19526" />
+          <entry key="ts" value="19532" />
           <entry key="txt" value="408" />
         </counts>
       </usages-collector>
@@ -134,14 +116,14 @@
           <entry key="JSON" value="102" />
           <entry key="JavaScript" value="18038" />
           <entry key="PLAIN_TEXT" value="590" />
-          <entry key="TypeScript" value="19526" />
+          <entry key="TypeScript" value="19532" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="01-typescript" value="1" />
           <entry key="NODEJS" value="1" />
-          <entry key="css" value="15" />
+          <entry key="css" value="16" />
           <entry key="ejs" value="22" />
           <entry key="gitignore" value="20" />
           <entry key="html" value="5" />
@@ -150,79 +132,36 @@
           <entry key="md" value="4" />
           <entry key="medicinas" value="1" />
           <entry key="prettierrc" value="1" />
-          <entry key="ts" value="222" />
+          <entry key="ts" value="231" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="15" />
+          <entry key="CSS" value="16" />
           <entry key="EJS" value="22" />
           <entry key="HTML" value="5" />
           <entry key="JSON" value="56" />
           <entry key="JavaScript" value="109" />
           <entry key="PLAIN_TEXT" value="47" />
-          <entry key="TypeScript" value="222" />
+          <entry key="TypeScript" value="231" />
           <entry key="tsconfig" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="53" />
+          <entry key="TypeScriptServerServiceImpl" value="54" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1316">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="e#0#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/usuario/usuario.entity.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.service.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="224">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -231,24 +170,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.controller.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.module.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.service.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.entity.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.controller.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.entity.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.module.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.service.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.controller.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="35" />
+            <state>
               <folding>
-                <element signature="e#136#182#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -262,9 +228,9 @@
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="package.json" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -308,15 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.module.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/pagina/pagina.entity.ts" />
-        <option value="$PROJECT_DIR$/Proyecto2/main.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/views/login.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/views/login.ejs" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.entity.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.module.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/usuario/usuario.service.ts" />
-        <option value="$PROJECT_DIR$/03-http/videos/src/main.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/03-http/videos/js/aplicaciones.js" />
         <option value="$PROJECT_DIR$/03-http/videos/css/estilos.css" />
@@ -359,6 +316,15 @@
         <option value="$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts" />
         <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/usuario/usuario.entity.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.controller.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.module.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.service.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.entity.css" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.controller.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.entity.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.module.ts" />
+        <option value="$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.service.ts" />
       </list>
     </option>
   </component>
@@ -369,11 +335,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/03-http/videos/node_modules" />
-    <handled-path value="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/node_modules" />
-    <handled-path value="$PROJECT_DIR$/10-http/textiles/node_modules" />
-    <handled-path value="$PROJECT_DIR$/11-Proyecto/03-http/videos/node_modules" />
-    <handled-path value="$PROJECT_DIR$/12-Proyecto_Final/comercial/node_modules" />
     <handled-path value="$PROJECT_DIR$/Examen-Final-Web/examen/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
@@ -391,11 +352,11 @@
       <path value="$PROJECT_DIR$/Proyecto/medi/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="165" />
-    <option name="y" value="18" />
-    <option name="width" value="1620" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-157" />
+    <option name="y" value="32" />
+    <option name="width" value="1297" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -413,32 +374,6 @@
             <path>
               <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
-              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="03-http" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
               <item name="12-Proyecto_Final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -451,6 +386,20 @@
               <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
               <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
               <item name="examen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="examen" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen-Final-Web" type="462c0819:PsiDirectoryNode" />
+              <item name="examen" type="462c0819:PsiDirectoryNode" />
+              <item name="sistemaOperativo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
@@ -498,13 +447,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/03-http/videos/publico/bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\12-Proyecto_Final\comercial\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Examen-Final-Web\examen\node_modules\typescript\lib" />
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -655,11 +604,12 @@
       <workItem from="1549140713362" duration="34747000" />
       <workItem from="1549291018238" duration="3816000" />
       <workItem from="1549382865731" duration="1394000" />
+      <workItem from="1549482981792" duration="1222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454773000" />
+    <option name="totallyTimeSpent" value="455995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,11 +621,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="15" width="1296" height="824" extended-state="1" />
+    <frame x="-125" y="26" width="1037" height="659" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.2371134" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.2984032" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30526316" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4867021" />
@@ -685,7 +636,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32845744" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2989276" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.383821" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -710,71 +661,11 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/12-Proyecto_Final/telas/comercio" />
+      <path value="$PROJECT_DIR$/10-dominio/start" />
+      <path value="$PROJECT_DIR$/10-dominio/textiles" />
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia/noticia.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="137" column="32" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/noticia/dto/create-noticia.dto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/views/crear-noticia.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/estilos-generales.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/views/login.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/publico/sistema-grillas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-http/videos/publico/bootstrap/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-http/videos/views/inicio.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -968,8 +859,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="103">
           <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.controller.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.entity.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.controller.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.entity.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.controller.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
