@@ -34,7 +34,7 @@
 </div>
 <% } %>
 <div class="container">
-    <form action="/usuario/ingresarusuario" method="POST">
+    <form action="/sistemaoperativo/ingresoSO" method="POST">
         <div class="row">
             <div class="col-sm">
             </div>
@@ -48,22 +48,22 @@
                         </div>
                         <div class="form-group">
                                 <label for="versionapi">Version API</label>
-                                <input type="text" class="form-control" name="versionapi" id="versionapi" aria-describedby="emailHelp"
+                                <input type="text" class="form-control" name="versionApi" id="versionapi" aria-describedby="emailHelp"
                                     placeholder="Ingrese version de API">
         
                         </div>
                         <div class="form-group">
                                 <label for="fecha_lanzamiento">Fecha lanzamiento</label>
-                                <input type="date" class="form-control" name="fecha_lanzamiento" value="2019-02-01">        
+                                <input type="date" class="form-control" name="fechalanzamiento" value="2019-02-01">        
         
                         </div>
                         <div class="form-group">
                                 <label for="Inputfechanacimiento">Peso en gigas</label>
-                                <input type="number" class="form-control" name="pesogigas" value="2019-02-01">        
+                                <input type="number" class="form-control" name="pesoenGigas" value="2019-02-01">        
                         </div>
                         <div class="form-group">
                                 <label for="Inputfechanacimiento">Instalado</label>
-                                <input type="checkbox" name="instaladoso" value="Bike"><br>
+                                <input type="checkbox" name="instalado" binary="true"><br>
                         </div>
                         <div class="form-group">
                                 <button type="submit" class="btn btn-primary">GUARDAR</button>

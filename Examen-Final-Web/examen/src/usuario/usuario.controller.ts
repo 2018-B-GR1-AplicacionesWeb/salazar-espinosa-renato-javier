@@ -19,8 +19,8 @@ export class UsuarioController {
         @Body() usuario: UsuarioEntity,
         @Res() response,
     ) {
-        console.log('valor nombre', usuario.nombre)
-        console.log('valor nombre', usuario.fecha_nacimiento)
+        console.log('valor nombre', usuario)
+
         const usuarionuevo = new UsuarioDto();
         usuarionuevo.usuario_id = usuario.usuario_id;
         usuarionuevo.password = usuario.password;

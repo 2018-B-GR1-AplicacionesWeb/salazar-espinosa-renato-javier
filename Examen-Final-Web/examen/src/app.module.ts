@@ -8,6 +8,10 @@ import { RolesporusuarioModule } from './rolesporusuario/rolesporusurio.module';
 import { RolModule } from './rol/rol.module';
 import { UsuarioModule } from './usuario/usuario.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { SOModule } from './sistemaoperativo/so.module';
+import { AplicacionModule } from './aplicacion/aplication.module';
+import { SOEntity } from './sistemaoperativo/so.entity';
+import { AplicacionEntity } from './aplicacion/aplication.entity';
 
 @Module({
   imports: [
@@ -24,13 +28,17 @@ import { TypeOrmModule } from '@nestjs/typeorm';
           entities: [
             RolEntity,
             RolesporusuarioEntity,
-            UsuarioEntity
+            UsuarioEntity,
+            SOEntity,
+            AplicacionEntity
           ]
       }
   ),
   RolModule,
   RolesporusuarioModule,
-  UsuarioModule
+  UsuarioModule,
+  SOModule,
+  AplicacionModule
  
   ],
   controllers: [AppController],
