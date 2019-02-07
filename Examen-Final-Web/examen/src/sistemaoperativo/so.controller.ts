@@ -23,6 +23,7 @@ export class SOController {
         sistemaoperativonuevo.pesoenGigas = sistemaoperativo.pesoenGigas;
         sistemaoperativonuevo.instalado= sistemaoperativo.instalado;
         sistemaoperativonuevo.fechalanzamiento= sistemaoperativo.fechalanzamiento;
+        
         console.log('valores a ingresa',sistemaoperativonuevo)
         const arregloErrores = await validate(sistemaoperativonuevo)
         const existenErrores = arregloErrores.length > 0

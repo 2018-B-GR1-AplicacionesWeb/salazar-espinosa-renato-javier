@@ -22,7 +22,7 @@ import { AplicacionEntity } from './aplicacion/aplication.entity';
           port: 3306,
           database: 'sistemaoperativo',
           username: 'root',
-          password: 'javier',
+          password: 'David2985.',
           synchronize: true,
           dropSchema: true,
           entities: [

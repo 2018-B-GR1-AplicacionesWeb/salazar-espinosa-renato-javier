@@ -17,6 +17,9 @@ export class AplicacionEntity {
     version: number;
 
     @Column()
+    nombre: string;
+
+    @Column()
     urldescarga: string;
 
     @Column()
@@ -29,7 +32,7 @@ export class AplicacionEntity {
         type => SOEntity,
         aplicacion => aplicacion.so_id
     )
-    so: SOEntity;
+    so_id: SOEntity;
 
 
 }
