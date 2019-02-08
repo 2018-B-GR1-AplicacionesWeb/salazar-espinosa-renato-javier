@@ -6,6 +6,7 @@ import { validate } from "class-validator";
 import { UsuarioDto } from "./usuario.dto";
 import { RolesporusuarioService } from "src/rolesporusuario/rolesporusuario.service";
 import { RolService } from "src/rol/rol.service";
+import {Md5} from 'ts-md5/dist/md5';
 
 @Controller('usuario')
 export class UsuarioController {
@@ -46,6 +47,22 @@ export class UsuarioController {
             throw new BadRequestException('Parametros incorrectos')
         }
         else {
+            //const md5 = new Md5();
+            var CryptoJS = require("crypto-js");
+           // const encriptar = md5.appendStr(usuarionuevo.password).end();
+
+            const  ciphertext = CryptoJS.AES.encrypt(JSON.stringify(usuarionuevo.password), 'secret key 123');
+
+
+           // const ciphertext = CryptoJS.AES.encrypt('my message', 'secret key 123');
+           // console.log('valor encriptacion',encriptar)
+            usuarionuevo.password=ciphertext.toString();
+
+            const bytes  = CryptoJS.AES.decrypt(ciphertext.toString(), 'secret key 123');
+            const decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+
+            console.log("descencriptar",decryptedData);
+
             this.userservice.crear(usuarionuevo);
             response.render(
                 'register',
@@ -67,6 +84,10 @@ export class UsuarioController {
         console.log('valor de pasword', password)
         const usuarioEncontrado = await this.userservice.autenticar(correo, password);
 
+        let CryptoJS = require("crypto-js");
+        const bytes  = CryptoJS.AES.decrypt(usuarioEncontrado.password,'secret key 123');
+        const decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+        password=decryptedData;
         if (usuarioEncontrado) {
             const esPasswordCorrecto = usuarioEncontrado.password == password
             if (esPasswordCorrecto) {
