@@ -134,6 +134,33 @@ export class AppController {
 
       });
   }
+  @Get('actualizarAplicacion')
+  actualizaraplicacion( 
+    @Query('aplicacion_id') aplicacion_id: any,
+    @Query('pesoenGigas') pesoenGigas: any,
+    @Query('version') version: any,
+    @Query('nombre') nombre: any,
+    @Query('urldescarga') urldescarga: any,
+    @Query('fechalanzamiento') fechalanzamiento: any,
+    @Query('costo') costo: any,
+    @Res() res
+    )
+  {
+    console.log()
+    res.render(
+      'actualizarAplicacion',
+      {
+        aplicacion_id:aplicacion_id,
+        pesoenGigas:pesoenGigas,
+        version:version,
+        nombre:nombre,
+        urldescarga: urldescarga,
+        fechalanzamiento:fechalanzamiento,
+        costo:costo
+
+      });
+  }
+
 
 
 

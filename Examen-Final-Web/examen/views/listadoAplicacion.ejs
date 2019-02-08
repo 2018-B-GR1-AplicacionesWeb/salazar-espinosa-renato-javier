@@ -94,7 +94,7 @@
                             <%= aplicacion.costo %>
                         </td>
                         <td>
-                            <a href="http://localhost:3000/addroles" class="btn btn-primary" role="button" aria-pressed="true">Actualizar</a>
+                            <a href="http://localhost:3000/actualizarAplicacion?aplicacion_id=<%= aplicacion.aplicacion_id %>&pesoenGigas=<%= aplicacion.pesoenGigas %>&version=<%= aplicacion.version %>&nombre=<%= aplicacion.nombre %>&urldescarga=<%= aplicacion.urldescarga %>&costo=<%= aplicacion.costo %>&fechalanzamiento=<%= aplicacion.fechalanzamiento %>" class="btn btn-primary" role="button" aria-pressed="true">Actualizar</a>
                             <a href="http://localhost:3000/aplicacion/eliminaraplicacion?id=<%= aplicacion.aplicacion_id %>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
                         </td>
 
