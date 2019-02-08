@@ -2,6 +2,8 @@ import { Body, Controller, Get, Param, Post, Query, Res, BadRequestException } f
 import { SODto } from "./so.dto";
 import { validate } from "class-validator";
 import { SOService } from "./so.service";
+import { SOEntity } from "./so.entity";
+import { FindManyOptions, Like } from "typeorm";
 
 @Controller('sistemaoperativo')
 export class SOController {
@@ -49,6 +51,37 @@ export class SOController {
             return sistemaoperativonuevo;
         }
 
+    }
+    @Get('gettablasistemaoperativo')
+    async findAllsistemasoperativos(
+        @Query('busqueda') busqueda: any,
+        @Res() response
+        )  : Promise<SOEntity[]> {
+
+        let soArray: SOEntity[];
+        if (busqueda) {
+
+            const consulta: FindManyOptions<SOEntity> = {
+                where: [
+                    {
+                        nombre: Like(`%${busqueda}%`)
+                    }
+                ]
+            };
+
+            soArray = await this.soservice.buscar(consulta);
+
+        } else {
+            soArray = await this.soservice.buscar();
+        }
+        response.render(
+            'listadosSO',
+            {
+                arraysistemaoperativo: soArray
+
+            });
+
+        return soArray;
     }
 
 

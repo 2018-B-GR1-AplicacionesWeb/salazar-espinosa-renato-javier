@@ -66,7 +66,7 @@ export class UsuarioService {
         const consulta: FindOneOptions<UsuarioEntity> = {
             where: {
                 correo: correo,
-                password: password // password encriptado
+             
             }
         };
 

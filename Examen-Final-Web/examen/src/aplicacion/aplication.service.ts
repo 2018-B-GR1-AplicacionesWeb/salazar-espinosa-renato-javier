@@ -24,6 +24,9 @@ export class AplicacionService {
         return this._aplicacionRepository.save(aplicacioncreate);
 
     }
+    buscar(parametrosBusqueda?: FindManyOptions<AplicacionEntity>): Promise<AplicacionEntity[]> {
+        return this._aplicacionRepository.find(parametrosBusqueda);
+    }
 
 
 

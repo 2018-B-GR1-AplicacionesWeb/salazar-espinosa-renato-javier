@@ -1,7 +1,7 @@
 import {Column, Entity, ManyToOne, PrimaryGeneratedColumn, OneToMany} from "typeorm";
-import { RolEntity } from "src/rol/rol.entity";
-import { RolesporusuarioEntity } from "src/rolesporusuario/rolesporusuario.entity";
 import { SOEntity } from "src/sistemaoperativo/so.entity";
+import { EventoHijoEntity } from "src/eventosporhijo/eventohijo.entity";
+
 
 
 @Entity('aplicacion')
@@ -33,6 +33,13 @@ export class AplicacionEntity {
         aplicacion => aplicacion.so_id
     )
     so_id: SOEntity;
+
+    @ManyToOne(
+        type => EventoHijoEntity,
+        eventohijo => eventohijo.eventohijo_id
+    )
+    eventhijo_id: EventoHijoEntity;
+
 
 
 }

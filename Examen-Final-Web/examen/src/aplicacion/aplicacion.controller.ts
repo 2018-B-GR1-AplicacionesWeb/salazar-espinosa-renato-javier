@@ -53,6 +53,37 @@ export class AplicacionController {
         }
 
     }
+    @Get('gettablaAplication')
+    async findAllaplicacion(
+        @Query('busqueda') busqueda: any,
+        @Res() response
+        )  : Promise<AplicacionEntity[]> {
+
+        let appArray: AplicacionEntity[];
+        if (busqueda) {
+            const consulta: FindManyOptions<AplicacionEntity> = {
+                where: [
+                    {
+                        nombre: Like(`%${busqueda}%`)
+                    }
+                ]
+            };
+
+            appArray = await this.aplicacionservicio.buscar(consulta);
+
+        } else {
+            appArray = await this.aplicacionservicio.buscar();
+        }
+        response.render(
+            'listadoAplicacion',
+            {
+                arrayaplicacion: appArray
+
+            });
+
+        return appArray;
+    }
+
 
    
 }

@@ -16,22 +16,24 @@
 <% const existeMensaje = typeof mensajeerror !== "undefined" %>
 <% if(existeMensaje){ %>
     <div class="alert alert-danger" role="alert">
-            <p>Credenciales incorrectas</p>
+            <p>Mensaje Error</p>
          
                 <span><%= mensajeerror %></span>
                 <br>
+          
+           
       </div>
 <% } %>
 <% const existeMensajeok = typeof mensajeok !== "undefined" %>
 <% if(existeMensajeok){ %>
     <div class="alert alert-success" role="alert">
-            <p>Eliminado con exito</p>
+            <p>Mensaje</p>
             <span> <%= Object.values(mensajeok)%> </span>
            
       </div>
 <% } %>
 <div class="container">
-    <form action="/usuario/gettablausuarios" method="GET">
+    <form action="/aplicacion/gettablaAplication" method="GET">
         <div class="row">
             <div class="col-sm-1">
                 <strong>
@@ -48,8 +50,7 @@
     </form>
 </div>
 <br>
-<% const existearray = typeof arrayusuarios !== "undefined" %>
-
+<% const existearray = typeof arrayaplicacion !== "undefined" %>
 <div class="container">
     <div class="row">
         <div class="col-sm-1"></div>
@@ -57,29 +58,44 @@
             <table class="table">
                 <thead class="bg-primary">
                     <tr>
-                        <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">Nombre</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Correo</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Fecha Nacimiento</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Acciones</th>
+                        <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">ID Aplicacion</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">pesoenGigas</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">version</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">nombre</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">urldescarga</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">fechalanzamiento</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">costo</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Accion</th>
                     </tr>
                 </thead>
                 <tbody>
                     <% if(existearray){ %>
-                    <% arrayusuarios.forEach( (user)=> { %>
+                    <% arrayaplicacion.forEach( (aplicacion)=> { %>
                     <tr>
                         <th scope="row">
-                            <%= user.usuario_id %>
+                            <%= aplicacion.aplicacion_id %>
                         </th>
                         <td>
-                            <%= user.correo %>
+                            <%= aplicacion.pesoenGigas %>
                         </td>
                         <td>
-                            <%= user.fecha_nacimiento %>
+                            <%= aplicacion.version %>
+                        </td>
+                        <td>
+                            <%= aplicacion.nombre %>
+                        </td>
+                        <td>
+                            <%= aplicacion.urldescarga %>
+                        </td>
+                        <td>
+                            <%= aplicacion.fechalanzamiento %>
+                        </td>
+                        <td>
+                            <%= aplicacion.costo %>
                         </td>
                         <td>
                             <a href="http://localhost:3000/addroles" class="btn btn-primary" role="button" aria-pressed="true">Actualizar</a>
-                            <a href="http://localhost:3000/usuario/eliminarusuario?id=<%= user.usuario_id %>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
-      
+                            <a href="http://localhost:3000/usuario/eliminarusuario?id=<%= aplicacion.aplicacion_id %>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
                         </td>
 
                     </tr>

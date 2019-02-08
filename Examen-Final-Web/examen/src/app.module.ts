@@ -12,6 +12,11 @@ import { SOModule } from './sistemaoperativo/so.module';
 import { AplicacionModule } from './aplicacion/aplication.module';
 import { SOEntity } from './sistemaoperativo/so.entity';
 import { AplicacionEntity } from './aplicacion/aplication.entity';
+import { EventoModule } from './eventos/eventos.module';
+import { EventoHijoModule } from './eventosporhijo/eventohijo.module';
+import { EventoEntity } from './eventos/eventos.entity';
+import { EventoHijoEntity } from './eventosporhijo/eventohijo.entity';
+
 
 @Module({
   imports: [
@@ -22,7 +27,7 @@ import { AplicacionEntity } from './aplicacion/aplication.entity';
           port: 3306,
           database: 'sistemaoperativo',
           username: 'root',
-          password: 'javier',
+          password: 'David2985.',
           synchronize: true,
           dropSchema: false,
           entities: [
@@ -30,7 +35,9 @@ import { AplicacionEntity } from './aplicacion/aplication.entity';
             RolesporusuarioEntity,
             UsuarioEntity,
             SOEntity,
-            AplicacionEntity
+            AplicacionEntity,
+            EventoEntity,
+            EventoHijoEntity
           ]
       }
   ),
@@ -38,10 +45,14 @@ import { AplicacionEntity } from './aplicacion/aplication.entity';
   RolesporusuarioModule,
   UsuarioModule,
   SOModule,
-  AplicacionModule
+  AplicacionModule,
+  EventoModule,
+  EventoHijoModule
  
   ],
   controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
+
+

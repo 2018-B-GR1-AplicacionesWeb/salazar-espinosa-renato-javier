@@ -25,6 +25,9 @@ export class SOService {
         return this._SORepository.save(socreate);
 
     }
+    buscar(parametrosBusqueda?: FindManyOptions<SOEntity>): Promise<SOEntity[]> {
+        return this._SORepository.find(parametrosBusqueda);
+    }
 
 
 }

@@ -14,7 +14,7 @@ export class RolesporusuarioService {
     }
 
     async buscarRolesporusuario(usuario_id: number): Promise<RolesporusuarioEntity> {
-        console.log('RESPPUESTA DE SERVICIO', usuario_id)
+        console.log('ID RECIBIDO', usuario_id)
         const consulta: FindOneOptions<RolesporusuarioEntity> = {
             where: {
                 usuario: usuario_id
@@ -56,9 +56,9 @@ export class RolesporusuarioService {
         return this._rolesporusuarioRepository.save(rolesporusuarioUpdate);
 
     }
-    buscarPorId(rolesporusurioid: number): Promise<RolesporusuarioEntity> {
+    buscarPorId(rolesporusurioipd: number): Promise<RolesporusuarioEntity> {
 
-        return this._rolesporusuarioRepository.findOne(rolesporusurioid);
+        return this._rolesporusuarioRepository.findOne(rolesporusurioipd);
     }
 
 

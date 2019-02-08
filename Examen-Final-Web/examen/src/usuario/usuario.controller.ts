@@ -80,20 +80,23 @@ export class UsuarioController {
         @Body('password') password: string,
         @Res() response
     ): Promise<UsuarioEntity> {
+        let CryptoJS = require("crypto-js");
         console.log('valor de correo', correo)
         console.log('valor de pasword', password)
-        const usuarioEncontrado = await this.userservice.autenticar(correo, password);
-
-        let CryptoJS = require("crypto-js");
+        const  ciphertext = CryptoJS.AES.encrypt(JSON.stringify(password), 'secret key 123');
+        console.log('valor encriptado',ciphertext.toString())
+        const usuarioEncontrado = await this.userservice.autenticar(correo,null);
+        console.log('usuario encontrado ',usuarioEncontrado)
+       
         const bytes  = CryptoJS.AES.decrypt(usuarioEncontrado.password,'secret key 123');
         const decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
-        password=decryptedData;
+        usuarioEncontrado.password=decryptedData;
         if (usuarioEncontrado) {
             const esPasswordCorrecto = usuarioEncontrado.password == password
             if (esPasswordCorrecto) {
                 this.rolesporusuarioservice.buscarRolesporusuario(usuarioEncontrado.usuario_id).then(
                     rest => {
-                        console.log('valores de respuesta', rest.usuarioforenkey);
+                        console.log('valores de buscarRolesporusuario', rest);
                         this.rolservice.findAll(null).then(
                             restroles => {
                                 console.log('valor de respuesta combo', restroles)
@@ -147,7 +150,6 @@ export class UsuarioController {
 
 
     }
-
     @Get('gettablausuarios')
     async findAllusuarios(
         @Query('busqueda') busqueda: any,

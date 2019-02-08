@@ -66,4 +66,27 @@ export class AppController {
   {
     res.render('registroAplicacion');
   }
+  @Get('llamartablaeventos')
+  LlamarTablaEventos( 
+    @Res() res
+    )
+  {
+    res.render('tablaeventos');
+  }
+  @Get('llamareventos')
+  LlamarTablaEventosHijo( 
+    @Res() res
+    )
+  {
+    res.render('listadosSO');
+  }
+  @Get('llamartablaaplicacion')
+  llamartablaaplicacion( 
+    @Res() res
+    )
+  {
+    res.render('listadoAplicacion');
+  }
+
+ 
 }
