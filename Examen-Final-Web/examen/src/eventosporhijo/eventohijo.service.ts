@@ -17,11 +17,23 @@ export class EventoHijoService {
     
     ) {
     }
+ 
+    buscar(parametrosBusqueda?: FindManyOptions<EventoHijoEntity>): Promise<EventoHijoEntity[]> {
+        console.log('valor que llega a servicio',parametrosBusqueda)
+        return this._eventohijoRepository.find(parametrosBusqueda);
+    }
 
     async findAll(consulta: any): Promise<EventoHijoEntity[]> {
-        return await this._eventohijoRepository.find(
-                consulta
-        )
+        console.log('valor que llega a servicio',consulta)
+        const consulta2: FindManyOptions<EventoHijoEntity> = {
+            where: [
+                {
+                    eventohijo_id: consulta
+                }
+            ]
+        };
+
+        return await this._eventohijoRepository.find(consulta2)
     }
     crear(eventoparametro: EventoHijoEntity): Promise<EventoHijoEntity> {
 
@@ -33,7 +45,6 @@ export class EventoHijoService {
         return this._eventohijoRepository.save(eventocreate);
 
     }
-
 
 
 }

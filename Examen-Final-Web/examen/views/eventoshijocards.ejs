@@ -11,7 +11,44 @@
     <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
     <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
     <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Tabla sistema operativos</a>
-    <a class="nav-item nav-link" href="http://localhost:3000/llamartablaaplicacion">Tabla sistema aplicacion</a>
-    <a class="nav-item nav-link" href="http://localhost:3000/llamarlistadoeventoshijo">Tabla sistema aplicacion</a>
-    
 </nav>
+
+<% const existeMensaje = typeof mensajeerror !== "undefined" %>
+<% if(existeMensaje){ %>
+<div class="alert alert-danger" role="alert">
+    <p>Credenciales incorrectas</p>
+
+    <span>
+        <%= mensajeerror %></span>
+    <br>
+
+
+</div>
+<% } %>
+<% const existeMensajeok = typeof mensajeok !== "undefined" %>
+<% if(existeMensajeok){ %>
+<div class="alert alert-success" role="alert">
+    <p>Bienvenido</p>
+    <span>
+        <%= Object.values(mensajeok)%> </span>
+
+</div>
+<% } %>
+
+<% const existearray = typeof arrayEventoshijo !== "undefined" %>
+<% if(existearray){ %>
+<% arrayEventoshijo.forEach( (eventoshijo)=> { %>
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title"><%= eventoshijo.eventohijo_id %></h5>
+        <p class="card-text">hola</p>
+        <a href="#" class="card-link">Boton</a>
+
+    </div>
+</div>
+
+
+<% }) %>
+<% }%>

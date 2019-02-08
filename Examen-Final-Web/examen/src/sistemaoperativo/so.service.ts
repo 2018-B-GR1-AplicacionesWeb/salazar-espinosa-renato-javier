@@ -28,6 +28,19 @@ export class SOService {
     buscar(parametrosBusqueda?: FindManyOptions<SOEntity>): Promise<SOEntity[]> {
         return this._SORepository.find(parametrosBusqueda);
     }
+    buscarPorId(usurioid: number): Promise<SOEntity> {
+        return this._SORepository.findOne(usurioid);
+    }
+
+    eliminar(SO_iddelete: number): Promise<SOEntity> {
+
+        const usuarioEliminar: SOEntity = this._SORepository
+            .create({
+                so_id: SO_iddelete
+            });
+
+        return this._SORepository.remove(usuarioEliminar);
+    }
 
 
 }

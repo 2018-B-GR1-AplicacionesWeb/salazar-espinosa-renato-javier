@@ -4,7 +4,7 @@ import { EventoEntity } from "src/eventos/eventos.entity";
 
 
 
-@Entity('eventohijo')
+@Entity('eventosporhijo')
 export class EventoHijoEntity {
 
     @PrimaryGeneratedColumn()

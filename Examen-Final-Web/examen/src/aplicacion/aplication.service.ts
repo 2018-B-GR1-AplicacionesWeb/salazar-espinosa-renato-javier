@@ -27,6 +27,19 @@ export class AplicacionService {
     buscar(parametrosBusqueda?: FindManyOptions<AplicacionEntity>): Promise<AplicacionEntity[]> {
         return this._aplicacionRepository.find(parametrosBusqueda);
     }
+    buscarPorId(usurioid: number): Promise<AplicacionEntity> {
+        return this._aplicacionRepository.findOne(usurioid);
+    }
+
+    eliminar(aplicacion_iddelete: number): Promise<AplicacionEntity> {
+
+        const usuarioEliminar: AplicacionEntity = this._aplicacionRepository
+            .create({
+                aplicacion_id: aplicacion_iddelete
+            });
+
+        return this._aplicacionRepository.remove(usuarioEliminar);
+    }
 
 
 

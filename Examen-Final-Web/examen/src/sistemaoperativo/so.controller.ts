@@ -83,6 +83,35 @@ export class SOController {
 
         return soArray;
     }
+    @Get('eliminarSO')
+    async eliminarSO(
+        @Query('id') id: number,
+        @Res() response
+        ): Promise<SOEntity> {
+        const SOEncontrado = await this.soservice.buscarPorId(id)
+        console.log('valor que llega metodo eliminar usuario ',id)
+        console.log('valor de usuario encontrado',SOEncontrado)
+        if (SOEncontrado) {
+            response.render(
+                'register',
+                {
+                    mensajeok: SOEncontrado
+
+                });
+
+            return await this.soservice.eliminar(id)
+        }
+        else {
+            response.render(
+                'login',
+                {
+                    mensajeerror: 'NO ELIMINA POR PROBLEMAS DE DEPENDENCIAS'
+
+                });
+            throw new BadRequestException('Aplicacion no existe')
+        }
+    }
+
 
 
 }

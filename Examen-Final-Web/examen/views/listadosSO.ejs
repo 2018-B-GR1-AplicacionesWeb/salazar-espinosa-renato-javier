@@ -59,6 +59,7 @@
             <table class="table">
                 <thead class="bg-primary">
                     <tr>
+                        <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">ID Sistema operativo</th>
                         <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">Nombre</th>
                         <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Version API</th>
                         <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Fecha lanzamiento</th>
@@ -91,7 +92,7 @@
                         </td>
                         <td>
                             <a href="http://localhost:3000/addroles" class="btn btn-primary" role="button" aria-pressed="true">Actualizar</a>
-                            <a href="http://localhost:3000/usuario/eliminarusuario?id=<%= sistemaoperativo.usuario_id %>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
+                            <a href="http://localhost:3000/sistemaoperativo/eliminarSO?id=<%= sistemaoperativo.usuario_id %>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
       
                         </td>
                     </tr>

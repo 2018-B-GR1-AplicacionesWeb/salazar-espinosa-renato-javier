@@ -32,6 +32,10 @@ export class EventoService {
         return this._eventoRepository.save(eventocreate);
 
     }
+    buscar(parametrosBusqueda?: FindManyOptions<EventoEntity>): Promise<EventoEntity[]> {
+        return this._eventoRepository.find(parametrosBusqueda);
+    }
+
 
 
 

@@ -83,6 +83,34 @@ export class AplicacionController {
 
         return appArray;
     }
+    @Get('eliminaraplicacion')
+    async eliminarusuario(
+        @Query('id') id: number,
+        @Res() response
+        ): Promise<AplicacionEntity> {
+        const aplicacionEncontrado = await this.aplicacionservicio.buscarPorId(id)
+        console.log('valor que llega metodo eliminar usuario ',id)
+        console.log('valor de usuario encontrado',aplicacionEncontrado)
+        if (aplicacionEncontrado) {
+            response.render(
+                'register',
+                {
+                    mensajeok: aplicacionEncontrado
+
+                });
+
+            return await this.aplicacionservicio.eliminar(id)
+        }
+        else {
+            response.render(
+                'login',
+                {
+                    mensajeerror: 'NO ELIMINA POR PROBLEMAS DE DEPENDENCIAS'
+
+                });
+            throw new BadRequestException('Aplicacion no existe')
+        }
+    }
 
 
    

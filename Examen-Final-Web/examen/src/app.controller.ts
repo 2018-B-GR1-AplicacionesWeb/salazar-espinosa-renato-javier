@@ -87,6 +87,22 @@ export class AppController {
   {
     res.render('listadoAplicacion');
   }
+  @Get('llamareventohijocard')
+  llamareventohijocard( 
+    @Res() res
+    )
+  {
+    res.render('eventoshijocards');
+  }
+
+  @Get('llamarlistadoeventoshijo')
+  llamarlistadoeventohijo( 
+    @Res() res
+    )
+  {
+    res.render('listadoeventoshijo');
+  }
+
 
  
 }

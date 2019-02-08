@@ -9,7 +9,7 @@
     <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Tabla de Roles</a>
     <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Tabla de Eventos</a>
     <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
-    <a class="nav-item nav-link" href="http://localhost:3000/registroeventos">Registro eventos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
     <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Tabla sistema operativos</a>
 </nav>
 <br>
@@ -33,7 +33,7 @@
       </div>
 <% } %>
 <div class="container">
-    <form action="/eventos/gettablaEventos" method="GET">
+    <form action="/eventosporhijo/gettablaEventoshijo" method="GET">
         <div class="row">
             <div class="col-sm-1">
                 <strong>
@@ -50,7 +50,8 @@
     </form>
 </div>
 <br>
-<% const existearray = typeof arrayEventos !== "undefined" %>
+<% const existearray = typeof arrayEventoshijo !== "undefined" %>
+
 <div class="container">
     <div class="row">
         <div class="col-sm-1"></div>
@@ -58,41 +59,28 @@
             <table class="table">
                 <thead class="bg-primary">
                     <tr>
+                        <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">ID evento hijo</th>
                         <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">ID evento</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Nombre evento</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Fecha nacimiento</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Latitud</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Longitud</th>
-                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Accion</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">ID Aplicacion</th>
+                     
                     </tr>
                 </thead>
                 <tbody>
                     <% if(existearray){ %>
-                    <% arrayEventos.forEach( (eventos)=> { %>
+                    <% arrayEventoshijo.forEach((eventoshijo)=> { %>
                     <tr>
                         <th scope="row">
-                            <%= eventos.event_id %>
+                            <%=eventoshijo.eventohijo_id %>
                         </th>
                         <td>
-                            <%= eventos.nombre %>
+                            <%=eventoshijo.eventforenkey %>
                         </td>
                         <td>
-                            <%= eventos.fecha %>
+                            <%=eventoshijo.aplicacionforenkey %>
                         </td>
-                        <td>
-                            <%= eventos.latitud %>
-                        </td>
-                        <td>
-                            <%= eventos.longitud %>
-                        </td>
-                        <td>
-                            <a href="http://localhost:3000/eventosporhijo/geteventbyid?id=<%= eventos.event_id %>" class="btn btn-primary" role="button" aria-pressed="true">Ver</a>
-                            
-                        </td>
-
                     </tr>
                     <% }) %>
-                    <% }%>
+                    <% }%> 
                 </tbody>
             </table>
         </div>
