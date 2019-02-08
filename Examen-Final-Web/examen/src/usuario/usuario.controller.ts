@@ -7,6 +7,7 @@ import { UsuarioDto } from "./usuario.dto";
 import { RolesporusuarioService } from "src/rolesporusuario/rolesporusuario.service";
 import { RolService } from "src/rol/rol.service";
 import {Md5} from 'ts-md5/dist/md5';
+import { RolEntity } from "src/rol/rol.entity";
 
 @Controller('usuario')
 export class UsuarioController {
@@ -94,35 +95,31 @@ export class UsuarioController {
         if (usuarioEncontrado) {
             const esPasswordCorrecto = usuarioEncontrado.password == password
             if (esPasswordCorrecto) {
+                let valorescombo:RolEntity[]=[];
                 this.rolesporusuarioservice.buscarRolesporusuario(usuarioEncontrado.usuario_id).then(
                     rest => {
                         console.log('valores de buscarRolesporusuario', rest);
                         this.rolservice.findAll(null).then(
                             restroles => {
+                                valorescombo=restroles;
+                                console.log('valores restroles',valorescombo)
                                 console.log('valor de respuesta combo', restroles)
-                                // response.render(
-                                //     'addroles',
-                                //     {
-                                //         arregloroles: restroles
 
-                                //     });
-
-
-                            }
+                                response.render(
+                                    'addroles',
+                                    {
+                                        usuarioemitter: usuarioEncontrado,
+                                        arregloroles:valorescombo
+                
+                                    });
+                               }
                         );
 
                     }, error => {
                         throw error;
                     }
                 );
-
-                response.render(
-                    'addroles',
-                    {
-                        usuarioemitter: usuarioEncontrado
-
-                    });
-
+        
                 return usuarioEncontrado;
             }
             else {

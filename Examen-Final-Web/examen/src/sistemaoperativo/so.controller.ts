@@ -112,6 +112,22 @@ export class SOController {
         }
     }
 
+    @Post('actualizarsistemaoperativo')
+    async  update(
+        @Param() id: number,
+        @Body() SO: SOEntity
+    ): Promise<SOEntity> {
+        const usuarioEncontrado = await this.soservice.findById(id)
+        if (usuarioEncontrado) {
+           
+                return this.soservice.update(id, SO)
+       
+        }else{
+            throw new BadRequestException('Error en actualizacion')
+        }
+
+    }
+
 
 
 }

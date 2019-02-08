@@ -17,8 +17,9 @@ export class RolesporusuarioService {
         console.log('ID RECIBIDO', usuario_id)
         const consulta: FindOneOptions<RolesporusuarioEntity> = {
             where: {
-                usuario: usuario_id
-            }
+                usuarioforenkey: usuario_id
+            },
+          
         };
 
         const respuesta = await this._rolesporusuarioRepository.findOne(consulta);

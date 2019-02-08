@@ -1,4 +1,4 @@
-import { Controller, Get, Res } from '@nestjs/common';
+import { Controller, Get, Res, Query } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -102,6 +102,39 @@ export class AppController {
   {
     res.render('listadoeventoshijo');
   }
+
+  @Get('registroevento')
+  registrarevento( 
+    @Res() res
+    )
+  {
+    res.render('crearEvento');
+  }
+  @Get('actualizarSO')
+  actualizarso( 
+    @Query('id') id: any,
+    @Query('nombre') nombre: any,
+    @Query('versionApi') versionApi: any,
+    @Query('fechalanzamiento') fechalanzamiento: any,
+    @Query('pesoenGigas') pesoenGigas: any,
+    @Query('instalado') instalado: any,
+    @Res() res
+    )
+  {
+    console.log()
+    res.render(
+      'actualizarSO',
+      {
+        id:id,
+        nombre:nombre,
+        versionApi:versionApi,
+        fechalanzamiento: fechalanzamiento,
+        pesoenGigas:pesoenGigas,
+        instalado:instalado
+
+      });
+  }
+
 
 
  

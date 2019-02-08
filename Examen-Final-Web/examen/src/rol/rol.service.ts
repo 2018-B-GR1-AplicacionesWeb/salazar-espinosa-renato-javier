@@ -17,9 +17,7 @@ export class RolService {
     }
 
     async findAll(consulta: any): Promise<RolEntity[]> {
-        return await this._rolRepository.find(
-                consulta
-        )
+        return await this._rolRepository.find()
     }
     crear(rol: RolEntity): Promise<RolEntity> {
 

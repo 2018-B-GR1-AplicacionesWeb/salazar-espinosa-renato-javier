@@ -102,10 +102,9 @@
                         <td>1</td>
                         <td>Administrador</td>
                         <td>
-                           
-                                <% if(usuario){ %>
-                                <%= usuarioemitter.nombre%>
-                                <% } %>
+                            <% if(usuario){ %>
+                            <%= usuarioemitter.nombre%>
+                            <% } %>
                         </td>
                     </tr>
                 </tbody>
@@ -120,8 +119,13 @@
                 <input type="text" name="usuarioforenkey" placeholder="INGRESE ID DE USUARIO">
                 <!--AQUI MODIFICA PARA QUE SE LLENE CON EL LISTADO QUE TRAE ROLES-->
                 <select name="rolforenkey">
-                    <option value="1">Admnistrador</option>
-                    <option value="2">Usuario</option>
+                        <% const existearray = typeof arregloroles !== "undefined" %>
+                        <% if(existearray){ %>
+                        <% arregloroles.forEach( (rol)=> { %>
+                            <option value="<%= rol.nombre %>"> <%= rol.nombre %></option>
+                      
+                        <% }) %>
+                        <% }%>
                 </select>
                 <label></label>
                 <button class="btn btn-success">Añadir rol</button>

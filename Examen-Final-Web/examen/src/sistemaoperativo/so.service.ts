@@ -41,6 +41,13 @@ export class SOService {
 
         return this._SORepository.remove(usuarioEliminar);
     }
+    async update(id: number, so: SOEntity): Promise<SOEntity> {
+        await this._SORepository.update(id, so)
+        return await this.findById(id)
+    }
+    async findById(id: number): Promise<SOEntity> {
+        return await this._SORepository.findOne(id)
+    }
 
 
 }

@@ -48,7 +48,7 @@ export class EventoHijoController {
     }
     @Get('gettablaEventoshijo')
     async findAllEvent(
-        @Query('busqueda') busqueda: any,
+        @Query('busqueda') busqueda: number,
         @Res() response
         )  : Promise<EventoHijoEntity[]> {
           
@@ -56,11 +56,10 @@ export class EventoHijoController {
         
         if (busqueda) {
             const consulta: FindManyOptions<EventoHijoEntity> = {
-                where: [
-                    {
-                        eventohijo_id: busqueda
-                    }
-                ]
+                where: {
+                    eventohijo_id: busqueda
+                },
+   
             };
 
             eventosArrayhijo = await this._eventoService.buscar(consulta);

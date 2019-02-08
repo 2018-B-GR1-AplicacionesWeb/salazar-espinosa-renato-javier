@@ -4,6 +4,8 @@ import {TypeOrmModule} from '@nestjs/typeorm';
 import { EventoHijoEntity } from "./eventohijo.entity";
 import { EventoHijoController } from "./eventohijo.controller";
 import { EventoHijoService } from "./eventohijo.service";
+import { AplicacionEntity } from "src/aplicacion/aplication.entity";
+import { EventoEntity } from "src/eventos/eventos.entity";
 
 
 @Module(
@@ -12,7 +14,9 @@ import { EventoHijoService } from "./eventohijo.service";
             TypeOrmModule
                 .forFeature(
                     [
-                        EventoHijoEntity
+                        EventoHijoEntity,
+                        AplicacionEntity,
+                        EventoEntity
                     ])
         ],
         controllers: [

@@ -35,6 +35,19 @@ export class EventoService {
     buscar(parametrosBusqueda?: FindManyOptions<EventoEntity>): Promise<EventoEntity[]> {
         return this._eventoRepository.find(parametrosBusqueda);
     }
+    buscarPorId(usurioid: number): Promise<EventoEntity> {
+        return this._eventoRepository.findOne(usurioid);
+    }
+    eliminar(event_iddelete: number): Promise<EventoEntity> {
+
+        const usuarioEliminar: EventoEntity = this._eventoRepository
+            .create({
+                event_id: event_iddelete
+            });
+
+        return this._eventoRepository.remove(usuarioEliminar);
+    }
+
 
 
 

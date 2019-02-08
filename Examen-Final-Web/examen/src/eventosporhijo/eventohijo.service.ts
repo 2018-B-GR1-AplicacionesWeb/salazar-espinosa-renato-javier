@@ -32,7 +32,6 @@ export class EventoHijoService {
                 }
             ]
         };
-
         return await this._eventohijoRepository.find(consulta2)
     }
     crear(eventoparametro: EventoHijoEntity): Promise<EventoHijoEntity> {

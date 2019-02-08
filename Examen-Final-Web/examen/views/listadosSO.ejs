@@ -91,7 +91,7 @@
                             <%= sistemaoperativo.instalado %>
                         </td>
                         <td>
-                            <a href="http://localhost:3000/addroles" class="btn btn-primary" role="button" aria-pressed="true">Actualizar</a>
+                            <a href="http://localhost:3000/actualizarSO?id=<%= sistemaoperativo.so_id %>&nombre=<%= sistemaoperativo.nombre %>&versionApi=<%= sistemaoperativo.versionApi %>&pesoenGigas=<%= sistemaoperativo.pesoenGigas %>&instalado=<%= sistemaoperativo.instalado %>&fechalanzamiento=<%= sistemaoperativo.fechalanzamiento %>" class="btn btn-primary" role="button" aria-pressed="true">Actualizar</a>
                             <a href="http://localhost:3000/sistemaoperativo/eliminarSO?id=<%= sistemaoperativo.usuario_id %>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
       
                         </td>
