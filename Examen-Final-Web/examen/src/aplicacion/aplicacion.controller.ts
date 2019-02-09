@@ -93,7 +93,7 @@ export class AplicacionController {
         console.log('valor de usuario encontrado',aplicacionEncontrado)
         if (aplicacionEncontrado) {
             response.render(
-                'register',
+                'listadoAplicacion',
                 {
                     mensajeok: aplicacionEncontrado
 
@@ -103,7 +103,7 @@ export class AplicacionController {
         }
         else {
             response.render(
-                'login',
+                'listadoAplicacion',
                 {
                     mensajeerror: 'NO ELIMINA POR PROBLEMAS DE DEPENDENCIAS'
 

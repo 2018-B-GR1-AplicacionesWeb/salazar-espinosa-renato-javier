@@ -93,7 +93,7 @@ export class SOController {
         console.log('valor de usuario encontrado',SOEncontrado)
         if (SOEncontrado) {
             response.render(
-                'register',
+                'listadosSO',
                 {
                     mensajeok: SOEncontrado
 
@@ -103,7 +103,7 @@ export class SOController {
         }
         else {
             response.render(
-                'login',
+                'listadosSO',
                 {
                     mensajeerror: 'NO ELIMINA POR PROBLEMAS DE DEPENDENCIAS'
 
