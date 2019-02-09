@@ -18,7 +18,7 @@ export class RolesporusuarioEntity {
 
     @ManyToOne(
         type => UsuarioEntity,
-        pagina => pagina.usuario_id
+        pagina => pagina.usuario_id,{eager: true}
     )
     usuarioforenkey: UsuarioEntity;
 
