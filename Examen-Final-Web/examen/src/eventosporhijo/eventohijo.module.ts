@@ -6,6 +6,8 @@ import { EventoHijoController } from "./eventohijo.controller";
 import { EventoHijoService } from "./eventohijo.service";
 import { AplicacionEntity } from "src/aplicacion/aplication.entity";
 import { EventoEntity } from "src/eventos/eventos.entity";
+import { AplicacionService } from "src/aplicacion/aplication.service";
+import { EventoService } from "src/eventos/eventos.service";
 
 
 @Module(
@@ -23,7 +25,9 @@ import { EventoEntity } from "src/eventos/eventos.entity";
             EventoHijoController
         ],
         providers: [
-            EventoHijoService
+            EventoHijoService,
+            AplicacionService,
+            EventoService
         ],
         exports: [
           

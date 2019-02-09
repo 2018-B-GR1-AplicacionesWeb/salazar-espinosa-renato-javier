@@ -160,6 +160,13 @@ export class AppController {
 
       });
   }
+  // @Get('registroeventohijo')
+  // registroeventohijo( 
+  //   @Res() res
+  //   )
+  // {
+  //   res.render('creareventoshijo');
+  // }
 
 
 

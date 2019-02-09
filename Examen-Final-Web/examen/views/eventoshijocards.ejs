@@ -2,14 +2,15 @@
     crossorigin="anonymous">
 
 <nav class="nav nav-pills nav-justified">
-        <a class="nav-item nav-link" href="http://localhost:3000/addroles">Añadir  Roles</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Lista Usuarios</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Lista de Eventos</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Lista sistema operativos</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/llamartablaaplicacion">Lista aplicacion</a>
-        <a class="nav-item nav-link" href="http://localhost:3000/registroevento">Registro eventos</a> 
+    <a class="nav-item nav-link" href="http://localhost:3000/addroles">Añadir Roles</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Lista Usuarios</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Lista de Eventos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Lista sistema operativos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/llamartablaaplicacion">Lista aplicacion</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroevento">Registro eventos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/eventosporhijo/registroeventohijo">Registro eventos HIJO</a>
 </nav>
 
 <% const existeMensaje = typeof mensajeerror !== "undefined" %>
@@ -36,18 +37,44 @@
 
 <% const existearray = typeof arrayEventoshijo !== "undefined" %>
 <% if(existearray){ %>
+    <div class="container">
+            <div class="row">
 <% arrayEventoshijo.forEach( (eventoshijo)=> { %>
 
-
-<div class="card" style="width: 18rem;">
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
     <div class="card-body">
-        <h5 class="card-title"><%= eventoshijo.eventohijo_id %></h5>
-        <p class="card-text">hola</p>
-        <a href="#" class="card-link">Boton</a>
+        <h5 class="card-title">
+            <%= eventoshijo.aplicacionforenkey.nombre %>
+        </h5>
+
+        <p>ID:
+            <%= eventoshijo.aplicacionforenkey.aplicacion_id %>
+        </p>
+        <p>Nombre:
+            <%= eventoshijo.aplicacionforenkey.nombre %>
+        </p>
+        <p>Version:
+            <%= eventoshijo.aplicacionforenkey.version %>
+        </p>
+        <p>Peso en gigas
+            <%= eventoshijo.aplicacionforenkey.pesoenGigas %>
+        </p>
+        <p>Url descarga :
+            <%= eventoshijo.aplicacionforenkey.urldescarga %>
+        </p>
+        <p>Fecha de lanzamineto :
+            <%= eventoshijo.aplicacionforenkey.fechalanzamiento %>
+        </p>
+        <p>Costo :
+            <%= eventoshijo.aplicacionforenkey.costo %>
+        </p>
 
     </div>
 </div>
 
 
 <% }) %>
+</div>
+</div>
 <% }%>
