@@ -109,7 +109,8 @@ export class UsuarioController {
                                     'addroles',
                                     {
                                         usuarioemitter: usuarioEncontrado,
-                                        arregloroles:valorescombo
+                                        arregloroles:valorescombo,
+                                        arreglorolesporusuario:rest
                 
                                     });
                                }
@@ -146,6 +147,45 @@ export class UsuarioController {
         }
 
 
+    }
+    @Get('listarrolesporusuario')
+    async listarrolesporusuario( 
+        @Query('id') usuarioid: any,
+        @Res() response
+        )   {
+console.log('------------------------------->metodo listar usuarios',usuarioid)
+            let valorescombo:RolEntity[]=[];
+            this.userservice.buscarPorId(usuarioid).then(
+                restuser=>{
+                    this.rolesporusuarioservice.buscarRolesporusuario(usuarioid).then(
+                        rest => {
+                            // console.log('valores de buscarRolesporusuario', rest);
+                            this.rolservice.findAll(null).then(
+                                restroles => {
+                                    valorescombo=restroles;
+                                    // console.log('valores restroles',valorescombo)
+                                    // console.log('valor de respuesta combo', restroles)
+        
+                                    response.render(
+                                        'addroles',
+                                        {
+                                            usuarioemitter:restuser,
+                                            arregloroles:valorescombo,
+                                            arreglorolesporusuario:rest
+                    
+                                        });
+                                   }
+                            );
+        
+                        }, error => {
+                            throw error;
+                        }
+                    );
+                console.log('valores de usuario',restuser)
+            },error=>{
+                throw error;
+            })
+         
     }
     @Get('gettablausuarios')
     async findAllusuarios(

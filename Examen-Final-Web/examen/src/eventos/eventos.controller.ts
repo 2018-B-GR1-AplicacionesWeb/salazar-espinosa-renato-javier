@@ -82,8 +82,6 @@ export class EventoController {
         eventoEventos.longitud=eventoparametro.longitud;
         eventoEventos.latitud=eventoparametro.latitud;
         eventoEventos.fecha=eventoparametro.fecha;
-
-
         const arregloErrores = await validate(eventoEventos)
         const existenErrores = arregloErrores.length > 0
         console.log(arregloErrores)

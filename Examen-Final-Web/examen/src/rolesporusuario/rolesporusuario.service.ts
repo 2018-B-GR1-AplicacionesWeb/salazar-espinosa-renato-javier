@@ -13,17 +13,18 @@ export class RolesporusuarioService {
     ) {
     }
 
-    async buscarRolesporusuario(usuario_id: number): Promise<RolesporusuarioEntity> {
+    async buscarRolesporusuario(usuario_id: number): Promise<RolesporusuarioEntity[]> {
         console.log('ID RECIBIDO', usuario_id)
         const consulta: FindOneOptions<RolesporusuarioEntity> = {
             where: {
                 usuarioforenkey: usuario_id
             },
+            relations:['rolforenkey']
           
         };
 
-        const respuesta = await this._rolesporusuarioRepository.findOne(consulta);
-        console.log('RESPPUESTA ', respuesta)
+        const respuesta = await this._rolesporusuarioRepository.find(consulta);
+       
         return respuesta;
 
     }

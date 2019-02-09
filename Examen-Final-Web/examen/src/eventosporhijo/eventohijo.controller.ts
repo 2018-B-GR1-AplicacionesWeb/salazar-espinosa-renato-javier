@@ -57,7 +57,7 @@ export class EventoHijoController {
         if (busqueda) {
             const consulta: FindManyOptions<EventoHijoEntity> = {
                 where: {
-                    eventohijo_id: busqueda
+                    "eventohijo_id": busqueda
                 },
    
             };
