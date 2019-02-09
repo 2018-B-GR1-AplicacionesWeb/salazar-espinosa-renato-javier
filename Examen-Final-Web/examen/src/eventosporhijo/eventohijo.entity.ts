@@ -17,7 +17,7 @@ export class EventoHijoEntity {
     eventforenkey: EventoEntity;
     @ManyToOne(
         type => AplicacionEntity,
-        pagina => pagina.aplicacion_id
+        pagina => pagina.aplicacion_id,{eager: true}
     )
     aplicacionforenkey: AplicacionEntity;
 

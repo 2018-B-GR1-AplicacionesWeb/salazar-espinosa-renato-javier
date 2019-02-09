@@ -231,7 +231,7 @@ console.log('------------------------------->metodo listar usuarios',usuarioid)
         console.log('valor de usuario encontrado',usuarioEncontrado)
         if (usuarioEncontrado) {
             response.render(
-                'register',
+                'tablausuariosconrol',
                 {
                     mensajeok: usuarioEncontrado
 
@@ -241,7 +241,7 @@ console.log('------------------------------->metodo listar usuarios',usuarioid)
         }
         else {
             response.render(
-                'login',
+                'tablausuariosconrol',
                 {
                     mensajeerror: 'NO ELIMINA POR PROBLEMAS DE DEPENDENCIAS'
 

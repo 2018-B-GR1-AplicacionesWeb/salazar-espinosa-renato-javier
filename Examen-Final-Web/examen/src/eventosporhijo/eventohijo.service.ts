@@ -18,21 +18,34 @@ export class EventoHijoService {
     ) {
     }
  
-    buscar(parametrosBusqueda?: FindManyOptions<EventoHijoEntity>): Promise<EventoHijoEntity[]> {
-        console.log('valor que llega a servicio',parametrosBusqueda)
+    async buscar(parametrosBusqueda: number): Promise<EventoHijoEntity[]> {
+        
+        const consultaevento: FindOneOptions<EventoHijoEntity> = {
+            where: {
+                eventforenkey: parametrosBusqueda
+            },
+            relations:['aplicacionforenkey']
+        };
+        const respuesta = await this._eventohijoRepository.find(consultaevento);
+       
+        return respuesta;
+    
+    }
+    buscarall(parametrosBusqueda?: FindManyOptions<EventoHijoEntity>): Promise<EventoHijoEntity[]> {
         return this._eventohijoRepository.find(parametrosBusqueda);
     }
 
-    async findAll(consulta: any): Promise<EventoHijoEntity[]> {
+    async findAll(consulta: number): Promise<EventoHijoEntity[]> {
         console.log('valor que llega a servicio',consulta)
         const consulta2: FindManyOptions<EventoHijoEntity> = {
-            where: [
-                {
-                    eventohijo_id: consulta
-                }
-            ]
+            where: {
+                eventforenkey: consulta
+            },
+            relations:['aplicacionforenkey']
         };
-        return await this._eventohijoRepository.find(consulta2)
+        const respuesta = await this._eventohijoRepository.find(consulta2);
+       
+        return respuesta;
     }
     crear(eventoparametro: EventoHijoEntity): Promise<EventoHijoEntity> {
 

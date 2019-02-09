@@ -12,70 +12,58 @@ export class EventoHijoController {
         private readonly _eventoService:EventoHijoService ) {
 
     }
+ 
     @Get('geteventbyid')
     async findOne(
         @Query('id') id,
         @Res() response
-    ): Promise<EventoHijoEntity[]> {
-        const consultaevento: FindManyOptions<EventoHijoEntity> = {
-            where: [
-                {
-                    eventohijo_id: id
-                }
-            ]
-        };
-        const eventoshijosarray = await this._eventoService.buscar(consultaevento)
-        console.log('valores de eventos',eventoshijosarray)
-        if (eventoshijosarray) {
-
-            response.render(
-                'eventoshijocards',
-                {
-                    arrayEventoshijo: eventoshijosarray
-    
-                });
-            return eventoshijosarray;
-        }
-        else {
-            response.render(
-                'eventoshijocards',
-                {
-                    mensajeerror: "Evento hijo no existe"
-    
-                });
-            throw new BadRequestException('Eventos hijo no existe')
-        }
-    }
-    @Get('gettablaEventoshijo')
-    async findAllEvent(
-        @Query('busqueda') busqueda: number,
-        @Res() response
-        )  : Promise<EventoHijoEntity[]> {
-          
-        let eventosArrayhijo: EventoHijoEntity[];
+    ) {
+        console.log('evento get evento hijo por id',id)
+        this._eventoService.buscar(id).then(
+            rest=>{
+                console.log('valor resultado promesa rest',rest)
+                response.render(
+                    'eventoshijocards',
+                    {
+                        arrayEventoshijo: rest
         
-        if (busqueda) {
-            const consulta: FindManyOptions<EventoHijoEntity> = {
-                where: {
-                    "eventohijo_id": busqueda
-                },
-   
-            };
-
-            eventosArrayhijo = await this._eventoService.buscar(consulta);
-
-        } else {
-            eventosArrayhijo = await this._eventoService.buscar();
-        }
-        response.render(
-            'listadoeventoshijo',
-            {
-                arrayEventoshijo: eventosArrayhijo
-
-            });
-            console.log('retorno de busqueda',eventosArrayhijo)
-        return eventosArrayhijo;
+                    });
+            },error=>{
+                throw error;
+            }
+        )
+        
     }
+    // @Get('gettablaEventoshijo')
+    // async findAllEvent(
+    //     @Query('busqueda') busqueda: number,
+    //     @Res() response
+    //     )  : Promise<EventoHijoEntity[]> {
+    //     console.log('variable de tabla get evento hijo',busqueda)
+    //     let eventosArrayhijo: EventoHijoEntity[];
+        
+    //     if (busqueda) {
+    //         const consulta: FindManyOptions<EventoHijoEntity> = {
+    //             where: {
+    //                 "eventohijo_id": busqueda
+    //             },
+   
+    //         };
+
+    //         eventosArrayhijo = await this._eventoService.buscar(consulta);
+
+    //     } else {
+    //         eventosArrayhijo = await this._eventoService.buscar();
+    //     }
+    //     response.render(
+    //         'listadoeventoshijo',
+    //         {
+    //             arrayEventoshijo: eventosArrayhijo
+
+    //         });
+    //         console.log('retorno de busqueda',eventosArrayhijo)
+    //     return eventosArrayhijo;
+    // }
 
 
 }
