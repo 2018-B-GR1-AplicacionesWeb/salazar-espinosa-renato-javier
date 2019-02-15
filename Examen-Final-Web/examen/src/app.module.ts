@@ -25,9 +25,9 @@ import { EventoHijoEntity } from './eventosporhijo/eventohijo.entity';
           type: 'mysql',
           host: 'localhost',
           port: 3306,
-          database: 'sistemaoperativo',
+          database: 'software',
           username: 'root',
-          password: 'David2985.',
+          password: 'javier',
           synchronize: true,
           dropSchema: false,
           entities: [
