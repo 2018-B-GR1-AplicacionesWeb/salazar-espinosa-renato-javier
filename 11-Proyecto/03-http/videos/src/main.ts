@@ -38,11 +38,6 @@ async function bootstrap() {
         express.static('publico')
     );
 
-    // /publico/texto.txt
-    // /publico/ejemplo/texto.txt
-
-    // localhost:3000/texto.txt
-    // localhost:3000/ejemplo/texto.txt
 
 
     await app.listen(3000);
