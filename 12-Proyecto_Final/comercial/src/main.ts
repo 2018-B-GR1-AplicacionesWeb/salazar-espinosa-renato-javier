@@ -6,13 +6,15 @@ import {AppModule} from './app.module';
 //console.log(httpserve);
 
 import * as cookieParser from 'cookie-parser';
+import * as ejs from 'ejs';
 
 async function bootstrap() {
     const app = await NestFactory.create(AppModule);
-    app.use(cookieParser('Max super perro',//secreto
+    app.use(cookieParser('me gusta el yahuarlocro',//secreto
         {
         //opciones
     }));
+    app.set('view engine','ejs');//renderizar
     await app.listen(3000);
 }
 

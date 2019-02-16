@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b183739-1ab3-498f-8787-50a94a233e25" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/Peliculas/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Peliculas/web/views/inicio.ejs" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/package.json" beforeDir="false" />
@@ -104,6 +112,7 @@
       <change beforePath="$PROJECT_DIR$/Proyecto/medi/medicina.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/medi/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/medi/package.json" beforeDir="false" />
+>>>>>>> master
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -157,12 +166,21 @@
     <session id="-2026311851">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
+          <entry key="project.closed" value="56" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="8" />
+          <entry key="project.open.time.11" value="6" />
+          <entry key="project.open.time.12" value="4" />
+=======
           <entry key="project.closed" value="53" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="8" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="3" />
+>>>>>>> master
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="2" />
@@ -184,32 +202,46 @@
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="9" />
+<<<<<<< HEAD
+          <entry key="project.open.time.9" value="9" />
+          <entry key="project.opened" value="84" />
+=======
           <entry key="project.open.time.9" value="8" />
           <entry key="project.opened" value="81" />
+>>>>>>> master
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="137" />
-          <entry key="ejs" value="3011" />
-          <entry key="gitignore" value="163" />
+          <entry key="ejs" value="3031" />
+          <entry key="gitignore" value="176" />
           <entry key="html" value="1099" />
           <entry key="js" value="18038" />
           <entry key="json" value="102" />
           <entry key="md" value="19" />
+<<<<<<< HEAD
+          <entry key="ts" value="20049" />
+=======
           <entry key="ts" value="19799" />
+>>>>>>> master
           <entry key="txt" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="137" />
-          <entry key="EJS" value="3011" />
+          <entry key="EJS" value="3031" />
           <entry key="HTML" value="1099" />
           <entry key="JSON" value="102" />
           <entry key="JavaScript" value="18038" />
+<<<<<<< HEAD
+          <entry key="PLAIN_TEXT" value="603" />
+          <entry key="TypeScript" value="20049" />
+=======
           <entry key="PLAIN_TEXT" value="590" />
           <entry key="TypeScript" value="19799" />
+>>>>>>> master
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -217,33 +249,55 @@
           <entry key="01-typescript" value="1" />
           <entry key="NODEJS" value="1" />
           <entry key="css" value="16" />
+<<<<<<< HEAD
+          <entry key="ejs" value="26" />
+          <entry key="gitignore" value="21" />
+=======
           <entry key="ejs" value="24" />
           <entry key="gitignore" value="20" />
+>>>>>>> master
           <entry key="html" value="5" />
-          <entry key="js" value="109" />
-          <entry key="json" value="61" />
+          <entry key="js" value="110" />
+          <entry key="json" value="62" />
           <entry key="md" value="4" />
           <entry key="medicinas" value="1" />
           <entry key="prettierrc" value="1" />
+<<<<<<< HEAD
+          <entry key="ts" value="261" />
+=======
           <entry key="ts" value="247" />
+>>>>>>> master
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="16" />
+<<<<<<< HEAD
+          <entry key="EJS" value="26" />
+          <entry key="HTML" value="5" />
+          <entry key="JSON" value="57" />
+          <entry key="JavaScript" value="110" />
+          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="TypeScript" value="261" />
+=======
           <entry key="EJS" value="24" />
           <entry key="HTML" value="5" />
           <entry key="JSON" value="56" />
           <entry key="JavaScript" value="109" />
           <entry key="PLAIN_TEXT" value="47" />
           <entry key="TypeScript" value="247" />
+>>>>>>> master
           <entry key="tsconfig" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
+<<<<<<< HEAD
+          <entry key="TypeScriptServerServiceImpl" value="61" />
+=======
           <entry key="TypeScriptServerServiceImpl" value="59" />
+>>>>>>> master
         </counts>
       </usages-collector>
     </session>
@@ -251,23 +305,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+=======
         <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
               <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.service.ts">
+=======
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-typescriptV2/01-tarea.ts">
+>>>>>>> master
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Peliculas/web/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Peliculas/web/src/app.service.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="e#136#182#0" expanded="true" />
+=======
         <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.entity.ts">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -289,23 +382,52 @@
             <state>
               <folding>
                 <element signature="e#0#85#0" expanded="true" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Peliculas/web/src/app.controller.ts">
+=======
         <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.dto.ts">
+>>>>>>> master
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="266">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
+<<<<<<< HEAD
+                <element signature="e#0#49#0" expanded="true" />
+=======
                 <element signature="e#0#124#0" expanded="true" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.controller.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.module.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.service.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.entity.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+=======
         <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.dtos.ts">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -335,6 +457,7 @@
               </folding>
             </state>
           </provider>
+>>>>>>> master
         </entry>
       </file>
     </leaf>
@@ -386,11 +509,13 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Peliculas/web" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/03-http/videos/css/estilos.css" />
         <option value="$PROJECT_DIR$/03-http/videos/publico/ejemplo.html" />
         <option value="$PROJECT_DIR$/03-http/videos/src/noticia/noticia.service.ts" />
@@ -401,6 +526,7 @@
         <option value="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/package.json" />
         <option value="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.service.ts" />
         <option value="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/main.ts" />
+>>>>>>> master
         <option value="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/module.ts" />
         <option value="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.module.ts" />
         <option value="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.controllers.ts" />
@@ -442,6 +568,19 @@
         <option value="$PROJECT_DIR$/Examen-Final-Web/examen/views/addroles.ejs" />
         <option value="$PROJECT_DIR$/Examen-Final-Web/examen/src/usuario/usuario.controller.ts" />
         <option value="$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Peliculas/web/.gitignore" />
+        <option value="$PROJECT_DIR$/Peliculas/web/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/Peliculas/web/views/inicio.ejs" />
+        <option value="$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts" />
+        <option value="$PROJECT_DIR$/Peliculas/web/src/main.ts" />
+        <option value="$PROJECT_DIR$/Peliculas/web/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.controller.ts" />
+        <option value="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.module.ts" />
+        <option value="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.service.ts" />
+        <option value="$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.entity.ts" />
+=======
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -453,6 +592,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Examen-Final-Web/examen/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Peliculas/web/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -461,13 +601,21 @@
       <path value="$PROJECT_DIR$/11-Proyecto/03-http/videos/package.json" />
       <path value="$PROJECT_DIR$/12-Proyecto_Final/comercial/package.json" />
       <path value="$PROJECT_DIR$/Examen-Final-Web/examen/package.json" />
+      <path value="$PROJECT_DIR$/Peliculas/web/package.json" />
       <path value="$PROJECT_DIR$/Proyecto-Obsevable-Zapatillas/calzadoSport/package.json" />
     </packageJsonPaths>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="662" />
+    <option name="y" value="37" />
+    <option name="width" value="1129" />
+=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="126" />
     <option name="y" value="46" />
     <option name="width" value="1495" />
+>>>>>>> master
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -493,6 +641,7 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="03-http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="salazar-espinosa-renato-javier" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -500,6 +649,78 @@
               <item name="03-http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="node_modules" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="articulo" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> master
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -527,17 +748,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+<<<<<<< HEAD
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Peliculas\web\node_modules\typescript\lib" />
+=======
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Examen-Final-Web\examen\node_modules\typescript\lib" />
+>>>>>>> master
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Peliculas\web\views" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\publico\bootstrap" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\src\noticia" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
@@ -684,12 +910,23 @@
       <workItem from="1549706193359" duration="2650000" />
       <workItem from="1549724918653" duration="1855000" />
       <workItem from="1550149886162" duration="690000" />
+<<<<<<< HEAD
+      <workItem from="1550197992499" duration="2233000" />
+      <workItem from="1550200434473" duration="643000" />
+      <workItem from="1550229810842" duration="3106000" />
+      <workItem from="1550233346672" duration="3936000" />
+=======
       <workItem from="1550197992499" duration="848000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="476179000" />
+=======
     <option name="totallyTimeSpent" value="467109000" />
+>>>>>>> master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,11 +938,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="530" y="30" width="903" height="832" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.32949308" />
+=======
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.18877888" />
+>>>>>>> master
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30526316" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4867021" />
@@ -715,7 +961,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32845744" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3408488" />
+=======
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3381579" />
+>>>>>>> master
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -746,6 +996,152 @@
       <path value="$PROJECT_DIR$/12-Proyecto_Final/comercial" />
       <path value="$PROJECT_DIR$/Examen-Final-Web/examen" />
       <path value="$PROJECT_DIR$/03-http/videos" />
+<<<<<<< HEAD
+      <path value="$PROJECT_DIR$/Peliculas/proyecto" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Proyecto_Final/comercial/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.controller.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.module.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.service.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/sistemaOperativo/sistemaOperativo.entity.css" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.controller.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.entity.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.controller.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/usuario/usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/views/addroles.ejs" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.controller.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/views/login.ejs" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.module.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/aplicacion/aplicacion.service.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/usuario/usuario.controller.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.entity.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.entity.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/usuario/usuario.entity.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.dto.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.dtos.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/eventos/eventos.dto.ts" />
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.controller.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-typescriptV2/02-observables.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-typescriptV2/01-tarea.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/usuario/usuario.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/views/inicio.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/views/inicio.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/views/inicio.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+=======
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
@@ -949,10 +1345,20 @@
         <state>
           <folding>
             <element signature="e#0#85#0" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
+=======
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.dto.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -969,23 +1375,44 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/main.ts">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="197">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="34" />
           <folding>
+<<<<<<< HEAD
+            <element signature="e#136#182#0" expanded="true" />
+=======
             <element signature="e#0#43#0" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.controller.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#54#0" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+=======
     <entry file="file://$PROJECT_DIR$/04-typescriptV2/02-observables.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -993,13 +1420,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+>>>>>>> master
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+=======
     <entry file="file://$PROJECT_DIR$/04-typescriptV2/01-tarea.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> master
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.controller.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Peliculas/web/src/articulo/articulo.entity.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
