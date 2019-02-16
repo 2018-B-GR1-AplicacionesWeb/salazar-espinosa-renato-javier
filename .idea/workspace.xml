@@ -2,108 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b183739-1ab3-498f-8787-50a94a233e25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.1-WebProyect/proyecto2019web/src/noticia/noticia.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/nodemon-debug.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/nodemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/css/estilos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/ejemplo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/js/aplicacion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/sistema-grillas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/publico/texto.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/sessions/vTULgXvDjmZABzmpDmgVVktpcGp21emu.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/articulo/articulo.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/articulo/articulo.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/articulo/articulo.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/articulo/articulo.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/noticia/noticia-entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/noticia/noticia.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/noticia/noticia.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/noticia/noticia.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/pagina/pagina.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/pagina/pagina.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/pagina/pagina.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/pagina/pagina.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/usuario/usuario.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/usuario/usuario.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/src/usuario/usuario.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/views/crear-noticia.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/views/inicio.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/Taller/03-http/videos/views/login.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Proyecto2/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/nodemon-debug.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/nodemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-http/textiles/tslint.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Examen-Final-Web/examen/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/DataBase/medicinas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/DataBase/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/bdd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/medicina.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/medicina.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/medi/package.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -251,87 +150,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="70">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.service.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04-typescriptV2/01-tarea.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.entity.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.entity.ts">
+        <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="336">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
-                <element signature="e#0#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/usuario/usuario.entity.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.dto.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.dtos.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/eventos/eventos.dto.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.controller.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
+                <element signature="e#136#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -464,10 +305,9 @@
       <path value="$PROJECT_DIR$/Proyecto-Obsevable-Zapatillas/calzadoSport/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="126" />
-    <option name="y" value="46" />
-    <option name="width" value="1495" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="732" />
+    <option name="width" value="1129" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -512,6 +352,49 @@
               <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="11-Proyecto" type="462c0819:PsiDirectoryNode" />
+              <item name="03-http" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+              <item name="proyecto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salazar-espinosa-renato-javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salazar-espinosa-renato-javier" type="462c0819:PsiDirectoryNode" />
+              <item name="Peliculas" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -532,19 +415,19 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\publico\bootstrap" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\src\noticia" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
-      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto\Data" />
       <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\7 Proyecto-zapatilla\DataBase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\Proyecto2\mi-proyecto" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\publico\bootstrap" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos\src\noticia" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\03-http\videos" />
+      <recent name="C:\Users\Javier\Documents\GitHub\salazar-espinosa-renato-javier\ProyectoPrueba\calzadoSport" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -689,7 +572,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467109000" />
+    <option name="totallyTimeSpent" value="467481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,21 +584,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="586" y="0" width="903" height="832" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5022727" side_tool="true" weight="0.21256684" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.18877888" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49772727" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30526316" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4867021" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48541114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32845744" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3381579" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33687" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -842,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -926,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
           <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,31 +809,13 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/usuario/usuario.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rolesporusuario/rolesporusuario.dto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/rol/rol.dtos.ts">
       <provider selected="true" editor-type-id="text-editor" />
@@ -969,22 +824,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Examen-Final-Web/examen/src/app.controller.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/04-typescriptV2/02-observables.ts">
       <provider selected="true" editor-type-id="text-editor" />
@@ -993,14 +836,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04-typescriptV2/01-tarea.ts">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-Proyecto/03-http/videos/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#136#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
