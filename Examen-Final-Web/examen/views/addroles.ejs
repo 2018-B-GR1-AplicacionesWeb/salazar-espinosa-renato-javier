@@ -1,0 +1,152 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+<nav class="nav nav-pills nav-justified">
+    <!-- <a class="nav-item nav-link active" href="http://localhost:3000/inicio">Inicio</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/register">Registrar usuario</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/login">Iniciar Sesión</a> -->
+    <a class="nav-item nav-link" href="http://localhost:3000/addroles">Añadir Roles</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Lista Usuarios</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Lista de Eventos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Lista sistema operativos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/llamartablaaplicacion">Lista aplicacion</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroevento">Registro eventos</a> 
+    <a class="nav-item nav-link" href="http://localhost:3000/eventosporhijo/registroeventohijo">Registro eventos HIJO</a> 
+</nav>
+
+<STYLE type="text/css">
+    h3 {
+        text-align: center
+    }
+</STYLE>
+
+<% const existeMensaje = typeof mensajeerror !== "undefined" %>
+<% if(existeMensaje){ %>
+<div class="alert alert-danger" role="alert">
+    <p>Credenciales incorrectas</p>
+
+    <span>
+        <%= mensajeerror %></span>
+    <br>
+
+
+</div>
+<% } %>
+<% const existeMensajeok = typeof mensajeok !== "undefined" %>
+<% if(existeMensajeok){ %>
+<div class="alert alert-success" role="alert">
+    <p>Rol agregado</p>
+    <span>
+        <%= Object.values(mensajeok)%> </span>
+
+</div>
+<% } %>
+
+<h3>BIENVENIDO ADMNISTRADOR</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <br>
+            <br>
+            <br>
+            <table class="table">
+                <thead class="bg-primary">
+                    <tr>
+                        <th scope="col">Usuario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% const usuario = typeof usuarioemitter !== "undefined" %>
+                    <% if(usuario){ %>
+                    <tr>
+                        <th scope="row">id:
+                            <%= usuarioemitter.usuario_id %>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Nombre :
+                            <%= usuarioemitter.nombre %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>correo :
+                            <%= usuarioemitter.correo %>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>fecha nacimiento :
+                            <%= usuarioemitter.fecha_nacimiento %>
+                        </td>
+
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm">
+            <br>
+            <br>
+            <br>
+            <strong>Roles</strong>
+            <table class="table">
+                <thead class="bg-primary">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Rol</th>
+                        <th scope="col">Usuario</th>
+                        <th scope="col">Accion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% const existearrayrolesporusuario = typeof arreglorolesporusuario !== "undefined" %>
+                    <% if(existearrayrolesporusuario){ %>
+                    <% arreglorolesporusuario.forEach((rol)=> { %>
+
+                    <tr>
+                        <td>
+                            <%= rol.rolesporusuarioid %>
+                        </td>
+                        <td>
+                            <%= rol.usuarioforenkey.nombre%>
+                        </td>
+                        <td>
+                            <%= rol.rolforenkey.nombre%>
+                        </td>
+                        <td>
+                        <a href="http://localhost:3000/rolesporusuario/eliminarroles?ide=<%= rol.rolesporusuarioid %>&iduser=<%= rol.usuarioforenkey.usuario_id%>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
+                        </td>
+                    </tr>
+
+                    <% }) %>
+                    <% }%>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm">
+            <br>
+            <br>
+            <br>
+            <form action="/rolesporusuario/ingresaRolporusuario" method="POST">
+                <label for="usuarioforenkey">Ingrese ID de usuario</label>
+                <input type="text" name="usuarioforenkey" placeholder="INGRESE ID DE USUARIO">
+                <!--AQUI MODIFICA PARA QUE SE LLENE CON EL LISTADO QUE TRAE ROLES-->
+                <select name="rolforenkey">
+                    <% const existearray = typeof arregloroles !== "undefined" %>
+                    <% if(existearray){ %>
+                    <% arregloroles.forEach( (rol)=> { %>
+                    <option value="<%= rol.rol_id %>">
+                        <%= rol.nombre %>
+                    </option>
+
+                    <% }) %>
+                    <% }%>
+                </select>
+                <label></label>
+                <button class="btn btn-success">Añadir rol</button>
+            </form>
+        </div>
+    </div>

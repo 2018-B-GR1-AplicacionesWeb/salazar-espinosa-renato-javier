@@ -1,8 +1,8 @@
 {
-  "name": "examen",
+  "name": "proyecto",
   "version": "0.0.0",
   "description": "description",
-  "author": "Javier ",
+  "author": "Javier Salazar",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -20,30 +20,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nestjs/common": "^5.7.0",
+    "@nestjs/common": "^5.4.0",
     "@nestjs/core": "^5.4.0",
-<<<<<<< HEAD
-    "http-server": "^0.11.1",
-=======
-    "@nestjs/typeorm": "^5.2.2",
-    "class-validator": "^0.9.1",
-    "crypto-js": "^3.1.9-1",
-    "ejs": "^2.6.1",
-    "md5": "^2.2.1",
-    "mysql": "^2.16.0",
-    "primeicons": "^1.0.0",
-    "primeng": "^7.0.5",
->>>>>>> master
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "^6.2.2",
-    "ts-md5": "^1.2.4",
-    "typeorm": "^0.2.12",
     "typescript": "^3.0.1"
   },
   "devDependencies": {
     "@nestjs/testing": "^5.1.0",
-    "@types/express": "^4.16.1",
+    "@types/express": "^4.16.0",
     "@types/jest": "^23.3.1",
     "@types/node": "^10.7.1",
     "@types/supertest": "^2.0.5",

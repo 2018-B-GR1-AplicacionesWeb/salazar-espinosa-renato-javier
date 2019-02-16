@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+<nav class="nav nav-pills nav-justified">
+    <a class="nav-item nav-link active" href="http://localhost:3000/inicio">Inicio</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/register">Registrar usuario</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/login">Iniciar Sesión</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/addroles">Agregar Roles</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Tabla de Roles</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Tabla de Eventos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Tabla sistema operativos</a>
+    <a class="nav-item nav-link" href="http://localhost:3000/eventosporhijo/registroeventohijo">Registro eventos HIJO</a> 
+</nav>
+<br>
+<% const existeMensaje = typeof mensajeerror !== "undefined" %>
+<% if(existeMensaje){ %>
+    <div class="alert alert-danger" role="alert">
+            <p>Mensaje Error</p>
+         
+                <span><%= mensajeerror %></span>
+                <br>
+          
+           
+      </div>
+<% } %>
+<% const existeMensajeok = typeof mensajeok !== "undefined" %>
+<% if(existeMensajeok){ %>
+    <div class="alert alert-success" role="alert">
+            <p>Mensaje</p>
+            <span> <%= Object.values(mensajeok)%> </span>
+           
+      </div>
+<% } %>
+<div class="container">
+    <form action="/eventosporhijo/gettablaEventoshijo" method="GET">
+        <div class="row">
+            <div class="col-sm-1">
+                <strong>
+                    <label class="checkbox-inline">BUSCAR</label>
+                </strong>
+            </div>
+            <div class="col-sm-6">
+                <input name="busqueda" type="text" class="form-control" id="consulta">
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-success">Buscar</button>
+            </div>
+        </div>
+    </form>
+</div>
+<br>
+<% const existearray = typeof arrayEventoshijo !== "undefined" %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <table class="table">
+                <thead class="bg-primary">
+                    <tr>
+                        <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">ID evento hijo</th>
+                        <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">ID evento</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">ID Aplicacion</th>
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    <% if(existearray){ %>
+                    <% arrayEventoshijo.forEach((eventoshijo)=> { %>
+                    <tr>
+                        <th scope="row">
+                            <%=eventoshijo.eventohijo_id %>
+                        </th>
+                        <td>
+                            <%=eventoshijo.eventforenkey %>
+                        </td>
+                        <td>
+                            <%=eventoshijo.aplicacionforenkey %>
+                        </td>
+                    </tr>
+                    <% }) %>
+                    <% }%> 
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

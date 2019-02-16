@@ -1,0 +1,104 @@
+
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+ 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+ crossorigin="anonymous">
+    
+ </head>
+ 
+ <body>
+     
+ 
+ 
+ <nav class="nav nav-pills nav-justified">
+         <a class="nav-item nav-link" href="http://localhost:3000/addroles">Añadir Roles</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Lista Usuarios</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Lista de Eventos</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Lista sistema operativos</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/llamartablaaplicacion">Lista aplicacion</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/registroevento">Registro eventos</a>
+         <a class="nav-item nav-link" href="http://localhost:3000/eventosporhijo/registroeventohijo">Registro eventos HIJO</a> 
+         
+     </nav>
+     <% const existeMensaje = typeof mensaje !== "undefined" %>
+     <% if(existeMensaje){ %>
+     <div class="alert alert-danger" role="alert">
+         <p>Error en el Ingreso</p>
+         <% mensaje.forEach( (mensajeerror)=> { %>
+         <span>
+             <%= Object.values(mensajeerror.constraints) %></span>
+         <br>
+         <% }) %>
+     
+     </div>
+     <% } %>
+     <% const existeMensajeok = typeof mensajeok !== "undefined" %>
+     <% if(existeMensajeok){ %>
+     <div class="alert alert-success" role="alert">
+         <p>Evento hijo operativo registrado con Éxito</p>
+         <span>
+             <%= Object.values(mensajeok)%> </span>
+     
+     </div>
+     <% } %>
+     <div class="container">
+         <form action="/eventosporhijo/ingresaEventohijo" method="POST">
+             <div class="row">
+                 <div class="col-sm">
+                 </div>
+                 <div class="col-sm">
+                     <div class="form-group">
+                         <div class="clearfix">
+                             <h3>Registro eventos</h3>
+                             <div class="form-group">
+                                 <label for="nombre">Seleccione evento</label>
+                                 <select name="eventforenkey">
+                                        <% const existearrayeventos = typeof arregloeventos !== "undefined" %>
+                                        <% if(existearrayeventos){ %>
+                                        <% arregloeventos.forEach( (event)=> { %>
+                                        <option value="<%= event.event_id %>">
+                                            <%= event.nombre %>
+                                        </option>
+                    
+                                        <% }) %>
+                                        <% }%>
+                                    </select>
+
+                             </div>
+                             <div class="form-group">
+                                 <label for="fecha">Selecciones Aplicacion</label>
+                                 <select name="aplicacionforenkey">
+                                        <% const existearrayaplicacion = typeof arregloaplicacion !== "undefined" %>
+                                        <% if(existearrayaplicacion){ %>
+                                        <% arregloaplicacion.forEach( (rol)=> { %>
+                                        <option value="<%= rol.aplicacion_id %>">
+                                            <%= rol.nombre %>
+                                        </option>
+                    
+                                        <% }) %>
+                                        <% }%>
+                                    </select>
+     
+                             </div>
+                             <div class="form-group">
+                                 <button type="submit" class="btn btn-primary">GUARDAR</button>
+                             </div>
+                         </div>
+     
+                     </div>
+     
+                 </div>
+                 <div class="col-sm">
+                 </div>
+                 <form>
+             </div>
+ </body>
+ 
+ </html>

@@ -1,0 +1,96 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+<nav class="nav nav-pills nav-justified">
+        <a class="nav-item nav-link" href="http://localhost:3000/addroles">Añadir  Roles</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/tablausuariosconrol">Lista Usuarios</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/tablaeventos">Lista de Eventos</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/registroSO">Registro de Sistema Operativo</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/registroAplicacion">Registro Aplicacion</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/llamareventos">Lista sistema operativos</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/llamartablaaplicacion">Lista aplicacion</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/registroevento">Registro eventos</a>
+        <a class="nav-item nav-link" href="http://localhost:3000/eventosporhijo/registroeventohijo">Registro eventos HIJO</a> 
+</nav>
+<br>
+<% const existeMensaje = typeof mensajeerror !== "undefined" %>
+<% if(existeMensaje){ %>
+    <div class="alert alert-danger" role="alert">
+            <p>Credenciales incorrectas</p>
+         
+                <span><%= mensajeerror %></span>
+                <br>
+      </div>
+<% } %>
+<% const existeMensajeok = typeof mensajeok !== "undefined" %>
+<% if(existeMensajeok){ %>
+    <div class="alert alert-success" role="alert">
+            <p>Eliminado con exito</p>
+            <span> <%= Object.values(mensajeok)%> </span>
+           
+      </div>
+<% } %>
+<div class="container">
+    <form action="/usuario/gettablausuarios" method="GET">
+        <div class="row">
+            <div class="col-sm-1">
+                <strong>
+                    <label class="checkbox-inline">BUSCAR</label>
+                </strong>
+            </div>
+            <div class="col-sm-6">
+                <input name="busqueda" type="text" class="form-control" id="consulta">
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-success">Buscar</button>
+            </div>
+        </div>
+    </form>
+</div>
+<br>
+<% const existearray = typeof arrayusuarios !== "undefined" %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <table class="table">
+                <thead class="bg-primary">
+                    <tr>
+                         <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">ID</th>
+                        <th style="width: 10%; background-color: #3F51B5 !important; color: white" scope="col">Nombre</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Correo</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Fecha Nacimiento</th>
+                        <th style="width: 40%; background-color: #3F51B5 !important; color: white" scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% if(existearray){ %>
+                    <% arrayusuarios.forEach( (user)=> { %>
+                    <tr>
+                        <td scope="row">
+                            <%= user.usuario_id %>
+                        </td>
+                        <td scope="row">
+                                <%= user.nombre %>
+                            </td>
+                        <td>
+                            <%= user.correo %>
+                        </td>
+                        <td>
+                            <%= user.fecha_nacimiento %>
+                        </td>
+                        <td>
+                            <a href="http://localhost:3000/usuario/listarrolesporusuario?id=<%= user.usuario_id %>" class="btn btn-primary" role="button" aria-pressed="true">Actualizar</a>
+                            <a href="http://localhost:3000/usuario/eliminarusuario?id=<%= user.usuario_id %>" class="btn btn-danger" role="button" aria-pressed="true">Eliminar</a>
+      
+                        </td>
+
+                    </tr>
+                    <% }) %>
+                    <% }%>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
