@@ -1,0 +1,51 @@
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<%= usuario %><!--con el '=' se muestran las variables-->
+<!--
+h1  header 1,h2  header 2,p  parrafo,li  list item
+ul  lista no ordenada,ol  lista ordenada -->
+<% if(booleano) { %>
+<p>Usted creo una noticia</p>
+<% } %>
+
+<!--<ol>
+    <% arreglo.forEach((evento)=>{ %>
+    <li>
+        <%= evento.titulo %>
+        <%= evento.informe %>-<%= evento.descripcion %>
+        <form action="/adiosMundo" method="POST">
+            <BUTTON TYPE="button">click sin problema</BUTTON>
+            <button>yo tambien envio informació</button>
+            <button type="submit">Enviar</button> &lt;!&ndash;summit esjecuta ls ccion&ndash;&gt;
+        </form>
+    </li>
+    <% }) %>
+</ol>-->
+
+<table>
+    <tr> <!--tr table row-->
+        <!--th table header-->
+        <th> Identificador</th>
+        <th>Nombre</th>
+        <th>Acciones</th>
+    </tr>
+    <% arreglo.forEach((noticia)=>{ %>
+    <tr>
+        <!--td table datail-->
+        <td><%= noticia.id %></td>
+        <td><%= noticia.descripcion %></td>
+        <td>
+            <form action="/eliminar/<%= noticia.id %>" method="POST">
+                <!--  <BUTTON TYPE="button">click sin problema</BUTTON>
+                  <button>yo tambien envio informació</button>-->
+                <button type="submit">Enviar</button> <!--summit esjecuta ls ccion-->
+            </form>
+        </td>
+    </tr>
+    <% }) %>
+
+</table>
