@@ -1,4 +1,4 @@
-// noticia.controller.ts
+// titulo.controller.ts
 
 import {BadRequestException, Body, Controller, Get, Param, Post, Query, Res} from "@nestjs/common";
 import {Noticia} from "../app.controller";
@@ -93,19 +93,19 @@ export class NoticiaController {
             noticia.titulo
             }`;
 
-        response.redirect('/noticia/inicio' + parametrosConsulta)
+        response.redirect('/titulo/inicio' + parametrosConsulta)
     }
 
-    @Get('crear-noticia')
+    @Get('crear-titulo')
     crearNoticiaRuta(
         @Res() response
     ) {
         response.render(
-            'crear-noticia'
+            'crear-titulo'
         )
     }
 
-    @Post('crear-noticia')
+    @Post('crear-titulo')
     async crearNoticiaFuncion(
         @Res() response,
         @Body() noticia: Noticia
@@ -123,8 +123,8 @@ export class NoticiaController {
 
         if(hayErrores){
             console.error(errores);
-            // redirect crear noticia, Y
-            // En crear noticia deberian de mostrar mensajes
+            // redirect crear titulo, Y
+            // En crear titulo deberian de mostrar mensajes
             // (Como en la pantalla de INICIO)
             throw new BadRequestException({mensaje:'Error de validacion'})
         }else{
@@ -133,13 +133,13 @@ export class NoticiaController {
             const parametrosConsulta = `?accion=crear&titulo=${noticia.titulo}`;
 
             response.redirect(
-                '/noticia/inicio' + parametrosConsulta
+                '/titulo/inicio' + parametrosConsulta
             )
         }
 
     }
 
-    @Get('actualizar-noticia/:idNoticia')
+    @Get('actualizar-titulo/:idNoticia')
     async actualizarNoticiaVista(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
@@ -151,16 +151,16 @@ export class NoticiaController {
 
         response
             .render(
-                'crear-noticia',
+                'crear-titulo',
                 {
-                    noticia: noticiaEncontrada
+                    titulo: noticiaEncontrada
                 }
             )
 
 
     }
 
-    @Post('actualizar-noticia/:idNoticia')
+    @Post('actualizar-titulo/:idNoticia')
     async actualizarNoticiaMetedo(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
@@ -171,7 +171,7 @@ export class NoticiaController {
 
         const parametrosConsulta = `?accion=actualizar&titulo=${noticia.titulo}`;
 
-        response.redirect('/noticia/inicio' + parametrosConsulta);
+        response.redirect('/titulo/inicio' + parametrosConsulta);
 
     }
 }

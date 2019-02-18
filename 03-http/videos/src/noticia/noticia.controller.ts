@@ -1,4 +1,4 @@
-// noticia.controller.ts
+// titulo.controller.ts
 
 import {Body, Controller, Get, Param, Post, Query, Res} from "@nestjs/common";
 import {Noticia} from "../app.controller";
@@ -94,19 +94,19 @@ export class NoticiaController {
 
         const parametrosConsulta = `?accion=borrar&titulo=${noticia.titulo}`;
 
-        response.redirect('/noticia/inicio' + parametrosConsulta)
+        response.redirect('/titulo/inicio' + parametrosConsulta)
     }
 
-    @Get('crear-noticia')
+    @Get('crear-titulo')
     crearNoticiaRuta(
         @Res() response
     ) {
         response.render(
-            'crear-noticia'
+            'crear-titulo'
         )
     }
 
-    @Post('crear-noticia')
+    @Post('crear-titulo')
     async crearNoticiaFuncion(
         @Res() response,
         @Body() noticia: Noticia
@@ -115,15 +115,15 @@ export class NoticiaController {
 
        const respuesta = `?accion=crear&titulo=${noticia.titulo}`;
 
-       // const respuesta = await this._noticiaService.crear(noticia);
+       // const respuesta = await this._noticiaService.crear(titulo);
         console.log(respuesta);
 
         response.redirect(
-            '/noticia/inicio'
+            '/titulo/inicio'
         )
     }
 
-    @Get('actualizar-noticia/:idNoticia')
+    @Get('actualizar-titulo/:idNoticia')
     async actualizarNoticiaVista(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
@@ -135,16 +135,16 @@ export class NoticiaController {
 
         response
             .render(
-                'crear-noticia',
+                'crear-titulo',
                 {
-                    noticia: noticiaEncontrada
+                    titulo: noticiaEncontrada
                 }
             )
 
 
     }
 
-    @Post('actualizar-noticia/:idNoticia')
+    @Post('actualizar-titulo/:idNoticia')
     async actualizarNoticiaMetedo(
         @Res() response,
         @Param('idNoticia') idNoticia: string,
@@ -153,7 +153,7 @@ export class NoticiaController {
         noticia.id = +idNoticia;
         await this._noticiaService.actualizar(noticia);
 
-        response.redirect('/noticia/inicio');
+        response.redirect('/titulo/inicio');
 
     }
 }

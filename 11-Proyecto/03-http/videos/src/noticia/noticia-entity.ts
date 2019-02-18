@@ -26,7 +26,7 @@ export class NoticiaEntity {
 
     @OneToMany(
         type => PaginaEntity,  // Que tabla vamos a relacionar
-        pagina => pagina.noticia  // Campo que hace referencia FK
+        pagina => pagina.titulo  // Campo que hace referencia FK
     )
     paginas: PaginaEntity[];
 
