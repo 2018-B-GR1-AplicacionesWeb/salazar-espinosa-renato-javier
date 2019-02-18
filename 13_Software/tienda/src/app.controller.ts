@@ -65,7 +65,8 @@ export class AppController {
     }
 
     @Get('inicio')
-    inicio(@Res()response,) {
+    inicio(@Res()response,)
+    {
         response.render(
             'inicio',//pagina a renderizar
             {//Variables uqe van dentor de la pagina '/inicio'
@@ -80,13 +81,14 @@ export class AppController {
     @Post('eliminar/:idNoticia')//El parámetro de ruta se define con DOS PUNTOS “:”
     eliminar(
         @Res()response,
-        @Param('') idNoticia: string,//nuetro parametro de ruta se llama idNoticia
+        @Param('idNoticia') idNoticia: string,//nuetro parametro de ruta se llama idNoticia
     ) {//PARA BORRAR necesitamos el indice //para buscar el indice findIndex
         const indiceNoticia = this.arreglo.findIndex(
             (noticia)=>{
                 return noticia.id===Number(idNoticia)} )//el string lo paso a number
         this.arreglo.splice(indiceNoticia,1);//para eliminar splice una funcion
 
+        response.redirect('/inicio')
     }
 
 

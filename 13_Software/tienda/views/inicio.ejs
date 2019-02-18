@@ -12,7 +12,7 @@ ul  lista no ordenada,ol  lista ordenada -->
 <p>Usted creo una noticia</p>
 <% } %>
 
-<ol>
+<!--<ol>
     <% arreglo.forEach((evento)=>{ %>
     <li>
         <%= evento.titulo %>
@@ -20,11 +20,11 @@ ul  lista no ordenada,ol  lista ordenada -->
         <form action="/adiosMundo" method="POST">
             <BUTTON TYPE="button">click sin problema</BUTTON>
             <button>yo tambien envio informació</button>
-            <button type="submit">Enviar</button> <!--summit esjecuta ls ccion-->
+            <button type="submit">Enviar</button> &lt;!&ndash;summit esjecuta ls ccion&ndash;&gt;
         </form>
     </li>
     <% }) %>
-</ol>
+</ol>-->
 
 <table>
     <tr> <!--tr table row-->
@@ -39,9 +39,9 @@ ul  lista no ordenada,ol  lista ordenada -->
         <td><%= noticia.id %></td>
         <td><%= noticia.descripcion %></td>
         <td>
-            <form action="/adiosMundo" method="POST">
-                <BUTTON TYPE="button">click sin problema</BUTTON>
-                <button>yo tambien envio informació</button>
+            <form action="/eliminar/<%= noticia.id %>" method="POST">
+                <!--  <BUTTON TYPE="button">click sin problema</BUTTON>
+                  <button>yo tambien envio informació</button>-->
                 <button type="submit">Enviar</button> <!--summit esjecuta ls ccion-->
             </form>
         </td>
