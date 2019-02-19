@@ -1,12 +1,15 @@
 import {Body, Controller, Get, Param, Post, Res} from '@nestjs/common';
 import {AppService} from './app.service';
 import {response} from "express";
+//import {Noticia} from "../../../11-Proyecto/03-http/videos/src/app.controller";
 
+import {NoticiaService} from "./noticia/noticia.service";
 
 @Controller()
 export class AppController {
 
-    arreglo = [
+
+    arreglo:Noticia[]= [
         {
             id: 1,
             titulo: 'A compras',
@@ -24,19 +27,18 @@ export class AppController {
         },
         {
             id: 4,
-            informe: 'informacion dashboar',
+            titulo: 'informacion dashboar',
             descripcion: 'descripcion de d'
         }
-    ]
+    ];
+    numeroRegistro = 5;
 
 
     constructor(private readonly appService: AppService) {
     }
 
-    @Get()
-    getHello(): string {
-        return this.appService.getHello();
-    }
+
+
 
     @Get('pagina')
     pagina(@Res()response,) {
@@ -65,8 +67,7 @@ export class AppController {
     }
 
     @Get('inicio')
-    inicio(@Res()response,)
-    {
+    inicio(@Res()response,) {
         response.render(
             'inicio',//pagina a renderizar
             {//Variables uqe van dentor de la pagina '/inicio'
@@ -84,24 +85,43 @@ export class AppController {
         @Param('idNoticia') idNoticia: string,//nuetro parametro de ruta se llama idNoticia
     ) {//PARA BORRAR necesitamos el indice //para buscar el indice findIndex
         const indiceNoticia = this.arreglo.findIndex(
-            (noticia)=>{
-                return noticia.id===Number(idNoticia)} )//el string lo paso a number
-        this.arreglo.splice(indiceNoticia,1);//para eliminar splice una funcion
+            (noticia) => {
+                return noticia.id === Number(idNoticia)
+            })//el string lo paso a number
+        this.arreglo.splice(indiceNoticia, 1);//para eliminar splice una funcion
 
         response.redirect('/inicio')
     }
 
-
-    @Get('botones')
-    botones(@Res()response,) {
-        response.render('botones')
+    @Get('crear-noticia')
+    crearNoticia(@Res() response,) {
+        response.render('crear-noticia')
     }
 
+
+    @Post('crear-noticia')
+    crearNoticiaFuncion(
+        @Res() response,
+        @Body() noticia:Noticia)
+    {
+       noticia.id=this.numeroRegistro;
+       
+        this.numeroRegistro++;
+        this.arreglo.push(noticia);
+        response.redirect('/inicio')
+
+    }
+
+
 }
 
-interface Usuario {
+export interface Usuario {
     nombre: string;
-
-
 }
 
+export interface Noticia {
+    id?: number;
+    titulo: string;
+    descripcion: string;
+
+}

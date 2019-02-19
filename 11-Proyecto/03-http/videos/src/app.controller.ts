@@ -1,13 +1,5 @@
 import {
-    Headers,
-    Get,
-    Controller,
-    HttpCode,
-    InternalServerErrorException,
-    Post,
-    Query,
-    Param,
-    Body,
+    Headers,    Get,    Controller,    HttpCode,    InternalServerErrorException,    Post,    Query,    Param,    Body,
     Head, UnauthorizedException, Req, Res, Session, UseInterceptors, FileInterceptor, UploadedFile
 } from '@nestjs/common';
 import {AppService} from './app.service';
