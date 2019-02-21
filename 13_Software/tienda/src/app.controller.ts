@@ -10,7 +10,7 @@ import {NoticiaService} from "./noticia.service";
 export class AppController {
 
     constructor(private readonly appService: AppService,
-                private  readonly _noticiaService:NoticiaService) {
+                private readonly _noticiaService: NoticiaService) {//para usar el servicio en el controlador
 
     }
 
@@ -44,7 +44,7 @@ export class AppController {
     inicio(@Res()response,) {
         response.render(
             'inicio',//pagina a renderizar
-            {//Variables uqe van dentor de la pagina '/inicio'
+            {//Variables que van dentor de la pagina '/inicio'
                 usuario: 'Javier',
                 arreglo: this._noticiaService.arreglo, //usamos el método arreglo linea 11
                 booleano: false,
@@ -58,17 +58,23 @@ export class AppController {
         @Res()response,
         @Param('idNoticia') idNoticia: string,//nuetro parametro de ruta se llama idNoticia
     ) {//PARA BORRAR necesitamos el indice //para buscar el indice findIndex
-        const indiceNoticia = this._noticiaService.arreglo.findIndex(
-            (noticia) => {
-                return noticia.id === Number(idNoticia)
-            })//el string lo paso a number
-        this._noticiaService.arreglo.splice(indiceNoticia, 1);//para eliminar splice una funcion
+
+        this._noticiaService.eliminar(Number(idNoticia));
+        /*
+
+                const indiceNoticia = this._noticiaService.arreglo.findIndex(
+                    (noticia) => {
+                        return noticia.id === Number(idNoticia)
+                    })//el string lo paso a number
+                this._noticiaService.arreglo.splice(indiceNoticia, 1);//para eliminar splice una funcion
+        */
 
         response.redirect('/inicio')
     }
 
     @Get('crear-noticia')
-    crearNoticia(@Res() response,) {
+    crearNoticia(@Res() response,
+    ) {
         response.render('crear-noticia')
     }
 
@@ -76,13 +82,14 @@ export class AppController {
     @Post('crear-noticia')
     crearNoticiaFuncion(
         @Res() response,
-        @Body() noticia:Noticia)
-    {
-       noticia.id=this._noticiaService.numeroRegistro;
+        @Body() noticia: Noticia
+    ) {
 
-        this._noticiaService.numeroRegistro++;
-        this._noticiaService.arreglo.push(noticia);//aumentamos al arreglo la noticia ingresada
-        response.redirect('/inicio');//relanzamos la actualizacion al inicio
+        this._noticiaService.crear(noticia), //tenemos que mandar la noticia
+            /*noticia.id = this._noticiaService.numeroRegistro;
+            this._noticiaService.numeroRegistro++;
+            this._noticiaService.arreglo.push(noticia);//aumentamos al arreglo la noticia ingresada*/
+            response.redirect('/inicio');//relanzamos la actualizacion al inicio
 
     }
 
@@ -97,8 +104,8 @@ export interface Noticia {
     id?: number;
     titulo: string;
     descripcion: string;
-   /* id: 1,
-    titulo: 'A compras',
-    descripcion: 'descripcion de a'*/
+    /* id: 1,
+     titulo: 'A compras',
+     descripcion: 'descripcion de a'*/
 
 }
