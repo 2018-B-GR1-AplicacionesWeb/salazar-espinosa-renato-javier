@@ -3,42 +3,16 @@ import {AppService} from './app.service';
 import {response} from "express";
 //import {Noticia} from "../../../11-Proyecto/03-http/videos/src/app.controller";
 
-import {NoticiaService} from "./noticia/noticia.service";
+import {NoticiaService} from "./noticia.service";
+
 
 @Controller()
 export class AppController {
 
+    constructor(private readonly appService: AppService,
+                private  readonly _noticiaService:NoticiaService) {
 
-    arreglo:Noticia[]= [
-        {
-            id: 1,
-            titulo: 'A compras',
-            descripcion: 'descripcion de a'
-        },
-        {
-            id: 2,
-            titulo: 'B ventas',
-            descripcion: 'descripcion de b'
-        },
-        {
-            id: 3,
-            titulo: 'C reservas',
-            descripcion: 'descripcion de c'
-        },
-        {
-            id: 4,
-            titulo: 'informacion dashboar',
-            descripcion: 'descripcion de d'
-        }
-    ];
-    numeroRegistro = 5;
-
-
-    constructor(private readonly appService: AppService) {
     }
-
-
-
 
     @Get('pagina')
     pagina(@Res()response,) {
@@ -60,7 +34,7 @@ export class AppController {
             'inicio',//pagina a renderizar
             {//Variables uqe van dentor de la pagina '/inicio'
                 usuario: 'Javier',
-                arreglo: this.arreglo,
+                arreglo: this._noticiaService.arreglo,
                 booleano: true,
             }
         );
@@ -72,7 +46,7 @@ export class AppController {
             'inicio',//pagina a renderizar
             {//Variables uqe van dentor de la pagina '/inicio'
                 usuario: 'Javier',
-                arreglo: this.arreglo, //usamos el método arreglo linea 11
+                arreglo: this._noticiaService.arreglo, //usamos el método arreglo linea 11
                 booleano: false,
             }
         );
@@ -84,11 +58,11 @@ export class AppController {
         @Res()response,
         @Param('idNoticia') idNoticia: string,//nuetro parametro de ruta se llama idNoticia
     ) {//PARA BORRAR necesitamos el indice //para buscar el indice findIndex
-        const indiceNoticia = this.arreglo.findIndex(
+        const indiceNoticia = this._noticiaService.arreglo.findIndex(
             (noticia) => {
                 return noticia.id === Number(idNoticia)
             })//el string lo paso a number
-        this.arreglo.splice(indiceNoticia, 1);//para eliminar splice una funcion
+        this._noticiaService.arreglo.splice(indiceNoticia, 1);//para eliminar splice una funcion
 
         response.redirect('/inicio')
     }
@@ -104,11 +78,11 @@ export class AppController {
         @Res() response,
         @Body() noticia:Noticia)
     {
-       noticia.id=this.numeroRegistro;
-       
-        this.numeroRegistro++;
-        this.arreglo.push(noticia);
-        response.redirect('/inicio')
+       noticia.id=this._noticiaService.numeroRegistro;
+
+        this._noticiaService.numeroRegistro++;
+        this._noticiaService.arreglo.push(noticia);//aumentamos al arreglo la noticia ingresada
+        response.redirect('/inicio');//relanzamos la actualizacion al inicio
 
     }
 
@@ -123,5 +97,8 @@ export interface Noticia {
     id?: number;
     titulo: string;
     descripcion: string;
+   /* id: 1,
+    titulo: 'A compras',
+    descripcion: 'descripcion de a'*/
 
 }
