@@ -1,17 +1,40 @@
-<form action="/crear-noticia" method="post"> <!--en un formulario se tiene titulo y descripcion-->
+<% const estaCreando = typeof  noticia === "undefined" %>
+
+
+<H1> <%= estaCreando ? 'Crea' : 'Actualizar' %> noticia</H1>
+<p>  <%= estaCreando ? 'Cree' : 'Actualice' %> una noticia</p>
+
+
+<form action="/<%= estaCreando ? 'crear' : 'actualizar' %>-noticia/<%= estaCreando ? '' : noticia.id %>"
+      method="POST">
+
+
+    <!--en un formulario se tiene titulo y descripcion-->
     <!--y a parte de esto tambien tinen cuadro  de texto donde se puede seleccionar las cosas-->
     <div>
         <label for="titulo">Titulo</label>
-        <input id="titulo" name="titulo" type="text">
+        <input id="titulo"
+               name="titulo"
+               type="text"
+               value="<%= estaCreando ? '' : noticia.titulo %>"
+        >
         <!--  en un INPUT se puede escribir  Y a lado de un input SIEMRE hay un LABEL-->
     </div>
     <br>
     <div>
         <label for="descripcion">Descripción</label>
-        <textarea id="descripcion" name="descripcion" cols="30" rows="4"></textarea>
+        <textarea id="descripcion"
+                  name="descripcion"
+                  cols="30" rows="4">
+            <%= estaCreando ? '' : noticia.descripcion %>
+        </textarea>
 
     </div>
 
-    <button>Crear noticia</button>
+    <button><%= estaCreando ? 'Crear' : 'Actualizar' %> noticia</button>
 
 </form>
+<a href="/inicio">
+    <button>Regresar</button>
+
+</a>
