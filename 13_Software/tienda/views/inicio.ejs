@@ -1,13 +1,25 @@
+<% const existeMensaje = typeof  mensaje !== "undefined" %>
+
 <style>
     table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
     }
 </style>
-<%= usuario %><!--con el '=' se muestran las variables-->
+
+
+
+
+<h1><%= usuario %></h1><!--con el '=' se muestran las variables-->
 <!--
 h1  header 1,h2  header 2,p  parrafo,li  list item
 ul  lista no ordenada,ol  lista ordenada -->
+
+<br>
+<% if(existeMensaje){ %>
+<p>MENSAJE: <%= mensaje %></p>
+<% } %>
+
 <% if(booleano) { %>
 <p>Usted creo una noticia</p>
 <% } %>
@@ -25,8 +37,9 @@ ul  lista no ordenada,ol  lista ordenada -->
     </li>
     <% }) %>
 </ol>-->
-<a href="/crear-noticia"> <button> Crear Noticia </button> </a>
-
+<a href="/crear-noticia">
+    <button> Crear Noticia</button>
+</a>
 
 
 <table>
@@ -45,10 +58,19 @@ ul  lista no ordenada,ol  lista ordenada -->
             <form action="/eliminar/<%= noticia.id %>" method="POST">
                 <!--  <BUTTON TYPE="button">click sin problema</BUTTON>
                   <button>yo tambien envio informació</button>-->
-                <button type="submit">Enviar</button> <!--summit esjecuta ls ccion-->
+                <button type="submit">Eliminar</button> <!--summit esjecuta ls ccion-->
             </form>
+
+
+            <a href="/actualizar-noticia/ <%= noticia.id %>">
+                <button>Actualizar-Noticia</button>
+
+            </a>
+
+
         </td>
     </tr>
     <% }) %>
 
 </table>
+

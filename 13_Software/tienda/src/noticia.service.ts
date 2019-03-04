@@ -28,39 +28,53 @@ export class NoticiaService {//AppService
 
     numeroRegistro = 5
 
-    //Métodos
+    //Métodos que ese necesitan
 
     crear(noticia: Noticia): Noticia {//que deberia de recibir: pues una noticia:Noticia
-        noticia.id= this.numeroRegistro;
+        noticia.id = this.numeroRegistro;
         this.numeroRegistro++;
         this.arreglo.push(noticia);//agragamos la noticia
+        console.log('noticia fue creada')
         return noticia;
     }
 
-    eliminar(idNoticia: number): Noticia{ //que ribimos: el id de la Noticia de tipo  number
+    eliminar(idNoticia: number): Noticia { //que ribimos: el id de la Noticia de tipo  number
         const indiceNoticia = this.arreglo.findIndex(
             (noticia) => {
                 return noticia.id === (idNoticia)
             }
         );//el string lo paso a number
 
-       const registroEliminado=JSON.parse(JSON.stringify(this.arreglo[indiceNoticia]));
+        const registroEliminado = JSON.parse(JSON.stringify(this.arreglo[indiceNoticia]));
         this.arreglo.splice(indiceNoticia, 1);//para eliminar splice una funcion
         return registroEliminado;
 
     }
 
-    actualizar(idNoticia: number, nuevaNoticia: Noticia):Noticia {
+    actualizar(idNoticia: number, nuevaNoticia: Noticia): Noticia {
         const indiceNoticia = this.arreglo.findIndex(
             (noticia) => {
                 return noticia.id === (idNoticia)
             }
         );
         this.arreglo[indiceNoticia] = nuevaNoticia;//nuevaNoticia.titulo;//para actulaizar
-       // this.arreglo[indiceNoticia].descripcion = nuevaNoticia.descripcion;
+        // this.arreglo[indiceNoticia].descripcion = nuevaNoticia.descripcion;
+        console.log('noticia fue actualizada')
         return this.arreglo[indiceNoticia];
 
     }
+
+    busacarPorId(idNoticia: number ):Noticia { //lo que vamosa devolver es una :Noticia
+
+        const indiceNoticia = this.arreglo.findIndex(
+            (noticia) => {
+                return noticia.id === (idNoticia)
+            }
+        );
+        return this.arreglo[indiceNoticia];
+
+    }
+
 
 
 }
