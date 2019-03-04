@@ -7,15 +7,19 @@
     }
 </style>
 
-<%if(existeMensaje){ %>
-    <p>MENSAJE: <%= mensaje %></p>
-<% } %>
 
 
-<%= usuario %><!--con el '=' se muestran las variables-->
+
+<h1><%= usuario %></h1><!--con el '=' se muestran las variables-->
 <!--
 h1  header 1,h2  header 2,p  parrafo,li  list item
 ul  lista no ordenada,ol  lista ordenada -->
+
+<br>
+<% if(existeMensaje){ %>
+<p>MENSAJE: <%= mensaje %></p>
+<% } %>
+
 <% if(booleano) { %>
 <p>Usted creo una noticia</p>
 <% } %>

@@ -47,20 +47,21 @@ export class AppController {
         @Query('accion')accion: string,
         @Query('titulo')titulo: string,
     ) {
-        let mensaje = undefined;
+        let mensaje = undefined; //monitor controlador
         if (accion && titulo) {
             switch (accion) {
                 case  'borrar':
+                    console.log('mensaje eliminado con template string');
                     mensaje = `Registro ${titulo}eliminado`;
             }
         }
         response.render(
             'inicio',//pagina a renderizar
             {//Variables que van dentor de la pagina '/inicio'
-                usuario: 'Javier',
+                usuario: 'Javier Salazar',
                 arreglo: this._noticiaService.arreglo, //usamos el método arreglo linea 11
                 booleano: false,
-                mesaje: mensaje
+                mensaje: mensaje
             }
         );
     }
@@ -69,7 +70,8 @@ export class AppController {
     eliminar(
         @Res()response,
         @Param('idNoticia') idNoticia: string,//nuetro parametro de ruta se llama idNoticia
-    ) {//PARA BORRAR necesitamos el indice //para buscar el indice findIndex
+    ) {
+        //PARA BORRAR necesitamos el indice //para buscar el indice findIndex
 
         const noticiaBorrada = this._noticiaService.eliminar(Number(idNoticia));
         /*   const indiceNoticia = this._noticiaService.arreglo.findIndex(
@@ -124,7 +126,7 @@ export class AppController {
         @Param('idNoticia')idNoticia: string,
         @Body()noticia: Noticia //La nueva noticia nos esta llegando como parámetro @Body
     ) {
-        noticia.id = +idNoticia //nos hace falta el identificador, lo llenamos de una vez
+        noticia.id = +idNoticia; //nos hace falta el identificador, lo llenamos de una vez
         this._noticiaService.actualizar(+idNoticia, noticia) //nos llega la nueva noticia
 
         response.redirect('/inicio');
