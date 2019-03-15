@@ -7,6 +7,7 @@ arreglo = [1, 2,
     {nombre: "javier"},
     [1, 2, false, true]
 ];
+
 arreglo.push(3);//añade al final de la cadena
 arreglo.pop();
 console.log(arreglo);
@@ -53,8 +54,8 @@ console.log(...arrgloUno, ...arrgloDos);
 
 var javier = {
     nombre: "Adrian",
-    apellido: "Salazar",
-    edad: 8
+    apellido: "Tituaña",
+    edad:8
 };
 var renato={
     mascota:{
@@ -65,11 +66,11 @@ var renato={
 var datosusuario = {
     ...javier,  ...renato
 };
-console.log("Destructuracion de Objeto: ",datosusuario);
+console.log("Destructuracion de Objetos: ",datosusuario);
 //si queremos validar los datos que estan dentro del objeto
 //mas ejemple deObjetos
 var atributosDElObjeto= Object.keys(datosusuario);
-console.log(atributosDElObjeto);
+console.log("atributos de los objetos: "+atributosDElObjeto);
 console.log(datosusuario['nombre']);//debuelve nombre
 console.log(datosusuario[atributosDElObjeto[1]]);
 

@@ -15,11 +15,11 @@ const Javier ={
 };
 javier.nombr='renato';
 arregloDeNombres.forEach(//escribircodigo que se entienda
-    function (   valorActual,indiceactual,arrglo) {
+    function (   valorActual,indiceactual,arreglo) {
 
         console.log('valor actual', valorActual);
         console.log('indice actual', indiceactual);
-        console.log('arreglo', arrglo);
+        console.log('arreglo', arreglo);
     }
     );
 
